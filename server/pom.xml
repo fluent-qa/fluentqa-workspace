@@ -19,12 +19,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>io.fluentqa</groupId>
-            <artifactId>recorder</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
         <!--用户权限管理-->
         <dependency>
             <groupId>xyz.erupt</groupId>
