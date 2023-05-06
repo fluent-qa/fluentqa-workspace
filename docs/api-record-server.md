@@ -138,9 +138,28 @@ public class ApiMonitorRecord extends MetaModel {
 
 其实按照目前的效果看,后续打算里面的内容都会在这几天里面可以完成一个原型。
 
-## 不足
+## 不足和说明
 
 目前肯定是比较粗糙的, 主要还是实现成本低，来验证思路是否符合实际情况的使用，是否真的可以提高效率.
 也欢迎大家多提意见和建议，有人反馈是最开心的事情. 
 
 后台代码在: [github](https://github.com/fluent-qa/fluentqa-workspace.git)
+代码量其实真的没有太多夸张，真的很少. 
+
+```shell
+main
+├── java
+│   └── io
+│       └── fluentqa
+│           └── server
+│               ├── QAWorkspaceApp.java
+│               └── recorder
+│                   ├── handles
+│                   │   └── SqlTagFetchHandler.java
+│                   └── model
+│                       └── ApiMonitorRecord.java
+└── resources
+    ├── application-dev.yaml
+    └── application.yaml
+
+```
