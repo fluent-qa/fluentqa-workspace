@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <erupt.version>1.11.5</erupt.version>
+        <erupt.version>1.11.7</erupt.version>
         <postgresql.version>42.5.1</postgresql.version>
     </properties>
 

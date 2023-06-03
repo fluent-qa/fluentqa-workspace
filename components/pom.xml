@@ -14,5 +14,7 @@
     <modules>
         <module>fluentqa-apispec</module>
         <module>fluent-builtin</module>
+        <module>fluent-code</module>
+        <module>fluent-basemodel</module>
     </modules>
 </project>

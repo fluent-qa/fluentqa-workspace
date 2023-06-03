@@ -7,6 +7,10 @@
 
 - [接口录制后台](docs/api-recorder/api-record-server.md)接口录制后台简单说明
 
+## 组合式
+
+- [X] [builtin基于hutool](./components/fluent-builtin)
+
 ## Todo:
 
 - [] 接口管理，接口清单

@@ -11,6 +11,9 @@
     <modules>
         <module>server</module>
         <module>components</module>
+        <module>qa</module>
+        <module>qa/fluentqa-ui</module>
+        <module>qa/fluentqa-tm</module>
     </modules>
 
     <properties>

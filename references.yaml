@@ -1,0 +1,11 @@
+low-code:
+  -  https://gitee.com/zj1983/zz.git
+  -  https://gitee.com/y_project/RuoYi-Vue.git
+todo:
+  - https://github.com/omkarcloud/bose.git
+  - https://github.com/emaiannone/surface
+  - https://github.com/Tencent/QTAF
+  - https://github.com/BalamiRR/Testinium-QA.git
+  - https://github.com/abstracta/jmeter-java-dsl.git
+testing-framework:
+  - https://github.com/ghoshasish99/CognizantIntelligentTestScripter.git
