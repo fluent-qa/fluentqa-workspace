@@ -11,11 +11,6 @@
 
     <artifactId>server</artifactId>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <erupt.version>1.11.7</erupt.version>
-        <postgresql.version>42.5.1</postgresql.version>
-    </properties>
 
     <dependencies>
         <!--用户权限管理-->
@@ -46,6 +41,17 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.3.1</version>
         </dependency>
+        <dependency>
+            <groupId>io.fluentqa</groupId>
+            <artifactId>fluent-erupts-base</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.fluentqa</groupId>
+            <artifactId>fluent-pm</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>

@@ -17,7 +17,7 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://127.0.0.1:7432/test_hub?currentSchema=demo
+    url: jdbc:postgresql://127.0.0.1:5432/qa_workspace
     username: postgres
     password: changeit
   jpa:
@@ -50,3 +50,6 @@ server:
     includeStacktrace: ALWAYS
     includeMessage: ALWAYS
   port: 9090
+logging:
+  level:
+    root: debug
