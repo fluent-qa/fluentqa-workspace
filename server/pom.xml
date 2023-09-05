@@ -62,6 +62,44 @@
             <artifactId>fluent-tc</artifactId>
             <version>${fluent.version}</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-flow</artifactId>-->
+<!--            &lt;!&ndash; 版本号与erupt同步 &ndash;&gt;-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-job</artifactId>-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-tpl</artifactId>-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-tpl-ui.ant-design</artifactId>-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-tpl</artifactId>-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
+        <!-- 代码生成器模块 -->
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-generator</artifactId>-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
+        <!--服务监控模块-->
+<!--        <dependency>-->
+<!--            <groupId>xyz.erupt</groupId>-->
+<!--            <artifactId>erupt-monitor</artifactId>-->
+<!--            <version>${erupt.version}</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
