@@ -2,6 +2,7 @@ package io.fluentqa.tc.model;
 
 import io.fluentqa.erupts.base.handlers.SqlTagFetchHandler;
 import io.fluentqa.erupts.base.model.ModelWithValidFlagVo;
+import io.fluentqa.pm.product.model.Product;
 import io.fluentqa.pm.product.model.ProductModuleValidFlagVo;
 import lombok.Data;
 import xyz.erupt.annotation.Erupt;
@@ -12,9 +13,13 @@ import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
 import xyz.erupt.annotation.sub_field.sub_edit.CodeEditorType;
+import xyz.erupt.annotation.sub_field.sub_edit.ReferenceTreeType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
+import xyz.erupt.annotation.sub_field.sub_edit.TagsType;
 
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
@@ -28,6 +33,19 @@ import javax.persistence.Table;
         linkTree = @LinkTree(field = "product"))
 @Table(name = "test_cases")
 public class TestCase extends ModelWithValidFlagVo {
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    @EruptField(
+            views = @View(title = "产品名称",column = "name"),
+            edit = @Edit(
+                    search = @Search,
+                    title = "产品选择",
+                    type = EditType.REFERENCE_TREE,
+                    desc = "动态获取产品",
+                    referenceTreeType = @ReferenceTreeType(
+                            pid = "parent.id"))
+    )
+    private Product product;
 
     @EruptField(
             views = @View(
@@ -35,11 +53,15 @@ public class TestCase extends ModelWithValidFlagVo {
             ),
             edit = @Edit(
                     title = "功能点",
-                    type = EditType.INPUT, search = @Search, notNull = true
+                    type = EditType.TAGS, search = @Search(vague = true), notNull = true,
+                    tagsType = @TagsType(
+                            fetchHandler = SqlTagFetchHandler.class,
+                            fetchHandlerParams = "select distinct feature from test_cases where valid=true"
+                    )
             )
+
     )
     private String feature;
-
     @EruptField(
             views = @View(
                     title = "用例描述"
@@ -66,8 +88,8 @@ public class TestCase extends ModelWithValidFlagVo {
                     title = "用例前提条件"
             ),
             edit = @Edit(
-                    title = "用例优先级",
-                    type = EditType.INPUT
+                    title = "用例前提条件",
+                    type = EditType.INPUT, search = @Search, notNull = true
             )
     )
     private String precondition;
