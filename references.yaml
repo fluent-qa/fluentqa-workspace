@@ -1,3 +1,7 @@
+api-mgt:
+  - https://github.com/apiaryio/dredd.git
+  - https://github.com/Kong/insomnia.git
+  - https://github.com/xyyxhcj/vpi.git
 low-code:
   -  https://gitee.com/zj1983/zz.git
   -  https://gitee.com/y_project/RuoYi-Vue.git
@@ -9,3 +13,8 @@ todo:
   - https://github.com/abstracta/jmeter-java-dsl.git
 testing-framework:
   - https://github.com/ghoshasish99/CognizantIntelligentTestScripter.git
+
+
+product:
+  - https://app.qase.io/apps
+  - https://testsigma.com/

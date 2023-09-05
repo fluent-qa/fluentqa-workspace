@@ -1,4 +1,0 @@
-api-mgt:
-  - https://github.com/apiaryio/dredd.git
-  - https://github.com/Kong/insomnia.git
-  - https://github.com/xyyxhcj/vpi.git

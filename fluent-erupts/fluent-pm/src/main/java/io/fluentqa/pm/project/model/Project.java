@@ -20,7 +20,7 @@ import xyz.erupt.toolkit.handler.SqlChoiceFetchHandler;
 import javax.persistence.*;
 import java.util.UUID;
 
-@Erupt(name = "项目配置",
+@Erupt(name = "项目",
         power = @Power(importable = true, export = true),
         tree = @Tree(pid = "parent.id"))
 @Entity
@@ -69,12 +69,22 @@ public class Project extends ModelWithValidFlagVo {
     @ManyToOne
     @EruptField(
             edit = @Edit(
-                    title = "产品清单",
+                    title = "产品列表",
                     type = EditType.REFERENCE_TREE,
                     referenceTreeType = @ReferenceTreeType(pid = "parent.id")
             )
     )
     private Product productId;
+
+    @ManyToOne
+    @EruptField(
+            edit = @Edit(
+                    title = "上级树节点",
+                    type = EditType.REFERENCE_TREE,
+                    referenceTreeType = @ReferenceTreeType(pid = "parent.id")
+            )
+    )
+    private Project parent;
 
     @Column(length = 36, nullable = false, updatable = false)
     private String uuid = UUID.randomUUID().toString();
