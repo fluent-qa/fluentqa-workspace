@@ -11,11 +11,9 @@ import xyz.erupt.annotation.sub_erupt.Tree;
 import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
-import xyz.erupt.annotation.sub_field.sub_edit.ChoiceType;
 import xyz.erupt.annotation.sub_field.sub_edit.InputType;
 import xyz.erupt.annotation.sub_field.sub_edit.ReferenceTreeType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
-import xyz.erupt.toolkit.handler.SqlChoiceFetchHandler;
 
 import javax.persistence.*;
 import java.util.UUID;

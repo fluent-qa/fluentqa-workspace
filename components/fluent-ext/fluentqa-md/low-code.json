@@ -1,0 +1,704 @@
+[
+    {
+        "category": "Analytics",
+        "url": "https://simpleanalytics.com/",
+        "name": "Simple Analytics",
+        "desc": "Simple Analytics - Simple, clean, and friendly analytics"
+    },
+    {
+        "category": "Analytics",
+        "url": "https://analytics.google.com",
+        "name": "Google Analytics",
+        "desc": "Google Analytics - Free website analytics"
+    },
+    {
+        "category": "Automation",
+        "url": "https://zapier.com/",
+        "name": "Zapier",
+        "desc": "Zapier - Connect and automate 500+ web apps"
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.integromat.com/en/",
+        "name": "Integromat",
+        "desc": "Integromat - The glue of the internet"
+    },
+    {
+        "category": "Automation",
+        "url": "https://ifttt.com/",
+        "name": "IFTTT",
+        "desc": "IFTTT - Do more with the services you love"
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.actiondesk.io/",
+        "name": "ActionDesk",
+        "desc": "ActionDesk - Build powerful automations with your spreadsheet skills"
+    },
+    {
+        "category": "Automation",
+        "url": "https://flow.microsoft.com/fr-fr/",
+        "name": "Microsoft Flow",
+        "desc": "Microsoft Flow - Automate tasks by integrating your favorite apps"
+    },
+    {
+        "category": "Automation",
+        "url": "https://wayscript.com",
+        "name": "Wayscript",
+        "desc": "Wayscript - A rapid scripting platform with drag-n-drop interface for Python and Javascript"
+    },
+    {
+        "category": "Automation",
+        "url": "https://tray.io/solutions/sales",
+        "name": "Tray",
+        "desc": "Tray - Advanced integration platform for connecting up the tools you use every day"
+    },
+    {
+        "category": "Automation",
+        "url": "https://automate.io/",
+        "name": "Automate Io",
+        "desc": "Automate Io - Put your business on autopilot. Connect 100+ business apps."
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.blockspring.com/",
+        "name": "Blockspring",
+        "desc": "Blockspring - Supercharge your list building, reporting, and landing pages."
+    },
+    {
+        "category": "Automation",
+        "url": "https://oplim.com/",
+        "name": "Oplim",
+        "desc": "Oplim - Custom tasks on your website with zero code"
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.ondiagram.com",
+        "name": "Diagram",
+        "desc": "Diagram - Nocode backend API builder with MongoDB and Firestore"
+    },
+    {
+        "category": "Automation",
+        "url": "https://outfunnel.com/",
+        "name": "Outfunnel",
+        "desc": "Outfunnel - Keep customer data in sync across sales and marketing tools"
+    },
+    {
+        "category": "Automation, Scrapers",
+        "url": "https://phantombuster.com/",
+        "name": "Phantombuster",
+        "desc": "Phantombuster - Marketplace of simple to use no-code APIs"
+    },
+    {
+        "category": "Business Apps",
+        "url": "https://www.bettyblocks.com",
+        "name": "Betty Blocks",
+        "desc": "Betty Blocks - No-code enterprise application development"
+    },
+    {
+        "category": "Business Apps",
+        "url": "https://www.appsheet.com",
+        "name": "AppSheet",
+        "desc": "AppSheet - Intelligent no-code app development platform"
+    },
+    {
+        "category": "Business Apps",
+        "url": "https://www.quickbase.com/",
+        "name": "Quick Base",
+        "desc": "Quick Base - Best way to manage data and automate processes, so you can accomplish more"
+    },
+    {
+        "category": "Business Apps",
+        "url": "https://www.zoho.com/fr/creator/",
+        "name": "Zoho Creator",
+        "desc": "Zoho Creator - Custom apps to run your business."
+    },
+    {
+        "category": "Business Apps",
+        "url": "https://www.calcapp.net/",
+        "name": "Calcapp",
+        "desc": "Calcapp - Build apps with your spreadsheet skills"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://manychat.com/",
+        "name": "Manychat",
+        "desc": "Manychat - Create a Messenger bot in minutes"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://itsalive.io/",
+        "name": "It's Alive",
+        "desc": "It's Alive - Create a Facebook bot in minutes"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://chatfuel.com",
+        "name": "Chatfuel",
+        "desc": "Chatfuel - Create chatbots for your audience"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://landbot.io/",
+        "name": "Landbot",
+        "desc": "Landbot - Lead generation landing page as chatbot"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://botsify.com/",
+        "name": "Botsify",
+        "desc": "Botsify - Create your own automated chatbot online"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://chatamo.com/",
+        "name": "Chatamo",
+        "desc": "Chatamo - Create intelligent voice and chatbot for marketing and sales"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://flowxo.com/",
+        "name": "Flow XO",
+        "desc": "Flow XO - Create a chatbot with zero coding skills required"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://smooch.io/",
+        "name": "Smooch",
+        "desc": "Smooch - Instantly deploy yout bots wherever users are"
+    },
+    {
+        "category": "Chatbots",
+        "url": "https://rul.ai/",
+        "name": "Rulai",
+        "desc": "Rulai - AI Chatbot to deliver Scalable Self Service"
+    },
+    {
+        "category": "Collaboration",
+        "url": "https://www.notion.so",
+        "name": "Notion",
+        "desc": "Notion - All-in-one workspace - notes, tasks, wikis & databases"
+    },
+    {
+        "category": "Collaboration",
+        "url": "https://trello.com/louisveyret1/boards",
+        "name": "Trello",
+        "desc": "Trello - All-in-one workspace and collaboration for businesses"
+    },
+    {
+        "category": "Collaboration, Internal",
+        "url": "https://quip.com/",
+        "name": "Quip",
+        "desc": "Quip - One place for all your team's work"
+    },
+    {
+        "category": "CRM",
+        "url": "https://salesflare.com/",
+        "name": "Salesflare",
+        "desc": "Salesflare - Simple & powerful CRM for small businesses"
+    },
+    {
+        "category": "CRM",
+        "url": "https://www.pipedrive.com/fr",
+        "name": "Pipedrive",
+        "desc": "Pipedrive - CRM Gestion de leads en pipeline"
+    },
+    {
+        "category": "CRM, Marketing",
+        "url": "https://www.hubspot.com/",
+        "name": "Hubspot",
+        "desc": "Hubspot - A full platform of marketing, sales, customer service and CRM software"
+    },
+    {
+        "category": "Customer Support",
+        "url": "https://www.drift.com/",
+        "name": "Drift",
+        "desc": "Drift - Customer support chatbot"
+    },
+    {
+        "category": "Customer Support",
+        "url": "https://crisp.chat/fr/",
+        "name": "Crisp",
+        "desc": "Crisp - Customer support directly in your website"
+    },
+    {
+        "category": "Customer Support, Marketing, CRM",
+        "url": "https://www.intercom.com/",
+        "name": "Intercom",
+        "desc": "Intercom - All-in-one customer support"
+    },
+    {
+        "category": "Data, Marketing",
+        "url": "https://www.hotjar.com/",
+        "name": "Hotjar",
+        "desc": "Hotjar - See how your visitors are really using your site"
+    },
+    {
+        "category": "Database",
+        "url": "airtable.com",
+        "name": "Airtable",
+        "desc": "Airtable - Realtime spreadsheet database hybrid"
+    },
+    {
+        "category": "Database",
+        "url": "https://github.com/nocodb/nocodb",
+        "name": "NocoDB",
+        "desc": "NocoDB - Free & Open Source Airtable alternative - turns any SQL database into smart spreadsheet"
+    },
+    {
+        "category": "Database",
+        "url": "https://trevor.io/",
+        "name": "Trevor",
+        "desc": "Trevor - Query your live data, without code"
+    },
+    {
+        "category": "Design",
+        "url": "https://www.figma.com/",
+        "name": "Figma",
+        "desc": "Figma - The first interface design tool with real-time collaboration"
+    },
+    {
+        "category": "Design",
+        "url": "https://undraw.co/",
+        "name": "unDraw",
+        "desc": "unDraw - Free, open-source illustrations for everyone"
+    },
+    {
+        "category": "Design, Websites",
+        "url": "https://webflow.com",
+        "name": "Webflow",
+        "desc": "Webflow - All-in-one web design platform"
+    },
+    {
+        "category": "Ecommerce",
+        "url": "https://fr.shopify.com/",
+        "name": "Shopify",
+        "desc": "Shopify - Build your ecommerce store"
+    },
+    {
+        "category": "Ecommerce",
+        "url": "https://www.podia.com/fr/home",
+        "name": "Podia",
+        "desc": "Podia - Easily sell memberships, online courses and digital products"
+    },
+    {
+        "category": "Ecommerce",
+        "url": "https://www.monto.io/",
+        "name": "Monto",
+        "desc": "Monto - Product reviews for Webflow"
+    },
+    {
+        "category": "Ecommerce",
+        "url": "https://www.hingeto.com/",
+        "name": "Hingeto",
+        "desc": "Hingeto - Start your own Amazon-style marketplace"
+    },
+    {
+        "category": "Ecommerce",
+        "url": "https://www.volusion.com/",
+        "name": "Volusion",
+        "desc": "Volusion - Ecommerce website store & shopping cart software"
+    },
+    {
+        "category": "Email",
+        "url": "https://www.getrevue.co/",
+        "name": "Revue",
+        "desc": "Revue - Editorial newsletters tool for writers and publishers"
+    },
+    {
+        "category": "Email",
+        "url": "https://sendgrid.com/",
+        "name": "Sendgrid",
+        "desc": "Sendgrid - Email delivery service"
+    },
+    {
+        "category": "Email",
+        "url": "https://designmodo.com/postcards/",
+        "name": "Postcards",
+        "desc": "Postcards - Create awesome emails with drag & drop simplicity"
+    },
+    {
+        "category": "Email",
+        "url": "https://beefree.io/",
+        "name": "BEE",
+        "desc": "BEE - Create beautiful emails, fast."
+    },
+    {
+        "category": "Email",
+        "url": "https://stripo.email/fr/",
+        "name": "Stripo",
+        "desc": "Stripo - Free email template builder"
+    },
+    {
+        "category": "Email",
+        "url": "https://substack.com/",
+        "name": "Substack",
+        "desc": "Substack - Paid newsletters made simple"
+    },
+    {
+        "category": "Email",
+        "url": "https://mailchimp.com/",
+        "name": "Mailchimp",
+        "desc": "Mailchimp - Free emailing software"
+    },
+    {
+        "category": "Email",
+        "url": "https://convertkit.com/",
+        "name": "Converkit",
+        "desc": "Converkit - Send automated emailing campaigns"
+    },
+    {
+        "category": "Forms",
+        "url": "https://www.typeform.com/",
+        "name": "Typeform",
+        "desc": "Typeform - Build beautiful conversational forms"
+    },
+    {
+        "category": "Forms",
+        "url": "https://www.google.com/intl/fr/forms/about/",
+        "name": "Google Forms",
+        "desc": "Google Forms - Free forms from Google that connect directly to Google Sheets"
+    },
+    {
+        "category": "Forms",
+        "url": "https://www.jotform.com/",
+        "name": "Jotform",
+        "desc": "Jotform - Online form builder & form creator"
+    },
+    {
+        "category": "Forms",
+        "url": "https://paperform.co/",
+        "name": "Paperform",
+        "desc": "Paperform - Beautiful forms that feel like yours"
+    },
+    {
+        "category": "Internal",
+        "url": "https://coda.io/welcome",
+        "name": "Coda",
+        "desc": "Coda - Build docs as powerful as apps"
+    },
+    {
+        "category": "Internal",
+        "url": "https://www.nuclino.com",
+        "name": "Nuclino",
+        "desc": "Nuclino - Knowledge base and collaboration"
+    },
+    {
+        "category": "Internal",
+        "url": "https://contractbook.co/",
+        "name": "Contractbook",
+        "desc": "Contractbook - Efficient contract management"
+    },
+    {
+        "category": "Internal, Web Apps",
+        "url": "https://retool.com/",
+        "name": "Retool",
+        "desc": "Retool - Build custom internal tools in minutes"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://www.landen.co/",
+        "name": "Landen",
+        "desc": "Landen - Beautiful Landing Pages. Designed Instantly"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://www.launchaco.com/",
+        "name": "Launchaco",
+        "desc": "Launchaco - Simple landing pages for your startup"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://www.leadpages.net/",
+        "name": "Leadpages",
+        "desc": "Leadpages - Landing page builder & lead gen software"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://instapage.com",
+        "name": "Instapage",
+        "desc": "Instapage - Leanding pages, up to 6x more conversions"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://unbounce.com/",
+        "name": "Unbounce",
+        "desc": "Unbounce - Landing Pages - More Powerful Customization"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://leeflets.com/",
+        "name": "Leeflets",
+        "desc": "Leeflets - Functional landing pages for all kind of things"
+    },
+    {
+        "category": "Landing Pages",
+        "url": "https://rivyt.com/",
+        "name": "RIVYT",
+        "desc": "RIVYT - Websites for Video Creators"
+    },
+    {
+        "category": "Landing Pages, Websites",
+        "url": "https://carrd.co",
+        "name": "Carrd",
+        "desc": "Carrd - Build simple, fully responsive one-page sites"
+    },
+    {
+        "category": "Marketing",
+        "url": "https://outgrow.co/",
+        "name": "Outgrow",
+        "desc": "Outgrow - Boost your marketing with highly interactive content"
+    },
+    {
+        "category": "Marketing",
+        "url": "https://www.getrewardful.com/",
+        "name": "Rewardful",
+        "desc": "Rewardful - Instant Affiliate & Referral Programs for Stripe"
+    },
+    {
+        "category": "Marketing",
+        "url": "https://fortvision.com/",
+        "name": "Fortvision",
+        "desc": "Fortvision - Create interactive experiences that lead to higher conversions"
+    },
+    {
+        "category": "Marketplace",
+        "url": "https://www.sharetribe.com",
+        "name": "Sharetribe",
+        "desc": "Sharetribe - Create your first marketplace without code"
+    },
+    {
+        "category": "Membership, Websites",
+        "url": "https://www.memberstack.io/",
+        "name": "Memberstack",
+        "desc": "Memberstack - Memberships & gated content for websites"
+    },
+    {
+        "category": "Mobile Apps",
+        "url": "https://www.dropsource.com/",
+        "name": "Dropsource",
+        "desc": "Dropsource - Build and publish native mobile app without coding"
+    },
+    {
+        "category": "Mobile Apps",
+        "url": "glideapps.com",
+        "name": "Glide",
+        "desc": "Glide - Create mobile apps from Google Sheets"
+    },
+    {
+        "category": "Mobile Apps",
+        "url": "https://lightwell.pro/",
+        "name": "Lightwell",
+        "desc": "Lightwell - A simple tool for creating native iOS apps on Mac."
+    },
+    {
+        "category": "Mobile Apps",
+        "url": "https://www.adalo.com",
+        "name": "Adalo",
+        "desc": "Adalo - Create apps as easy as making a slide deck"
+    },
+    {
+        "category": "Mobile Apps",
+        "url": "https://appinventor.mit.edu/",
+        "name": "App Inventor",
+        "desc": "App Inventor - Create powerful Android apps without code using blocs coding"
+    },
+    {
+        "category": "Mobile Apps",
+        "url": "https://thunkable.com",
+        "name": "Thunkable",
+        "desc": "Thunkable - Create beautiful and powerful mobile apps without code"
+    },
+    {
+        "category": "Mobile Apps, Video Games",
+        "url": "https://www.buildbox.com/",
+        "name": "Buildbox",
+        "desc": "Buildbox - Make amazing mobile games without coding"
+    },
+    {
+        "category": "Mobile Apps, Video Games",
+        "url": "https://apponboard.com/studio/",
+        "name": "AppOnboard Studio",
+        "desc": "AppOnboard Studio - Where app ideas come to life. No code required."
+    },
+    {
+        "category": "Payment",
+        "url": "https://stripe.com/fr-us",
+        "name": "Stripe",
+        "desc": "Stripe - Payment integration and management"
+    },
+    {
+        "category": "Payment",
+        "url": "http://paypal.com",
+        "name": "Paypal",
+        "desc": "Paypal - Send Money, Online or Set up a Merchant Store"
+    },
+    {
+        "category": "Payment",
+        "url": "https://www.buymeacoffee.com/",
+        "name": "Buy me a coffee",
+        "desc": "Buy me a coffee - Easy way to support a projet"
+    },
+    {
+        "category": "Payment, Ecommerce",
+        "url": "https://gumroad.com/?locale=fr",
+        "name": "Gumroad",
+        "desc": "Gumroad - Sell anything directly to anyone"
+    },
+    {
+        "category": "Payment, Membership",
+        "url": "https://www.patreon.com/",
+        "name": "Patreon",
+        "desc": "Patreon - Easy way to contribute to a project"
+    },
+    {
+        "category": "Podcast",
+        "url": "https://anchor.fm/",
+        "name": "Anchor",
+        "desc": "Anchor - The best way to create your podcast"
+    },
+    {
+        "category": "Scrapers",
+        "url": "https://www.octoparse.com/",
+        "name": "Octoparse",
+        "desc": "Octoparse - Easy web scraping for everyone"
+    },
+    {
+        "category": "Scrapers",
+        "url": "https://www.parsehub.com/",
+        "name": "Parsehub",
+        "desc": "Parsehub - Free web scraping"
+    },
+    {
+        "category": "Scrapers",
+        "url": "https://data-miner.io/",
+        "name": "Dataminer",
+        "desc": "Dataminer - Easy to use web scraping"
+    },
+    {
+        "category": "Video",
+        "url": "https://www.loom.com",
+        "name": "Loom",
+        "desc": "Loom - Seamless screen, mic, and camera recording for Chrome"
+    },
+    {
+        "category": "Voice",
+        "url": "https://www.voiceflow.com/",
+        "name": "Voiceflow",
+        "desc": "Voiceflow - Build voice apps in your browser without coding"
+    },
+    {
+        "category": "Voice",
+        "url": "https://vuix.io/",
+        "name": "Vuix",
+        "desc": "Vuix - Design voice apps in minutes"
+    },
+    {
+        "category": "Voice",
+        "url": "https://apitobot.io/",
+        "name": "ApitoBot",
+        "desc": "ApitoBot - Create an Alexa Skill or Google Action in minutes"
+    },
+    {
+        "category": "VR",
+        "url": "https://www.instavr.co/",
+        "name": "Instavr",
+        "desc": "Instavr - Make your VR apps in minutes"
+    },
+    {
+        "category": "Web Apps",
+        "url": "http://bubble.is",
+        "name": "Bubble",
+        "desc": "Bubble - Build a fully functional web app without any code."
+    },
+    {
+        "category": "Web Apps",
+        "url": "https://www.wix.com/corvid",
+        "name": "Corvid",
+        "desc": "Corvid - Build advanced web applications, hassle-free"
+    },
+    {
+        "category": "Web Apps",
+        "url": "https://www.boundlesslabs.com/",
+        "name": "Boundless",
+        "desc": "Boundless - Create dynamic, multisided web apps without coding"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.sheet2site.com/",
+        "name": "Sheet2site",
+        "desc": "Sheet2site - Turn your Google Sheets into a website"
+    },
+    {
+        "category": "Websites",
+        "url": "https://apps.apple.com/us/app/universe-website-builder/id1211437633",
+        "name": "Universe",
+        "desc": "Universe - Make an awesome website from your phone"
+    },
+    {
+        "category": "Websites",
+        "url": "https://table2site.com",
+        "name": "Table2Site",
+        "desc": "Table2Site - Generate websites from your Airtable base"
+    },
+    {
+        "category": "Websites",
+        "url": "https://fr.squarespace.com/",
+        "name": "Squarespace",
+        "desc": "Squarespace - All-in-one platform to build a beautiful online e-commerce"
+    },
+    {
+        "category": "Websites",
+        "url": "https://fr.wix.com/",
+        "name": "Wix",
+        "desc": "Wix - Free website builder"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.imcreator.com/",
+        "name": "IM Creator",
+        "desc": "IM Creator - Free website builder"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.weebly.com/?lang=fr",
+        "name": "Weebly",
+        "desc": "Weebly - Build a free website or online store"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.webnode.fr/",
+        "name": "Webnode",
+        "desc": "Webnode - Easy & Free website maker"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.jimdo.com/fr/",
+        "name": "Jimdo",
+        "desc": "Jimdo - Your website builder"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.bookmark.com/",
+        "name": "Bookmark",
+        "desc": "Bookmark - Create a Website with AI"
+    },
+    {
+        "category": "Websites",
+        "url": "https://www.strikingly.com/",
+        "name": "Strikingly",
+        "desc": "Strikingly - Make a website in minutes"
+    },
+    {
+        "category": "Websites",
+        "url": "https://tilda.cc/",
+        "name": "Tilda",
+        "desc": "Tilda - Create beautiful websites without any code"
+    },
+    {
+        "category": "Websites, Membership",
+        "url": "https://www.memberspace.com/",
+        "name": "Memberspace",
+        "desc": "Memberspace - Turn your audience into paying members."
+    }
+]

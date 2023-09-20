@@ -1,0 +1,2456 @@
+`[
+    {
+        "category": "Contents",
+        "url": "#awesome-low-code-",
+        "name": "Awesome Low Code",
+        "desc": "Awesome Low Code Contents Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform Tools, Extensions and Frameworks Power Platform (Microsoft) Reference Resources Power Platform (Microsoft) Workato Learning Resources Power Platform (Microsoft) Workato Samples, Templates and Solutions Power Platform (Microsoft) Workato Community Power Platform (Microsoft) Workato Blogs Power Platform (Microsoft) Workato Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#contents",
+        "name": "Contents",
+        "desc": "Contents"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#platforms",
+        "name": "Platforms",
+        "desc": "Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#citizen-automation-and-development-platform",
+        "name": "Citizen Automation and Development Platform",
+        "desc": "Citizen Automation and Development Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-application-platform",
+        "name": "Low Code Application Platform",
+        "desc": "Low Code Application Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#business-process-management",
+        "name": "Business Process Management",
+        "desc": "Business Process Management"
+    },
+    {
+        "category": "Platforms",
+        "url": "#robotic-process-automation",
+        "name": "Robotic Process Automation",
+        "desc": "Robotic Process Automation"
+    },
+    {
+        "category": "Platforms",
+        "url": "#intelligent-virtual-agent",
+        "name": "Intelligent Virtual Agent",
+        "desc": "Intelligent Virtual Agent"
+    },
+    {
+        "category": "Platforms",
+        "url": "#integration-platform-as-a-service",
+        "name": "Integration Platform as a Service",
+        "desc": "Integration Platform as a Service"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-api-management-platform",
+        "name": "Low Code API Management Platform",
+        "desc": "Low Code API Management Platform"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#tools-extensions-and-frameworks",
+        "name": "Tools, Extensions and Frameworks",
+        "desc": "Tools, Extensions and Frameworks Power Platform (Microsoft)"
+    },
+    {
+        "category": "Tools, Extensions and Frameworks",
+        "url": "#power-platform-microsoft",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#reference-resources",
+        "name": "Reference Resources",
+        "desc": "Reference Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#power-platform-microsoft-1",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#workato",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#learning-resources",
+        "name": "Learning Resources",
+        "desc": "Learning Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#power-platform-microsoft-2",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#workato-1",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#samples-templates-and-solutions",
+        "name": "Samples, Templates and Solutions",
+        "desc": "Samples, Templates and Solutions Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#power-platform-microsoft-3",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#workato-2",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#community",
+        "name": "Community",
+        "desc": "Community Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Community",
+        "url": "#power-platform-microsoft-4",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Community",
+        "url": "#workato-3",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#blogs",
+        "name": "Blogs",
+        "desc": "Blogs Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Blogs",
+        "url": "#power-platform-microsoft-5",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Blogs",
+        "url": "#workato-4",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#other-lists",
+        "name": "Other Lists",
+        "desc": "Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Other Lists",
+        "url": "#power-platform-microsoft-6",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://flow.microsoft.com/",
+        "name": "Power Automate (Microsoft)",
+        "desc": "Power Automate (Microsoft) - An online workflow service that automates actions across the most common apps and services."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://zapier.com/",
+        "name": "Zapier",
+        "desc": "Zapier - Allows its users to easily connect and automate the apps they use."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.salesforce.com/products/platform/einstein-automate/",
+        "name": "Einstein Automate (Salesforce)",
+        "desc": "Einstein Automate (Salesforce) - Empower your employees to do more of what matters by automating business processes easily without needing specialized development skills."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.atlassian.com/software/jira/features/automation",
+        "name": "Jira Automation (Atlassian)",
+        "desc": "Jira Automation (Atlassian) - Automation is a No Code rule builder that enables customers to build if-this-then-that-rules based on events in Jira."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://trello.com/power-ups/category/automation",
+        "name": "Trello Power-Ups (Atlassian)",
+        "desc": "Trello Power-Ups (Atlassian) - Helps teams meet their unique business needs through adaptable features and integrations."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.zoho.com/flow/",
+        "name": "Flow (Zoho)",
+        "desc": "Flow (Zoho) - An integration platform that helps you connect your apps without any code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerapps.com/",
+        "name": "Power Apps (Microsoft)",
+        "desc": "Power Apps (Microsoft) - Build apps in hours—not months—that easily connect to data, use Excel-like expressions to add logic, and run on the web, iOS, and Android devices."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerbi.microsoft.com/",
+        "name": "Power BI",
+        "desc": "Power BI - Unify data from many sources to create interactive, immersive dashboards and reports that provide actionable insights and drive business results."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://appian.com/",
+        "name": "Appian",
+        "desc": "Appian - Provides a Low Code software development platform that enables organizations to rapidly develop powerful applications."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://mendix.com/",
+        "name": "Mendix",
+        "desc": "Mendix - The fastest and easiest high-productivity platform to create and continuously improve multi-channel applications at scale."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.outsystems.com/",
+        "name": "OutSystems",
+        "desc": "OutSystems - A Low Code platform that enables businesses to develop, deploy, and manage enterprise-grade apps."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.servicenow.com/now-platform.html",
+        "name": "Now Platform (ServiceNow)",
+        "desc": "Now Platform (ServiceNow) - Drive connected digital workflows across the enterprise, deliver modern, consumer-like experiences, and accelerate time-to-value and innovation."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.zoho.com/creator/low-code-platform/",
+        "name": "Creator (Zoho)",
+        "desc": "Creator (Zoho) - Build applications from scratch without having to write endless lines of code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.bettyblocks.com/",
+        "name": "BettyBlocks",
+        "desc": "BettyBlocks - The #1 No Code platform for innovation, agility and empowerment. Used to create mobile, business and web applications at lightning speed."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://apex.oracle.com/en/platform/low-code/",
+        "name": "APEX (Oracle)",
+        "desc": "APEX (Oracle) - A Low Code development platform that enables you to build scalable, secure enterprise apps, with world-class features, that can be deployed anywhere."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.salesforce.com/products/platform",
+        "name": "Salesforce Platform, prev. Force.com (Salesforce)",
+        "desc": "Salesforce Platform, prev. Force.com (Salesforce) - Click, create, and ship from anywhere with Low Code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://n8n.io/",
+        "name": "n8n",
+        "desc": "n8n - Workflow automation tool with many integrations and with fair-code license."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.pega.com/",
+        "name": "PegaSystems",
+        "desc": "PegaSystems - Provides business process and customer relationship management solutions for organizations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://agilepoint.com/",
+        "name": "AgilePoint",
+        "desc": "AgilePoint - Deploy business-changing ideas in minutes, not months, with the AgilePoint digital process automation platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.quickbase.com/",
+        "name": "QuickBase",
+        "desc": "QuickBase - Helps businesses quickly turn ideas about better ways to work into apps that make them more efficient, informed, and productive."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.creatio.com/",
+        "name": "Creatio",
+        "desc": "Creatio - A global software company providing a leading Low Code platform for process management and CRM."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.auraquantic.com/",
+        "name": "AuraQuantic",
+        "desc": "AuraQuantic - A digital platform designed for business users to easily and rapidly build unlimited processes and applications."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.kintone.com/",
+        "name": "Kintone",
+        "desc": "Kintone - The best productivity software to business transformation Platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.prontoforms.com/",
+        "name": "ProntoForms",
+        "desc": "ProntoForms - Provides mobile business solutions to automate field sales, field service, and field data collection."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://trackvia.com/",
+        "name": "TrackVia",
+        "desc": "TrackVia - The leading Low Code workflow platform for operations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://newgensoft.com/",
+        "name": "NewGen",
+        "desc": "NewGen - Simplify your complex, content-driven business needs with one comprehensive Low Code platform."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://powerautomate.microsoft.com/en-us/robotic-process-automation/",
+        "name": "Power Automate Desktop (Microsoft)",
+        "desc": "Power Automate Desktop (Microsoft) - Automate everything from simple data transfers to complex business workflows—directly from your desktop—using RPA desktop flows in Power Automate Desktop."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.servicetrace.com/",
+        "name": "Servicetrace RPA (Salesforce)",
+        "desc": "Servicetrace RPA (Salesforce) - Develop innovation in robotic solutions."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://appian.com/platform/complete-automation/robotic-process-automation-rpa.html",
+        "name": "Appian RPA",
+        "desc": "Appian RPA - Orchestrate RPA bots with people, systems, and data in a single workflow, scaling automation across your entire organization."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.workato.com/modern-rpa",
+        "name": "Workato RPA",
+        "desc": "Workato RPA - Integration-powered RPA for Intelligent Automation."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://powervirtualagents.microsoft.com/",
+        "name": "Power Virtual Agents (Microsoft)",
+        "desc": "Power Virtual Agents (Microsoft) - Lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://docs.workato.com/workbot/overview.html",
+        "name": "Workato Workbot",
+        "desc": "Workato Workbot - A bot platform that allows you to build customizable workflows."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://azure.microsoft.com/en-us/services/logic-apps/",
+        "name": "Azure Logic Apps (Microsoft)",
+        "desc": "Azure Logic Apps (Microsoft) - A cloud-based platform for creating and running automated workflows that integrate your apps, data, services, and systems."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://mulesoft.com/",
+        "name": "MuleSoft (Salesforce)",
+        "desc": "MuleSoft (Salesforce) - Provides an integration and API platform that makes it easy to connect data from any system to create connected experiences."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://www.workato.com",
+        "name": "Workato",
+        "desc": "Workato - An enterprise automation platform that helps organizations work faster and smarter without compromising governance and security."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://www.mulesoft.com/platform/api-management",
+        "name": "MuleSoft",
+        "desc": "MuleSoft - Manage your API lifecycle, quickly design, test, and publish APIs."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://docs.workato.com/api-management.html",
+        "name": "Workato API Management",
+        "desc": "Workato API Management - Turn callable recipes into endpoints and organize the endpoints into API collections, making it easier for users to find and consume the endpoints through other recipes or third-party apps, without requiring access to your Workato account."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MscrmTools/XrmToolBox",
+        "name": "XrmToolBox",
+        "desc": "XrmToolBox - An application that gather multiple tools to ease the customization and configuration of Microsoft Dynamics CRM/365/Dataverse/PowerApps."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/rajyraman/Levelup-for-Dynamics-CRM",
+        "name": "Levelup for Dynamics CRM",
+        "desc": "Levelup for Dynamics CRM - Chrome, Edge Chromium and Firefox Extension for Dynamics CRM/365/Power Apps Power users."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/PowerPlatformAF/PowerPlatformAF",
+        "name": "Power Platform Adoption Framework",
+        "desc": "Power Platform Adoption Framework - The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Zerg00s/FlowPowerAppsMigrator",
+        "name": "Flow & Power Apps Migrator",
+        "desc": "Flow & Power Apps Migrator - Converts SharePoint Data sources for the MS Flow and PowerApps to a new tenant of your choice."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/TracyGH/SharePointWorkflowConverter",
+        "name": "SharePoint Workflow Converter",
+        "desc": "SharePoint Workflow Converter - A proof-of-concept C# console application for retrieving legacy 2010 & 2013 custom SharePoint workflow definition files, and creating new Power Automate flows programmatically."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerPlatformConnectors",
+        "name": "Power Platform Connectors",
+        "desc": "Power Platform Connectors - This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/Power-Fx",
+        "name": "Microsoft Power Fx",
+        "desc": "Microsoft Power Fx - Power Fx Low Code programming language."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/custom_connector_docs",
+        "name": "Custom Connector Docs",
+        "desc": "Custom Connector Docs - Source files for Workato custom connector documentation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerfx-samples",
+        "name": "Power Fx Samples",
+        "desc": "Power Fx Samples - This repository contains samples for Power Fx Low Code programming language."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerApps-Azure-Lab",
+        "name": "Power Apps & Azure Lab",
+        "desc": "Power Apps & Azure Lab - Repository to host the PowerApps Azure Lab."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals",
+        "name": "PL-900: Power Platform Fundamentals",
+        "desc": "PL-900: Power Platform Fundamentals - Power Platform Fundamentals course materials."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/full-embed-sample",
+        "name": "Embedding Guide",
+        "desc": "Embedding Guide - A guided example on how to use Workato embedded."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerapps-samples",
+        "name": "Power Apps Samples",
+        "desc": "Power Apps Samples - Contains curated community Microsoft Power App samples."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Eickhel/PowerApps-samples",
+        "name": "PowerApps Samples",
+        "desc": "PowerApps Samples - Power Apps samples by Power Nimbus."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/iAmManCat/PowerApps-Branding-Template",
+        "name": "Power Apps Branding Template",
+        "desc": "Power Apps Branding Template - A template to empower developers and reduce time wasted on control changes."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/sp-power-platform-solutions",
+        "name": "SharePoint Power Platform Solutions",
+        "desc": "SharePoint Power Platform Solutions - Sample PowerApps solutions designed to be used in SharePoint context."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerautomate-samples",
+        "name": "Power Automate Samples",
+        "desc": "Power Automate Samples - Contains curated community samples for Microsoft Power Automate."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/wortell/PowerAutomate-AutomatischeReistijd",
+        "name": "Automatic travel time",
+        "desc": "Automatic travel time - Automatic travel time in your Office 365 calendar."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ericsche/MCinTeams",
+        "name": "Message Center in Teams",
+        "desc": "Message Center in Teams - Message Center in Teams is a simple PowerAutomate Solution to gather Message Center Announcement and post them in a Teams Channel."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ferrybouwman/Power-BI-Read-Only-REST-API",
+        "name": "Consume Power BI",
+        "desc": "Consume Power BI - Solution based on either Powershell or Power Automate (Flow) to consume the recently released Power BI Asynchronous Unified Scanning API."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/vaibhav21791/PostListItemToTwitter",
+        "name": "Post List Item To Twitter",
+        "desc": "Post List Item To Twitter - A Microsoft Power Automate Flow to Post a SharePoint List Item to Twitter along with media content."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/solutions",
+        "name": "Solution Marketplace",
+        "desc": "Solution Marketplace - A curated list of ready-to-use solutions built by Workato and vendors."
+    },
+    {
+        "category": "Workato",
+        "url": "https://support.workato.com/en/support/solutions",
+        "name": "Support History",
+        "desc": "Support History - A public repository of resolved support tickets to help tackle issues."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1",
+        "name": "Microsoft Power Apps Official Community",
+        "desc": "Microsoft Power Apps Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity",
+        "name": "Microsoft Power Automate Official Community",
+        "desc": "Microsoft Power Automate Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity",
+        "name": "Microsoft Power Virtual Agents Official Community",
+        "desc": "Microsoft Power Virtual Agents Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://community.powerbi.com/",
+        "name": "Microsoft Power BI Official Community",
+        "desc": "Microsoft Power BI Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powp.co/",
+        "name": "PowP.Co Discord Community",
+        "desc": "PowP.Co Discord Community - A Discord community of Power Platform enthusiasts."
+    },
+    {
+        "category": "Workato",
+        "url": "https://community.workato.com/",
+        "name": "Workato Communities",
+        "desc": "Workato Communities - The official Workato communities website."
+    },
+    {
+        "category": "Workato",
+        "url": "https://systematic.workato.com/",
+        "name": "Systematic",
+        "desc": "Systematic - The only community for business systems."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://zenity.io/blog",
+        "name": "Zenity",
+        "desc": "Zenity - Low Code security and governance."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://www.darkreading.com/edge-articles/addressing-the-low-code-security-elephant-in-the-room",
+        "name": "Addressing the Low Code Security Elephant in the Room",
+        "desc": "Addressing the Low Code Security Elephant in the Room - The shared responsibility model for Low Code applications."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://blog.powp.co/",
+        "name": "PowPco",
+        "desc": "PowPco - Single-stop community for everything Power Platform Community related."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/the-connector/",
+        "name": "The Connector",
+        "desc": "The Connector - Workato blog on Business Automation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Power-Maverick/awesome-power-platform",
+        "name": "Awesome Microsoft Power Platform",
+        "desc": "Awesome Microsoft Power Platform - A collection of awesome things regarding the Power Platform ecosystem."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/valentin-vogel/awesome-nocode-lowcode",
+        "name": "Awesome No Code Low Code",
+        "desc": "Awesome No Code Low Code - A collection of awesome No Code and Low Code resources."
+    }
+]
+[
+    {
+        "category": "Contents",
+        "url": "#awesome-low-code-",
+        "name": "Awesome Low Code",
+        "desc": "Awesome Low Code Contents Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform Tools, Extensions and Frameworks Power Platform (Microsoft) Reference Resources Power Platform (Microsoft) Workato Learning Resources Power Platform (Microsoft) Workato Samples, Templates and Solutions Power Platform (Microsoft) Workato Community Power Platform (Microsoft) Workato Blogs Power Platform (Microsoft) Workato Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#contents",
+        "name": "Contents",
+        "desc": "Contents"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#platforms",
+        "name": "Platforms",
+        "desc": "Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#citizen-automation-and-development-platform",
+        "name": "Citizen Automation and Development Platform",
+        "desc": "Citizen Automation and Development Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-application-platform",
+        "name": "Low Code Application Platform",
+        "desc": "Low Code Application Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#business-process-management",
+        "name": "Business Process Management",
+        "desc": "Business Process Management"
+    },
+    {
+        "category": "Platforms",
+        "url": "#robotic-process-automation",
+        "name": "Robotic Process Automation",
+        "desc": "Robotic Process Automation"
+    },
+    {
+        "category": "Platforms",
+        "url": "#intelligent-virtual-agent",
+        "name": "Intelligent Virtual Agent",
+        "desc": "Intelligent Virtual Agent"
+    },
+    {
+        "category": "Platforms",
+        "url": "#integration-platform-as-a-service",
+        "name": "Integration Platform as a Service",
+        "desc": "Integration Platform as a Service"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-api-management-platform",
+        "name": "Low Code API Management Platform",
+        "desc": "Low Code API Management Platform"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#tools-extensions-and-frameworks",
+        "name": "Tools, Extensions and Frameworks",
+        "desc": "Tools, Extensions and Frameworks Power Platform (Microsoft)"
+    },
+    {
+        "category": "Tools, Extensions and Frameworks",
+        "url": "#power-platform-microsoft",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#reference-resources",
+        "name": "Reference Resources",
+        "desc": "Reference Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#power-platform-microsoft-1",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#workato",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#learning-resources",
+        "name": "Learning Resources",
+        "desc": "Learning Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#power-platform-microsoft-2",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#workato-1",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#samples-templates-and-solutions",
+        "name": "Samples, Templates and Solutions",
+        "desc": "Samples, Templates and Solutions Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#power-platform-microsoft-3",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#workato-2",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#community",
+        "name": "Community",
+        "desc": "Community Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Community",
+        "url": "#power-platform-microsoft-4",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Community",
+        "url": "#workato-3",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#blogs",
+        "name": "Blogs",
+        "desc": "Blogs Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Blogs",
+        "url": "#power-platform-microsoft-5",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Blogs",
+        "url": "#workato-4",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#other-lists",
+        "name": "Other Lists",
+        "desc": "Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Other Lists",
+        "url": "#power-platform-microsoft-6",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://flow.microsoft.com/",
+        "name": "Power Automate (Microsoft)",
+        "desc": "Power Automate (Microsoft) - An online workflow service that automates actions across the most common apps and services."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://zapier.com/",
+        "name": "Zapier",
+        "desc": "Zapier - Allows its users to easily connect and automate the apps they use."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.salesforce.com/products/platform/einstein-automate/",
+        "name": "Einstein Automate (Salesforce)",
+        "desc": "Einstein Automate (Salesforce) - Empower your employees to do more of what matters by automating business processes easily without needing specialized development skills."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.atlassian.com/software/jira/features/automation",
+        "name": "Jira Automation (Atlassian)",
+        "desc": "Jira Automation (Atlassian) - Automation is a No Code rule builder that enables customers to build if-this-then-that-rules based on events in Jira."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://trello.com/power-ups/category/automation",
+        "name": "Trello Power-Ups (Atlassian)",
+        "desc": "Trello Power-Ups (Atlassian) - Helps teams meet their unique business needs through adaptable features and integrations."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.zoho.com/flow/",
+        "name": "Flow (Zoho)",
+        "desc": "Flow (Zoho) - An integration platform that helps you connect your apps without any code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerapps.com/",
+        "name": "Power Apps (Microsoft)",
+        "desc": "Power Apps (Microsoft) - Build apps in hours—not months—that easily connect to data, use Excel-like expressions to add logic, and run on the web, iOS, and Android devices."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerbi.microsoft.com/",
+        "name": "Power BI",
+        "desc": "Power BI - Unify data from many sources to create interactive, immersive dashboards and reports that provide actionable insights and drive business results."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://appian.com/",
+        "name": "Appian",
+        "desc": "Appian - Provides a Low Code software development platform that enables organizations to rapidly develop powerful applications."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://mendix.com/",
+        "name": "Mendix",
+        "desc": "Mendix - The fastest and easiest high-productivity platform to create and continuously improve multi-channel applications at scale."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.outsystems.com/",
+        "name": "OutSystems",
+        "desc": "OutSystems - A Low Code platform that enables businesses to develop, deploy, and manage enterprise-grade apps."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.servicenow.com/now-platform.html",
+        "name": "Now Platform (ServiceNow)",
+        "desc": "Now Platform (ServiceNow) - Drive connected digital workflows across the enterprise, deliver modern, consumer-like experiences, and accelerate time-to-value and innovation."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.zoho.com/creator/low-code-platform/",
+        "name": "Creator (Zoho)",
+        "desc": "Creator (Zoho) - Build applications from scratch without having to write endless lines of code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.bettyblocks.com/",
+        "name": "BettyBlocks",
+        "desc": "BettyBlocks - The #1 No Code platform for innovation, agility and empowerment. Used to create mobile, business and web applications at lightning speed."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://apex.oracle.com/en/platform/low-code/",
+        "name": "APEX (Oracle)",
+        "desc": "APEX (Oracle) - A Low Code development platform that enables you to build scalable, secure enterprise apps, with world-class features, that can be deployed anywhere."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.salesforce.com/products/platform",
+        "name": "Salesforce Platform, prev. Force.com (Salesforce)",
+        "desc": "Salesforce Platform, prev. Force.com (Salesforce) - Click, create, and ship from anywhere with Low Code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://n8n.io/",
+        "name": "n8n",
+        "desc": "n8n - Workflow automation tool with many integrations and with fair-code license."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.pega.com/",
+        "name": "PegaSystems",
+        "desc": "PegaSystems - Provides business process and customer relationship management solutions for organizations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://agilepoint.com/",
+        "name": "AgilePoint",
+        "desc": "AgilePoint - Deploy business-changing ideas in minutes, not months, with the AgilePoint digital process automation platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.quickbase.com/",
+        "name": "QuickBase",
+        "desc": "QuickBase - Helps businesses quickly turn ideas about better ways to work into apps that make them more efficient, informed, and productive."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.creatio.com/",
+        "name": "Creatio",
+        "desc": "Creatio - A global software company providing a leading Low Code platform for process management and CRM."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.auraquantic.com/",
+        "name": "AuraQuantic",
+        "desc": "AuraQuantic - A digital platform designed for business users to easily and rapidly build unlimited processes and applications."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.kintone.com/",
+        "name": "Kintone",
+        "desc": "Kintone - The best productivity software to business transformation Platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.prontoforms.com/",
+        "name": "ProntoForms",
+        "desc": "ProntoForms - Provides mobile business solutions to automate field sales, field service, and field data collection."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://trackvia.com/",
+        "name": "TrackVia",
+        "desc": "TrackVia - The leading Low Code workflow platform for operations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://newgensoft.com/",
+        "name": "NewGen",
+        "desc": "NewGen - Simplify your complex, content-driven business needs with one comprehensive Low Code platform."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://powerautomate.microsoft.com/en-us/robotic-process-automation/",
+        "name": "Power Automate Desktop (Microsoft)",
+        "desc": "Power Automate Desktop (Microsoft) - Automate everything from simple data transfers to complex business workflows—directly from your desktop—using RPA desktop flows in Power Automate Desktop."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.servicetrace.com/",
+        "name": "Servicetrace RPA (Salesforce)",
+        "desc": "Servicetrace RPA (Salesforce) - Develop innovation in robotic solutions."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://appian.com/platform/complete-automation/robotic-process-automation-rpa.html",
+        "name": "Appian RPA",
+        "desc": "Appian RPA - Orchestrate RPA bots with people, systems, and data in a single workflow, scaling automation across your entire organization."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.workato.com/modern-rpa",
+        "name": "Workato RPA",
+        "desc": "Workato RPA - Integration-powered RPA for Intelligent Automation."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://powervirtualagents.microsoft.com/",
+        "name": "Power Virtual Agents (Microsoft)",
+        "desc": "Power Virtual Agents (Microsoft) - Lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://docs.workato.com/workbot/overview.html",
+        "name": "Workato Workbot",
+        "desc": "Workato Workbot - A bot platform that allows you to build customizable workflows."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://azure.microsoft.com/en-us/services/logic-apps/",
+        "name": "Azure Logic Apps (Microsoft)",
+        "desc": "Azure Logic Apps (Microsoft) - A cloud-based platform for creating and running automated workflows that integrate your apps, data, services, and systems."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://mulesoft.com/",
+        "name": "MuleSoft (Salesforce)",
+        "desc": "MuleSoft (Salesforce) - Provides an integration and API platform that makes it easy to connect data from any system to create connected experiences."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://www.workato.com",
+        "name": "Workato",
+        "desc": "Workato - An enterprise automation platform that helps organizations work faster and smarter without compromising governance and security."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://www.mulesoft.com/platform/api-management",
+        "name": "MuleSoft",
+        "desc": "MuleSoft - Manage your API lifecycle, quickly design, test, and publish APIs."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://docs.workato.com/api-management.html",
+        "name": "Workato API Management",
+        "desc": "Workato API Management - Turn callable recipes into endpoints and organize the endpoints into API collections, making it easier for users to find and consume the endpoints through other recipes or third-party apps, without requiring access to your Workato account."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MscrmTools/XrmToolBox",
+        "name": "XrmToolBox",
+        "desc": "XrmToolBox - An application that gather multiple tools to ease the customization and configuration of Microsoft Dynamics CRM/365/Dataverse/PowerApps."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/rajyraman/Levelup-for-Dynamics-CRM",
+        "name": "Levelup for Dynamics CRM",
+        "desc": "Levelup for Dynamics CRM - Chrome, Edge Chromium and Firefox Extension for Dynamics CRM/365/Power Apps Power users."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/PowerPlatformAF/PowerPlatformAF",
+        "name": "Power Platform Adoption Framework",
+        "desc": "Power Platform Adoption Framework - The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Zerg00s/FlowPowerAppsMigrator",
+        "name": "Flow & Power Apps Migrator",
+        "desc": "Flow & Power Apps Migrator - Converts SharePoint Data sources for the MS Flow and PowerApps to a new tenant of your choice."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/TracyGH/SharePointWorkflowConverter",
+        "name": "SharePoint Workflow Converter",
+        "desc": "SharePoint Workflow Converter - A proof-of-concept C# console application for retrieving legacy 2010 & 2013 custom SharePoint workflow definition files, and creating new Power Automate flows programmatically."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerPlatformConnectors",
+        "name": "Power Platform Connectors",
+        "desc": "Power Platform Connectors - This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/Power-Fx",
+        "name": "Microsoft Power Fx",
+        "desc": "Microsoft Power Fx - Power Fx Low Code programming language."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/custom_connector_docs",
+        "name": "Custom Connector Docs",
+        "desc": "Custom Connector Docs - Source files for Workato custom connector documentation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerfx-samples",
+        "name": "Power Fx Samples",
+        "desc": "Power Fx Samples - This repository contains samples for Power Fx Low Code programming language."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerApps-Azure-Lab",
+        "name": "Power Apps & Azure Lab",
+        "desc": "Power Apps & Azure Lab - Repository to host the PowerApps Azure Lab."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals",
+        "name": "PL-900: Power Platform Fundamentals",
+        "desc": "PL-900: Power Platform Fundamentals - Power Platform Fundamentals course materials."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/full-embed-sample",
+        "name": "Embedding Guide",
+        "desc": "Embedding Guide - A guided example on how to use Workato embedded."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerapps-samples",
+        "name": "Power Apps Samples",
+        "desc": "Power Apps Samples - Contains curated community Microsoft Power App samples."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Eickhel/PowerApps-samples",
+        "name": "PowerApps Samples",
+        "desc": "PowerApps Samples - Power Apps samples by Power Nimbus."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/iAmManCat/PowerApps-Branding-Template",
+        "name": "Power Apps Branding Template",
+        "desc": "Power Apps Branding Template - A template to empower developers and reduce time wasted on control changes."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/sp-power-platform-solutions",
+        "name": "SharePoint Power Platform Solutions",
+        "desc": "SharePoint Power Platform Solutions - Sample PowerApps solutions designed to be used in SharePoint context."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerautomate-samples",
+        "name": "Power Automate Samples",
+        "desc": "Power Automate Samples - Contains curated community samples for Microsoft Power Automate."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/wortell/PowerAutomate-AutomatischeReistijd",
+        "name": "Automatic travel time",
+        "desc": "Automatic travel time - Automatic travel time in your Office 365 calendar."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ericsche/MCinTeams",
+        "name": "Message Center in Teams",
+        "desc": "Message Center in Teams - Message Center in Teams is a simple PowerAutomate Solution to gather Message Center Announcement and post them in a Teams Channel."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ferrybouwman/Power-BI-Read-Only-REST-API",
+        "name": "Consume Power BI",
+        "desc": "Consume Power BI - Solution based on either Powershell or Power Automate (Flow) to consume the recently released Power BI Asynchronous Unified Scanning API."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/vaibhav21791/PostListItemToTwitter",
+        "name": "Post List Item To Twitter",
+        "desc": "Post List Item To Twitter - A Microsoft Power Automate Flow to Post a SharePoint List Item to Twitter along with media content."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/solutions",
+        "name": "Solution Marketplace",
+        "desc": "Solution Marketplace - A curated list of ready-to-use solutions built by Workato and vendors."
+    },
+    {
+        "category": "Workato",
+        "url": "https://support.workato.com/en/support/solutions",
+        "name": "Support History",
+        "desc": "Support History - A public repository of resolved support tickets to help tackle issues."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1",
+        "name": "Microsoft Power Apps Official Community",
+        "desc": "Microsoft Power Apps Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity",
+        "name": "Microsoft Power Automate Official Community",
+        "desc": "Microsoft Power Automate Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity",
+        "name": "Microsoft Power Virtual Agents Official Community",
+        "desc": "Microsoft Power Virtual Agents Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://community.powerbi.com/",
+        "name": "Microsoft Power BI Official Community",
+        "desc": "Microsoft Power BI Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powp.co/",
+        "name": "PowP.Co Discord Community",
+        "desc": "PowP.Co Discord Community - A Discord community of Power Platform enthusiasts."
+    },
+    {
+        "category": "Workato",
+        "url": "https://community.workato.com/",
+        "name": "Workato Communities",
+        "desc": "Workato Communities - The official Workato communities website."
+    },
+    {
+        "category": "Workato",
+        "url": "https://systematic.workato.com/",
+        "name": "Systematic",
+        "desc": "Systematic - The only community for business systems."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://zenity.io/blog",
+        "name": "Zenity",
+        "desc": "Zenity - Low Code security and governance."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://www.darkreading.com/edge-articles/addressing-the-low-code-security-elephant-in-the-room",
+        "name": "Addressing the Low Code Security Elephant in the Room",
+        "desc": "Addressing the Low Code Security Elephant in the Room - The shared responsibility model for Low Code applications."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://blog.powp.co/",
+        "name": "PowPco",
+        "desc": "PowPco - Single-stop community for everything Power Platform Community related."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/the-connector/",
+        "name": "The Connector",
+        "desc": "The Connector - Workato blog on Business Automation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Power-Maverick/awesome-power-platform",
+        "name": "Awesome Microsoft Power Platform",
+        "desc": "Awesome Microsoft Power Platform - A collection of awesome things regarding the Power Platform ecosystem."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/valentin-vogel/awesome-nocode-lowcode",
+        "name": "Awesome No Code Low Code",
+        "desc": "Awesome No Code Low Code - A collection of awesome No Code and Low Code resources."
+    }
+]
+[
+    {
+        "category": "Contents",
+        "url": "#awesome-low-code-",
+        "name": "Awesome Low Code",
+        "desc": "Awesome Low Code Contents Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform Tools, Extensions and Frameworks Power Platform (Microsoft) Reference Resources Power Platform (Microsoft) Workato Learning Resources Power Platform (Microsoft) Workato Samples, Templates and Solutions Power Platform (Microsoft) Workato Community Power Platform (Microsoft) Workato Blogs Power Platform (Microsoft) Workato Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#contents",
+        "name": "Contents",
+        "desc": "Contents"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#platforms",
+        "name": "Platforms",
+        "desc": "Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#citizen-automation-and-development-platform",
+        "name": "Citizen Automation and Development Platform",
+        "desc": "Citizen Automation and Development Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-application-platform",
+        "name": "Low Code Application Platform",
+        "desc": "Low Code Application Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#business-process-management",
+        "name": "Business Process Management",
+        "desc": "Business Process Management"
+    },
+    {
+        "category": "Platforms",
+        "url": "#robotic-process-automation",
+        "name": "Robotic Process Automation",
+        "desc": "Robotic Process Automation"
+    },
+    {
+        "category": "Platforms",
+        "url": "#intelligent-virtual-agent",
+        "name": "Intelligent Virtual Agent",
+        "desc": "Intelligent Virtual Agent"
+    },
+    {
+        "category": "Platforms",
+        "url": "#integration-platform-as-a-service",
+        "name": "Integration Platform as a Service",
+        "desc": "Integration Platform as a Service"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-api-management-platform",
+        "name": "Low Code API Management Platform",
+        "desc": "Low Code API Management Platform"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#tools-extensions-and-frameworks",
+        "name": "Tools, Extensions and Frameworks",
+        "desc": "Tools, Extensions and Frameworks Power Platform (Microsoft)"
+    },
+    {
+        "category": "Tools, Extensions and Frameworks",
+        "url": "#power-platform-microsoft",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#reference-resources",
+        "name": "Reference Resources",
+        "desc": "Reference Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#power-platform-microsoft-1",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#workato",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#learning-resources",
+        "name": "Learning Resources",
+        "desc": "Learning Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#power-platform-microsoft-2",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#workato-1",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#samples-templates-and-solutions",
+        "name": "Samples, Templates and Solutions",
+        "desc": "Samples, Templates and Solutions Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#power-platform-microsoft-3",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#workato-2",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#community",
+        "name": "Community",
+        "desc": "Community Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Community",
+        "url": "#power-platform-microsoft-4",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Community",
+        "url": "#workato-3",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#blogs",
+        "name": "Blogs",
+        "desc": "Blogs Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Blogs",
+        "url": "#power-platform-microsoft-5",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Blogs",
+        "url": "#workato-4",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#other-lists",
+        "name": "Other Lists",
+        "desc": "Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Other Lists",
+        "url": "#power-platform-microsoft-6",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://flow.microsoft.com/",
+        "name": "Power Automate (Microsoft)",
+        "desc": "Power Automate (Microsoft) - An online workflow service that automates actions across the most common apps and services."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://zapier.com/",
+        "name": "Zapier",
+        "desc": "Zapier - Allows its users to easily connect and automate the apps they use."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.salesforce.com/products/platform/einstein-automate/",
+        "name": "Einstein Automate (Salesforce)",
+        "desc": "Einstein Automate (Salesforce) - Empower your employees to do more of what matters by automating business processes easily without needing specialized development skills."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.atlassian.com/software/jira/features/automation",
+        "name": "Jira Automation (Atlassian)",
+        "desc": "Jira Automation (Atlassian) - Automation is a No Code rule builder that enables customers to build if-this-then-that-rules based on events in Jira."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://trello.com/power-ups/category/automation",
+        "name": "Trello Power-Ups (Atlassian)",
+        "desc": "Trello Power-Ups (Atlassian) - Helps teams meet their unique business needs through adaptable features and integrations."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.zoho.com/flow/",
+        "name": "Flow (Zoho)",
+        "desc": "Flow (Zoho) - An integration platform that helps you connect your apps without any code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerapps.com/",
+        "name": "Power Apps (Microsoft)",
+        "desc": "Power Apps (Microsoft) - Build apps in hours—not months—that easily connect to data, use Excel-like expressions to add logic, and run on the web, iOS, and Android devices."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerbi.microsoft.com/",
+        "name": "Power BI",
+        "desc": "Power BI - Unify data from many sources to create interactive, immersive dashboards and reports that provide actionable insights and drive business results."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://appian.com/",
+        "name": "Appian",
+        "desc": "Appian - Provides a Low Code software development platform that enables organizations to rapidly develop powerful applications."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://mendix.com/",
+        "name": "Mendix",
+        "desc": "Mendix - The fastest and easiest high-productivity platform to create and continuously improve multi-channel applications at scale."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.outsystems.com/",
+        "name": "OutSystems",
+        "desc": "OutSystems - A Low Code platform that enables businesses to develop, deploy, and manage enterprise-grade apps."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.servicenow.com/now-platform.html",
+        "name": "Now Platform (ServiceNow)",
+        "desc": "Now Platform (ServiceNow) - Drive connected digital workflows across the enterprise, deliver modern, consumer-like experiences, and accelerate time-to-value and innovation."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.zoho.com/creator/low-code-platform/",
+        "name": "Creator (Zoho)",
+        "desc": "Creator (Zoho) - Build applications from scratch without having to write endless lines of code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.bettyblocks.com/",
+        "name": "BettyBlocks",
+        "desc": "BettyBlocks - The #1 No Code platform for innovation, agility and empowerment. Used to create mobile, business and web applications at lightning speed."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://apex.oracle.com/en/platform/low-code/",
+        "name": "APEX (Oracle)",
+        "desc": "APEX (Oracle) - A Low Code development platform that enables you to build scalable, secure enterprise apps, with world-class features, that can be deployed anywhere."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.salesforce.com/products/platform",
+        "name": "Salesforce Platform, prev. Force.com (Salesforce)",
+        "desc": "Salesforce Platform, prev. Force.com (Salesforce) - Click, create, and ship from anywhere with Low Code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://n8n.io/",
+        "name": "n8n",
+        "desc": "n8n - Workflow automation tool with many integrations and with fair-code license."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.pega.com/",
+        "name": "PegaSystems",
+        "desc": "PegaSystems - Provides business process and customer relationship management solutions for organizations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://agilepoint.com/",
+        "name": "AgilePoint",
+        "desc": "AgilePoint - Deploy business-changing ideas in minutes, not months, with the AgilePoint digital process automation platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.quickbase.com/",
+        "name": "QuickBase",
+        "desc": "QuickBase - Helps businesses quickly turn ideas about better ways to work into apps that make them more efficient, informed, and productive."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.creatio.com/",
+        "name": "Creatio",
+        "desc": "Creatio - A global software company providing a leading Low Code platform for process management and CRM."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.auraquantic.com/",
+        "name": "AuraQuantic",
+        "desc": "AuraQuantic - A digital platform designed for business users to easily and rapidly build unlimited processes and applications."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.kintone.com/",
+        "name": "Kintone",
+        "desc": "Kintone - The best productivity software to business transformation Platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.prontoforms.com/",
+        "name": "ProntoForms",
+        "desc": "ProntoForms - Provides mobile business solutions to automate field sales, field service, and field data collection."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://trackvia.com/",
+        "name": "TrackVia",
+        "desc": "TrackVia - The leading Low Code workflow platform for operations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://newgensoft.com/",
+        "name": "NewGen",
+        "desc": "NewGen - Simplify your complex, content-driven business needs with one comprehensive Low Code platform."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://powerautomate.microsoft.com/en-us/robotic-process-automation/",
+        "name": "Power Automate Desktop (Microsoft)",
+        "desc": "Power Automate Desktop (Microsoft) - Automate everything from simple data transfers to complex business workflows—directly from your desktop—using RPA desktop flows in Power Automate Desktop."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.servicetrace.com/",
+        "name": "Servicetrace RPA (Salesforce)",
+        "desc": "Servicetrace RPA (Salesforce) - Develop innovation in robotic solutions."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://appian.com/platform/complete-automation/robotic-process-automation-rpa.html",
+        "name": "Appian RPA",
+        "desc": "Appian RPA - Orchestrate RPA bots with people, systems, and data in a single workflow, scaling automation across your entire organization."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.workato.com/modern-rpa",
+        "name": "Workato RPA",
+        "desc": "Workato RPA - Integration-powered RPA for Intelligent Automation."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://powervirtualagents.microsoft.com/",
+        "name": "Power Virtual Agents (Microsoft)",
+        "desc": "Power Virtual Agents (Microsoft) - Lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://docs.workato.com/workbot/overview.html",
+        "name": "Workato Workbot",
+        "desc": "Workato Workbot - A bot platform that allows you to build customizable workflows."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://azure.microsoft.com/en-us/services/logic-apps/",
+        "name": "Azure Logic Apps (Microsoft)",
+        "desc": "Azure Logic Apps (Microsoft) - A cloud-based platform for creating and running automated workflows that integrate your apps, data, services, and systems."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://mulesoft.com/",
+        "name": "MuleSoft (Salesforce)",
+        "desc": "MuleSoft (Salesforce) - Provides an integration and API platform that makes it easy to connect data from any system to create connected experiences."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://www.workato.com",
+        "name": "Workato",
+        "desc": "Workato - An enterprise automation platform that helps organizations work faster and smarter without compromising governance and security."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://www.mulesoft.com/platform/api-management",
+        "name": "MuleSoft",
+        "desc": "MuleSoft - Manage your API lifecycle, quickly design, test, and publish APIs."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://docs.workato.com/api-management.html",
+        "name": "Workato API Management",
+        "desc": "Workato API Management - Turn callable recipes into endpoints and organize the endpoints into API collections, making it easier for users to find and consume the endpoints through other recipes or third-party apps, without requiring access to your Workato account."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MscrmTools/XrmToolBox",
+        "name": "XrmToolBox",
+        "desc": "XrmToolBox - An application that gather multiple tools to ease the customization and configuration of Microsoft Dynamics CRM/365/Dataverse/PowerApps."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/rajyraman/Levelup-for-Dynamics-CRM",
+        "name": "Levelup for Dynamics CRM",
+        "desc": "Levelup for Dynamics CRM - Chrome, Edge Chromium and Firefox Extension for Dynamics CRM/365/Power Apps Power users."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/PowerPlatformAF/PowerPlatformAF",
+        "name": "Power Platform Adoption Framework",
+        "desc": "Power Platform Adoption Framework - The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Zerg00s/FlowPowerAppsMigrator",
+        "name": "Flow & Power Apps Migrator",
+        "desc": "Flow & Power Apps Migrator - Converts SharePoint Data sources for the MS Flow and PowerApps to a new tenant of your choice."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/TracyGH/SharePointWorkflowConverter",
+        "name": "SharePoint Workflow Converter",
+        "desc": "SharePoint Workflow Converter - A proof-of-concept C# console application for retrieving legacy 2010 & 2013 custom SharePoint workflow definition files, and creating new Power Automate flows programmatically."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerPlatformConnectors",
+        "name": "Power Platform Connectors",
+        "desc": "Power Platform Connectors - This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/Power-Fx",
+        "name": "Microsoft Power Fx",
+        "desc": "Microsoft Power Fx - Power Fx Low Code programming language."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/custom_connector_docs",
+        "name": "Custom Connector Docs",
+        "desc": "Custom Connector Docs - Source files for Workato custom connector documentation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerfx-samples",
+        "name": "Power Fx Samples",
+        "desc": "Power Fx Samples - This repository contains samples for Power Fx Low Code programming language."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerApps-Azure-Lab",
+        "name": "Power Apps & Azure Lab",
+        "desc": "Power Apps & Azure Lab - Repository to host the PowerApps Azure Lab."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals",
+        "name": "PL-900: Power Platform Fundamentals",
+        "desc": "PL-900: Power Platform Fundamentals - Power Platform Fundamentals course materials."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/full-embed-sample",
+        "name": "Embedding Guide",
+        "desc": "Embedding Guide - A guided example on how to use Workato embedded."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerapps-samples",
+        "name": "Power Apps Samples",
+        "desc": "Power Apps Samples - Contains curated community Microsoft Power App samples."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Eickhel/PowerApps-samples",
+        "name": "PowerApps Samples",
+        "desc": "PowerApps Samples - Power Apps samples by Power Nimbus."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/iAmManCat/PowerApps-Branding-Template",
+        "name": "Power Apps Branding Template",
+        "desc": "Power Apps Branding Template - A template to empower developers and reduce time wasted on control changes."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/sp-power-platform-solutions",
+        "name": "SharePoint Power Platform Solutions",
+        "desc": "SharePoint Power Platform Solutions - Sample PowerApps solutions designed to be used in SharePoint context."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerautomate-samples",
+        "name": "Power Automate Samples",
+        "desc": "Power Automate Samples - Contains curated community samples for Microsoft Power Automate."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/wortell/PowerAutomate-AutomatischeReistijd",
+        "name": "Automatic travel time",
+        "desc": "Automatic travel time - Automatic travel time in your Office 365 calendar."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ericsche/MCinTeams",
+        "name": "Message Center in Teams",
+        "desc": "Message Center in Teams - Message Center in Teams is a simple PowerAutomate Solution to gather Message Center Announcement and post them in a Teams Channel."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ferrybouwman/Power-BI-Read-Only-REST-API",
+        "name": "Consume Power BI",
+        "desc": "Consume Power BI - Solution based on either Powershell or Power Automate (Flow) to consume the recently released Power BI Asynchronous Unified Scanning API."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/vaibhav21791/PostListItemToTwitter",
+        "name": "Post List Item To Twitter",
+        "desc": "Post List Item To Twitter - A Microsoft Power Automate Flow to Post a SharePoint List Item to Twitter along with media content."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/solutions",
+        "name": "Solution Marketplace",
+        "desc": "Solution Marketplace - A curated list of ready-to-use solutions built by Workato and vendors."
+    },
+    {
+        "category": "Workato",
+        "url": "https://support.workato.com/en/support/solutions",
+        "name": "Support History",
+        "desc": "Support History - A public repository of resolved support tickets to help tackle issues."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1",
+        "name": "Microsoft Power Apps Official Community",
+        "desc": "Microsoft Power Apps Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity",
+        "name": "Microsoft Power Automate Official Community",
+        "desc": "Microsoft Power Automate Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity",
+        "name": "Microsoft Power Virtual Agents Official Community",
+        "desc": "Microsoft Power Virtual Agents Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://community.powerbi.com/",
+        "name": "Microsoft Power BI Official Community",
+        "desc": "Microsoft Power BI Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powp.co/",
+        "name": "PowP.Co Discord Community",
+        "desc": "PowP.Co Discord Community - A Discord community of Power Platform enthusiasts."
+    },
+    {
+        "category": "Workato",
+        "url": "https://community.workato.com/",
+        "name": "Workato Communities",
+        "desc": "Workato Communities - The official Workato communities website."
+    },
+    {
+        "category": "Workato",
+        "url": "https://systematic.workato.com/",
+        "name": "Systematic",
+        "desc": "Systematic - The only community for business systems."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://zenity.io/blog",
+        "name": "Zenity",
+        "desc": "Zenity - Low Code security and governance."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://www.darkreading.com/edge-articles/addressing-the-low-code-security-elephant-in-the-room",
+        "name": "Addressing the Low Code Security Elephant in the Room",
+        "desc": "Addressing the Low Code Security Elephant in the Room - The shared responsibility model for Low Code applications."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://blog.powp.co/",
+        "name": "PowPco",
+        "desc": "PowPco - Single-stop community for everything Power Platform Community related."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/the-connector/",
+        "name": "The Connector",
+        "desc": "The Connector - Workato blog on Business Automation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Power-Maverick/awesome-power-platform",
+        "name": "Awesome Microsoft Power Platform",
+        "desc": "Awesome Microsoft Power Platform - A collection of awesome things regarding the Power Platform ecosystem."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/valentin-vogel/awesome-nocode-lowcode",
+        "name": "Awesome No Code Low Code",
+        "desc": "Awesome No Code Low Code - A collection of awesome No Code and Low Code resources."
+    }
+]
+[
+    {
+        "category": "Contents",
+        "url": "#awesome-low-code-",
+        "name": "Awesome Low Code",
+        "desc": "Awesome Low Code Contents Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform Tools, Extensions and Frameworks Power Platform (Microsoft) Reference Resources Power Platform (Microsoft) Workato Learning Resources Power Platform (Microsoft) Workato Samples, Templates and Solutions Power Platform (Microsoft) Workato Community Power Platform (Microsoft) Workato Blogs Power Platform (Microsoft) Workato Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#contents",
+        "name": "Contents",
+        "desc": "Contents"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#platforms",
+        "name": "Platforms",
+        "desc": "Platforms Citizen Automation and Development Platform Low Code Application Platform Business Process Management Robotic Process Automation Intelligent Virtual Agent Integration Platform as a Service Low Code API Management Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#citizen-automation-and-development-platform",
+        "name": "Citizen Automation and Development Platform",
+        "desc": "Citizen Automation and Development Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-application-platform",
+        "name": "Low Code Application Platform",
+        "desc": "Low Code Application Platform"
+    },
+    {
+        "category": "Platforms",
+        "url": "#business-process-management",
+        "name": "Business Process Management",
+        "desc": "Business Process Management"
+    },
+    {
+        "category": "Platforms",
+        "url": "#robotic-process-automation",
+        "name": "Robotic Process Automation",
+        "desc": "Robotic Process Automation"
+    },
+    {
+        "category": "Platforms",
+        "url": "#intelligent-virtual-agent",
+        "name": "Intelligent Virtual Agent",
+        "desc": "Intelligent Virtual Agent"
+    },
+    {
+        "category": "Platforms",
+        "url": "#integration-platform-as-a-service",
+        "name": "Integration Platform as a Service",
+        "desc": "Integration Platform as a Service"
+    },
+    {
+        "category": "Platforms",
+        "url": "#low-code-api-management-platform",
+        "name": "Low Code API Management Platform",
+        "desc": "Low Code API Management Platform"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#tools-extensions-and-frameworks",
+        "name": "Tools, Extensions and Frameworks",
+        "desc": "Tools, Extensions and Frameworks Power Platform (Microsoft)"
+    },
+    {
+        "category": "Tools, Extensions and Frameworks",
+        "url": "#power-platform-microsoft",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#reference-resources",
+        "name": "Reference Resources",
+        "desc": "Reference Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#power-platform-microsoft-1",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Reference Resources",
+        "url": "#workato",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#learning-resources",
+        "name": "Learning Resources",
+        "desc": "Learning Resources Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#power-platform-microsoft-2",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Learning Resources",
+        "url": "#workato-1",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#samples-templates-and-solutions",
+        "name": "Samples, Templates and Solutions",
+        "desc": "Samples, Templates and Solutions Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#power-platform-microsoft-3",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Samples, Templates and Solutions",
+        "url": "#workato-2",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#community",
+        "name": "Community",
+        "desc": "Community Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Community",
+        "url": "#power-platform-microsoft-4",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Community",
+        "url": "#workato-3",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#blogs",
+        "name": "Blogs",
+        "desc": "Blogs Power Platform (Microsoft) Workato"
+    },
+    {
+        "category": "Blogs",
+        "url": "#power-platform-microsoft-5",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "Blogs",
+        "url": "#workato-4",
+        "name": "Workato",
+        "desc": "Workato"
+    },
+    {
+        "category": "Awesome Low Code",
+        "url": "#other-lists",
+        "name": "Other Lists",
+        "desc": "Other Lists Power Platform (Microsoft)"
+    },
+    {
+        "category": "Other Lists",
+        "url": "#power-platform-microsoft-6",
+        "name": "Power Platform (Microsoft)",
+        "desc": "Power Platform (Microsoft)"
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://flow.microsoft.com/",
+        "name": "Power Automate (Microsoft)",
+        "desc": "Power Automate (Microsoft) - An online workflow service that automates actions across the most common apps and services."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://zapier.com/",
+        "name": "Zapier",
+        "desc": "Zapier - Allows its users to easily connect and automate the apps they use."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.salesforce.com/products/platform/einstein-automate/",
+        "name": "Einstein Automate (Salesforce)",
+        "desc": "Einstein Automate (Salesforce) - Empower your employees to do more of what matters by automating business processes easily without needing specialized development skills."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.atlassian.com/software/jira/features/automation",
+        "name": "Jira Automation (Atlassian)",
+        "desc": "Jira Automation (Atlassian) - Automation is a No Code rule builder that enables customers to build if-this-then-that-rules based on events in Jira."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://trello.com/power-ups/category/automation",
+        "name": "Trello Power-Ups (Atlassian)",
+        "desc": "Trello Power-Ups (Atlassian) - Helps teams meet their unique business needs through adaptable features and integrations."
+    },
+    {
+        "category": "A development platform for business users (citizen developer is a term for business users, not a role or a job title) that doesn't require coding skills and is based on intuitive drag &amp; drop interfaces. Applications created in such platforms are usually made to automate or improve efficiency of business processes and of personal productivity, without going through IT. CADP are usually consumed as SaaS.",
+        "url": "https://www.zoho.com/flow/",
+        "name": "Flow (Zoho)",
+        "desc": "Flow (Zoho) - An integration platform that helps you connect your apps without any code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerapps.com/",
+        "name": "Power Apps (Microsoft)",
+        "desc": "Power Apps (Microsoft) - Build apps in hours—not months—that easily connect to data, use Excel-like expressions to add logic, and run on the web, iOS, and Android devices."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://powerbi.microsoft.com/",
+        "name": "Power BI",
+        "desc": "Power BI - Unify data from many sources to create interactive, immersive dashboards and reports that provide actionable insights and drive business results."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://appian.com/",
+        "name": "Appian",
+        "desc": "Appian - Provides a Low Code software development platform that enables organizations to rapidly develop powerful applications."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://mendix.com/",
+        "name": "Mendix",
+        "desc": "Mendix - The fastest and easiest high-productivity platform to create and continuously improve multi-channel applications at scale."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.outsystems.com/",
+        "name": "OutSystems",
+        "desc": "OutSystems - A Low Code platform that enables businesses to develop, deploy, and manage enterprise-grade apps."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.servicenow.com/now-platform.html",
+        "name": "Now Platform (ServiceNow)",
+        "desc": "Now Platform (ServiceNow) - Drive connected digital workflows across the enterprise, deliver modern, consumer-like experiences, and accelerate time-to-value and innovation."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.zoho.com/creator/low-code-platform/",
+        "name": "Creator (Zoho)",
+        "desc": "Creator (Zoho) - Build applications from scratch without having to write endless lines of code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.bettyblocks.com/",
+        "name": "BettyBlocks",
+        "desc": "BettyBlocks - The #1 No Code platform for innovation, agility and empowerment. Used to create mobile, business and web applications at lightning speed."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://apex.oracle.com/en/platform/low-code/",
+        "name": "APEX (Oracle)",
+        "desc": "APEX (Oracle) - A Low Code development platform that enables you to build scalable, secure enterprise apps, with world-class features, that can be deployed anywhere."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://www.salesforce.com/products/platform",
+        "name": "Salesforce Platform, prev. Force.com (Salesforce)",
+        "desc": "Salesforce Platform, prev. Force.com (Salesforce) - Click, create, and ship from anywhere with Low Code."
+    },
+    {
+        "category": "An advanced development platform that enable organizations to create powerful enterprise grade applications with no to minimum extra coding requirements with easy to use drag &amp; drop interfaces. Since such platforms simplify the application development process, more types of personas can contribute and accelerate the development process. Those platforms are PaaS development platforms, and can also reduce development cost and maintenance.",
+        "url": "https://n8n.io/",
+        "name": "n8n",
+        "desc": "n8n - Workflow automation tool with many integrations and with fair-code license."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.pega.com/",
+        "name": "PegaSystems",
+        "desc": "PegaSystems - Provides business process and customer relationship management solutions for organizations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://agilepoint.com/",
+        "name": "AgilePoint",
+        "desc": "AgilePoint - Deploy business-changing ideas in minutes, not months, with the AgilePoint digital process automation platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.quickbase.com/",
+        "name": "QuickBase",
+        "desc": "QuickBase - Helps businesses quickly turn ideas about better ways to work into apps that make them more efficient, informed, and productive."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.creatio.com/",
+        "name": "Creatio",
+        "desc": "Creatio - A global software company providing a leading Low Code platform for process management and CRM."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.auraquantic.com/",
+        "name": "AuraQuantic",
+        "desc": "AuraQuantic - A digital platform designed for business users to easily and rapidly build unlimited processes and applications."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.kintone.com/",
+        "name": "Kintone",
+        "desc": "Kintone - The best productivity software to business transformation Platform."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://www.prontoforms.com/",
+        "name": "ProntoForms",
+        "desc": "ProntoForms - Provides mobile business solutions to automate field sales, field service, and field data collection."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://trackvia.com/",
+        "name": "TrackVia",
+        "desc": "TrackVia - The leading Low Code workflow platform for operations."
+    },
+    {
+        "category": "A Low Code Application Platform dedicated to streamlining business processes. These platforms enable business users to automate complicated business workflows and actions with no coding background by providing an easy to use drag &amp; drop interface. Automations that are built in such platforms are usually built in an event-driven mode (triggers) around critical business processes. BPA can be consumed via a SaaS or an on-premises appliance.",
+        "url": "https://newgensoft.com/",
+        "name": "NewGen",
+        "desc": "NewGen - Simplify your complex, content-driven business needs with one comprehensive Low Code platform."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://powerautomate.microsoft.com/en-us/robotic-process-automation/",
+        "name": "Power Automate Desktop (Microsoft)",
+        "desc": "Power Automate Desktop (Microsoft) - Automate everything from simple data transfers to complex business workflows—directly from your desktop—using RPA desktop flows in Power Automate Desktop."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.servicetrace.com/",
+        "name": "Servicetrace RPA (Salesforce)",
+        "desc": "Servicetrace RPA (Salesforce) - Develop innovation in robotic solutions."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://appian.com/platform/complete-automation/robotic-process-automation-rpa.html",
+        "name": "Appian RPA",
+        "desc": "Appian RPA - Orchestrate RPA bots with people, systems, and data in a single workflow, scaling automation across your entire organization."
+    },
+    {
+        "category": "An automation platform that helps organizations remove human manual intensive processes and avoid errors, as well as making sure human required attention is efficiently maximized only on critical aspects of work. RPA technology introduced the concept of software robots, built by the end-user humans, to perform repetitive manual intensive processes in an automation fashion, and can understand and processes computer interactions with SaaS and on-premises applications just like a human-being. RPA technologies involve building, deploying, and managing those software robots.",
+        "url": "https://www.workato.com/modern-rpa",
+        "name": "Workato RPA",
+        "desc": "Workato RPA - Integration-powered RPA for Intelligent Automation."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://powervirtualagents.microsoft.com/",
+        "name": "Power Virtual Agents (Microsoft)",
+        "desc": "Power Virtual Agents (Microsoft) - Lets you create powerful chatbots that can answer questions posed by your customers, other employees, or visitors to your website or service."
+    },
+    {
+        "category": "A software application which is built and configured by its users to perform manual repetitive and error-prone tasks in an automated faster fashion. Bots are built and configured mostly in Low Code platforms via easy to use drag &amp; drop interfaces. Examples to the use of bots could be seen in user conversation via messaging and voice platforms that help them take decisions and act through business processes.",
+        "url": "https://docs.workato.com/workbot/overview.html",
+        "name": "Workato Workbot",
+        "desc": "Workato Workbot - A bot platform that allows you to build customizable workflows."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://azure.microsoft.com/en-us/services/logic-apps/",
+        "name": "Azure Logic Apps (Microsoft)",
+        "desc": "Azure Logic Apps (Microsoft) - A cloud-based platform for creating and running automated workflows that integrate your apps, data, services, and systems."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://mulesoft.com/",
+        "name": "MuleSoft (Salesforce)",
+        "desc": "MuleSoft (Salesforce) - Provides an integration and API platform that makes it easy to connect data from any system to create connected experiences."
+    },
+    {
+        "category": "A platform that help organizations control, simplify and standardize the way that applications are integrated (internally developed or 3rd party SaaS). Such platforms help to share data between applications, automate business workflows and remove manual error prone ones, in an advanced controlled manner. iPaaS also enables more types of personas to integrate applications, removing the constant dependency on software developers. iPaaS can be deployed within an organization either as a SaaS or as on-premises appliance.",
+        "url": "https://www.workato.com",
+        "name": "Workato",
+        "desc": "Workato - An enterprise automation platform that helps organizations work faster and smarter without compromising governance and security."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://www.mulesoft.com/platform/api-management",
+        "name": "MuleSoft",
+        "desc": "MuleSoft - Manage your API lifecycle, quickly design, test, and publish APIs."
+    },
+    {
+        "category": "A Low Code platform which supports full lifecycle API management, including creation, management and monitoring of API endpoints.",
+        "url": "https://docs.workato.com/api-management.html",
+        "name": "Workato API Management",
+        "desc": "Workato API Management - Turn callable recipes into endpoints and organize the endpoints into API collections, making it easier for users to find and consume the endpoints through other recipes or third-party apps, without requiring access to your Workato account."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MscrmTools/XrmToolBox",
+        "name": "XrmToolBox",
+        "desc": "XrmToolBox - An application that gather multiple tools to ease the customization and configuration of Microsoft Dynamics CRM/365/Dataverse/PowerApps."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/rajyraman/Levelup-for-Dynamics-CRM",
+        "name": "Levelup for Dynamics CRM",
+        "desc": "Levelup for Dynamics CRM - Chrome, Edge Chromium and Firefox Extension for Dynamics CRM/365/Power Apps Power users."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/PowerPlatformAF/PowerPlatformAF",
+        "name": "Power Platform Adoption Framework",
+        "desc": "Power Platform Adoption Framework - The framework that enables people to create beautiful and useful things on Power Platform deployed in large, enterprise-grade organizations."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Zerg00s/FlowPowerAppsMigrator",
+        "name": "Flow & Power Apps Migrator",
+        "desc": "Flow & Power Apps Migrator - Converts SharePoint Data sources for the MS Flow and PowerApps to a new tenant of your choice."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/TracyGH/SharePointWorkflowConverter",
+        "name": "SharePoint Workflow Converter",
+        "desc": "SharePoint Workflow Converter - A proof-of-concept C# console application for retrieving legacy 2010 & 2013 custom SharePoint workflow definition files, and creating new Power Automate flows programmatically."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerPlatformConnectors",
+        "name": "Power Platform Connectors",
+        "desc": "Power Platform Connectors - This is a repository for Microsoft Power Automate, Power Apps, and Azure Logic Apps connectors."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/Power-Fx",
+        "name": "Microsoft Power Fx",
+        "desc": "Microsoft Power Fx - Power Fx Low Code programming language."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/custom_connector_docs",
+        "name": "Custom Connector Docs",
+        "desc": "Custom Connector Docs - Source files for Workato custom connector documentation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerfx-samples",
+        "name": "Power Fx Samples",
+        "desc": "Power Fx Samples - This repository contains samples for Power Fx Low Code programming language."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/microsoft/PowerApps-Azure-Lab",
+        "name": "Power Apps & Azure Lab",
+        "desc": "Power Apps & Azure Lab - Repository to host the PowerApps Azure Lab."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals",
+        "name": "PL-900: Power Platform Fundamentals",
+        "desc": "PL-900: Power Platform Fundamentals - Power Platform Fundamentals course materials."
+    },
+    {
+        "category": "Workato",
+        "url": "https://github.com/workato/full-embed-sample",
+        "name": "Embedding Guide",
+        "desc": "Embedding Guide - A guided example on how to use Workato embedded."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerapps-samples",
+        "name": "Power Apps Samples",
+        "desc": "Power Apps Samples - Contains curated community Microsoft Power App samples."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Eickhel/PowerApps-samples",
+        "name": "PowerApps Samples",
+        "desc": "PowerApps Samples - Power Apps samples by Power Nimbus."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/iAmManCat/PowerApps-Branding-Template",
+        "name": "Power Apps Branding Template",
+        "desc": "Power Apps Branding Template - A template to empower developers and reduce time wasted on control changes."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/sp-power-platform-solutions",
+        "name": "SharePoint Power Platform Solutions",
+        "desc": "SharePoint Power Platform Solutions - Sample PowerApps solutions designed to be used in SharePoint context."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/pnp/powerautomate-samples",
+        "name": "Power Automate Samples",
+        "desc": "Power Automate Samples - Contains curated community samples for Microsoft Power Automate."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/wortell/PowerAutomate-AutomatischeReistijd",
+        "name": "Automatic travel time",
+        "desc": "Automatic travel time - Automatic travel time in your Office 365 calendar."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ericsche/MCinTeams",
+        "name": "Message Center in Teams",
+        "desc": "Message Center in Teams - Message Center in Teams is a simple PowerAutomate Solution to gather Message Center Announcement and post them in a Teams Channel."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/ferrybouwman/Power-BI-Read-Only-REST-API",
+        "name": "Consume Power BI",
+        "desc": "Consume Power BI - Solution based on either Powershell or Power Automate (Flow) to consume the recently released Power BI Asynchronous Unified Scanning API."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/vaibhav21791/PostListItemToTwitter",
+        "name": "Post List Item To Twitter",
+        "desc": "Post List Item To Twitter - A Microsoft Power Automate Flow to Post a SharePoint List Item to Twitter along with media content."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/solutions",
+        "name": "Solution Marketplace",
+        "desc": "Solution Marketplace - A curated list of ready-to-use solutions built by Workato and vendors."
+    },
+    {
+        "category": "Workato",
+        "url": "https://support.workato.com/en/support/solutions",
+        "name": "Support History",
+        "desc": "Support History - A public repository of resolved support tickets to help tackle issues."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1",
+        "name": "Microsoft Power Apps Official Community",
+        "desc": "Microsoft Power Apps Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity",
+        "name": "Microsoft Power Automate Official Community",
+        "desc": "Microsoft Power Automate Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powerusers.microsoft.com/t5/Power-Virtual-Agents-Community/ct-p/PVACommunity",
+        "name": "Microsoft Power Virtual Agents Official Community",
+        "desc": "Microsoft Power Virtual Agents Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://community.powerbi.com/",
+        "name": "Microsoft Power BI Official Community",
+        "desc": "Microsoft Power BI Official Community"
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://powp.co/",
+        "name": "PowP.Co Discord Community",
+        "desc": "PowP.Co Discord Community - A Discord community of Power Platform enthusiasts."
+    },
+    {
+        "category": "Workato",
+        "url": "https://community.workato.com/",
+        "name": "Workato Communities",
+        "desc": "Workato Communities - The official Workato communities website."
+    },
+    {
+        "category": "Workato",
+        "url": "https://systematic.workato.com/",
+        "name": "Systematic",
+        "desc": "Systematic - The only community for business systems."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://zenity.io/blog",
+        "name": "Zenity",
+        "desc": "Zenity - Low Code security and governance."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://www.darkreading.com/edge-articles/addressing-the-low-code-security-elephant-in-the-room",
+        "name": "Addressing the Low Code Security Elephant in the Room",
+        "desc": "Addressing the Low Code Security Elephant in the Room - The shared responsibility model for Low Code applications."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://blog.powp.co/",
+        "name": "PowPco",
+        "desc": "PowPco - Single-stop community for everything Power Platform Community related."
+    },
+    {
+        "category": "Workato",
+        "url": "https://www.workato.com/the-connector/",
+        "name": "The Connector",
+        "desc": "The Connector - Workato blog on Business Automation."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/Power-Maverick/awesome-power-platform",
+        "name": "Awesome Microsoft Power Platform",
+        "desc": "Awesome Microsoft Power Platform - A collection of awesome things regarding the Power Platform ecosystem."
+    },
+    {
+        "category": "Power Platform (Microsoft)",
+        "url": "https://github.com/valentin-vogel/awesome-nocode-lowcode",
+        "name": "Awesome No Code Low Code",
+        "desc": "Awesome No Code Low Code - A collection of awesome No Code and Low Code resources."
+    }
+]

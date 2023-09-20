@@ -23,6 +23,20 @@
             <artifactId>fluent-pm</artifactId>
             <version>${fluent.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>io.fluentqa</groupId>
+            <artifactId>fluent-builtin</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.fluentqa</groupId>
+            <artifactId>fluentqa-table</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.fluentqa</groupId>
+            <artifactId>fluentqa-mindmap</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
     </dependencies>
 </project>

@@ -1,10 +1,8 @@
 package io.fluentqa.tc.model;
 
+
 import io.fluentqa.erupts.base.handlers.SqlTagFetchHandler;
-import io.fluentqa.erupts.base.model.ModelWithValidFlagVo;
-import io.fluentqa.pm.product.model.Product;
 import io.fluentqa.pm.product.model.ProductModuleValidFlagVo;
-import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.sub_erupt.LinkTree;
@@ -13,39 +11,22 @@ import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
 import xyz.erupt.annotation.sub_field.sub_edit.CodeEditorType;
-import xyz.erupt.annotation.sub_field.sub_edit.ReferenceTreeType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
 import xyz.erupt.annotation.sub_field.sub_edit.TagsType;
 
 import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
  *
  */
-@Data
 @Entity
 @Erupt(name = "测试用例",
         power = @Power(export = true),
         orderBy = "TestCase.updateTime desc",
         linkTree = @LinkTree(field = "product"))
 @Table(name = "test_cases")
-public class TestCase extends ModelWithValidFlagVo {
-    @ManyToOne
-    @JoinColumn(name = "product_id")
-    @EruptField(
-            views = @View(title = "产品名称",column = "name"),
-            edit = @Edit(
-                    search = @Search,
-                    title = "产品选择",
-                    type = EditType.REFERENCE_TREE,
-                    desc = "动态获取产品",
-                    referenceTreeType = @ReferenceTreeType(
-                            pid = "parent.id"))
-    )
-    private Product product;
+public class TestCase extends ProductModuleValidFlagVo {
 
     @EruptField(
             views = @View(
@@ -53,13 +34,8 @@ public class TestCase extends ModelWithValidFlagVo {
             ),
             edit = @Edit(
                     title = "功能点",
-                    type = EditType.TAGS, search = @Search(vague = true), notNull = true,
-                    tagsType = @TagsType(
-                            fetchHandler = SqlTagFetchHandler.class,
-                            fetchHandlerParams = "select distinct feature from test_cases where valid=true"
-                    )
+                    type = EditType.INPUT, search = @Search, notNull = true
             )
-
     )
     private String feature;
     @EruptField(
@@ -79,20 +55,16 @@ public class TestCase extends ModelWithValidFlagVo {
             ),
             edit = @Edit(
                     title = "用例优先级",
-                    type = EditType.INPUT, search = @Search, notNull = true
+                    type = EditType.TAGS,
+                    tagsType = @TagsType(
+                            fetchHandler = SqlTagFetchHandler.class,
+                            fetchHandlerParams = "select distinct priority from  test_cases"
+                    )
             )
     )
-    private String priority = "P2"; //check it
-    @EruptField(
-            views = @View(
-                    title = "用例前提条件"
-            ),
-            edit = @Edit(
-                    title = "用例前提条件",
-                    type = EditType.INPUT, search = @Search, notNull = true
-            )
-    )
-    private String precondition;
+    private String priority = "P2";
+
+
     @EruptField(
             views = @View(
                     title = "测试步骤"
@@ -110,9 +82,83 @@ public class TestCase extends ModelWithValidFlagVo {
             ),
             edit = @Edit(
                     title = "用例期望结果",
-                    type = EditType.CODE_EDITOR, notNull = true,
+                    type = EditType.CODE_EDITOR,
                     codeEditType = @CodeEditorType(language = "text")
             )
     )
     private String expectedResult;
+
+    @EruptField(
+            views = @View(
+                    title = "用例ID"
+            )
+    )
+    private String uuid;
+    @EruptField(
+            views = @View(
+                    title = "用例前提条件"
+            ),
+            edit = @Edit(
+                    title = "用例前提条件",
+                    type = EditType.CODE_EDITOR,
+                    codeEditType = @CodeEditorType(language = "text")
+            )
+    )
+    private String precondition;
+
+    public String getFeature() {
+        return feature;
+    }
+
+    public void setFeature(String feature) {
+        this.feature = feature;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+
+    public void setPriority(String priority) {
+        this.priority = priority;
+    }
+
+    public String getSteps() {
+        return steps;
+    }
+
+    public void setSteps(String steps) {
+        this.steps = steps;
+    }
+
+    public String getExpectedResult() {
+        return expectedResult;
+    }
+
+    public void setExpectedResult(String expectedResult) {
+        this.expectedResult = expectedResult;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
+    public String getPrecondition() {
+        return precondition;
+    }
+
+    public void setPrecondition(String precondition) {
+        this.precondition = precondition;
+    }
 }
