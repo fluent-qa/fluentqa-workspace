@@ -1,6 +1,12 @@
 erupt-app:
-  # 登录失败几次，需要验证码
+  # 是否开启水印，1.12.0 及以上版本支持
+  waterMark: false
+  # 登录失败几次出现验证码，值为0时表示一直需要登录验证码
   verifyCodeCount: 2
+  # 登录密码是否加密传输，特殊场景如：LDAP登录可关闭该功能获取密码明文
+  pwdTransferEncrypt: true
+  # 多语言配置，默认支持：简体中文、繁体中文、英文、日文；具体配置详见erupt-i18n模块
+  locales: [ "zh-CN","zh-TW","en-US","ja-JP" ]
 erupt:
   # 是否开启csrf防御
   csrfInspect: true

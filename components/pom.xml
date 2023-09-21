@@ -16,5 +16,6 @@
         <module>fluent-builtin</module>
         <module>fluent-code</module>
         <module>fluent-basemodel</module>
+        <module>fluent-ext</module>
     </modules>
 </project>

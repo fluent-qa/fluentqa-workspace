@@ -41,7 +41,11 @@
             <version>2.21.0</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.0</version>
+        </dependency>
 
         <!--        <dependency>-->
 <!--            <groupId>org.eclipse.collections</groupId>-->

@@ -1,0 +1,776 @@
+[
+    {
+        "category": "Table of Contents",
+        "url": "#awesome-low-code",
+        "name": "Awesome low-code!",
+        "desc": "Awesome low-code!"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#license",
+        "name": "License",
+        "desc": "License"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#table-of-contents",
+        "name": "Table of Contents",
+        "desc": "Table of Contents Automation Educational Flow-based programming Infrastructure Machine Learning Marketing Online database creator apps Visual programming Misc"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#automation",
+        "name": "Automation",
+        "desc": "Automation"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#educational",
+        "name": "Educational",
+        "desc": "Educational"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#flow-based-programming",
+        "name": "Flow-based programming",
+        "desc": "Flow-based programming"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#infrastructure",
+        "name": "Infrastructure",
+        "desc": "Infrastructure"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#machine-learning",
+        "name": "Machine Learning",
+        "desc": "Machine Learning"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#marketing",
+        "name": "Marketing",
+        "desc": "Marketing"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#online-database-creator-apps",
+        "name": "Online database creator apps",
+        "desc": "Online database creator apps"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#visual-programming",
+        "name": "Visual programming",
+        "desc": "Visual programming"
+    },
+    {
+        "category": "Table of Contents",
+        "url": "#misc",
+        "name": "Misc",
+        "desc": "Misc"
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.appian.com/",
+        "name": "Appian",
+        "desc": "Appian - Discover the power of low-code automation."
+    },
+    {
+        "category": "Automation",
+        "url": "https://automate.io",
+        "name": "Automate.io",
+        "desc": "Automate.io - Connect your cloud apps."
+    },
+    {
+        "category": "Automation",
+        "url": "https://axiom.ai/",
+        "name": "Axiom",
+        "desc": "Axiom - Browser automation. Quickly, without code."
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.blinkops.com",
+        "name": "Blink",
+        "desc": "Blink - No-code automation for CloudOps."
+    },
+    {
+        "category": "Automation",
+        "url": "https://camunda.com/",
+        "name": "Camunda",
+        "desc": "Camunda - Automate Any Process, Anywhere."
+    },
+    {
+        "category": "Automation",
+        "url": "https://datafetcher.com/",
+        "name": "Data Fetcher for Airtable",
+        "desc": "Data Fetcher for Airtable - Connect Airtable to any API using the Data Fetcher app."
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.make.com",
+        "name": "Make",
+        "desc": "Make - Make lets you design, build, and automate anything from tasks and workflows to apps and systems."
+    },
+    {
+        "category": "Automation",
+        "url": "https://onesimpleapi.com/",
+        "name": "OneSimpleAPI",
+        "desc": "OneSimpleAPI - A toolbox with all the things you need to get your no-code project to success: PDF generation, Currency Exchange, QR codes, Screenshots, and more."
+    },
+    {
+        "category": "Automation",
+        "url": "https://phantombuster.com/",
+        "name": "Phantombuster",
+        "desc": "Phantombuster - Code free automations and data extraction."
+    },
+    {
+        "category": "Automation",
+        "url": "https://reflect.run/",
+        "name": "Reflect",
+        "desc": "Reflect - Automated regression tests without a line of code."
+    },
+    {
+        "category": "Automation",
+        "url": "https://stackby.com/",
+        "name": "Stackby",
+        "desc": "Stackby - Automate workflows, build custom tools, collaborate with your team."
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.tines.com/",
+        "name": "tines",
+        "desc": "tines - No-code automation for security teams."
+    },
+    {
+        "category": "Automation",
+        "url": "https://www.uipath.com/",
+        "name": "Uipath",
+        "desc": "Uipath - We make robots so people don’t have to be robots."
+    },
+    {
+        "category": "Educational",
+        "url": "https://www.youtube.com/channel/UCXv_CS0DaUVS25tFGkRALoA",
+        "name": "Doc Willianms",
+        "desc": "Doc Willianms - No Code tutorials."
+    },
+    {
+        "category": "Educational",
+        "url": "https://www.makerpad.co/",
+        "name": "Markerpad",
+        "desc": "Markerpad - Join thousands learning to build software. No coding required."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://aws.amazon.com/appflow/",
+        "name": "AppFlow",
+        "desc": "AppFlow - Securely integrate apps and automate data flows at any scale, without code."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://www.bravostudio.app/",
+        "name": "Bravo Studio",
+        "desc": "Bravo Studio - Bravo’s powerful no-code approach to mobile app development."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://funnel.io/",
+        "name": "Funnel",
+        "desc": "Funnel - All your marketing and advertising data where you want it."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://hookdeck.com/",
+        "name": "Hookdeck",
+        "desc": "Hookdeck - Never miss a webhook."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://ifttt.com/",
+        "name": "Ifttt",
+        "desc": "Ifttt - Helps your apps and devices work together in new ways."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://www.impira.com/",
+        "name": "Impira",
+        "desc": "Impira - Grab data from any document in seconds with Impira’s no-code platform powered by machine learning."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://joonbot.com/",
+        "name": "joonbot",
+        "desc": "joonbot - Make a chatbot in minutes with our intuitive no-code chatbot builder."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://kissflow.com",
+        "name": "Kissflow",
+        "desc": "Kissflow - The full spectrum of work on one platform."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://www.memberstack.com/",
+        "name": "Memberstack",
+        "desc": "Memberstack - Authentication & payments for companies who love Webflow, Stripe, & React."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://n8n.io/",
+        "name": "n8n.io",
+        "desc": "n8n.io - Extendable workflow automation."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://nodered.org/",
+        "name": "Node-RED",
+        "desc": "Node-RED - A programming tool for wiring together hardware devices, APIs and online services in new and interesting ways."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://parabola.io/",
+        "name": "Parabola",
+        "desc": "Parabola - Hand off your routine data tasks by describing them in Parabola. Build once, reuse infinitely."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://pipedream.com/",
+        "name": "Pipedream",
+        "desc": "Pipedream - Connect APIs, remarkably fast with no code. And with code-level control when you need it."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://getrunnable.com/",
+        "name": "Runnable",
+        "desc": "Runnable - A low-code framework for building user-facing internal workflows."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://stately.ai/",
+        "name": "Stately",
+        "desc": "Stately - The ideal state of visual application logic."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://structr.com",
+        "name": "Structr",
+        "desc": "Structr - The visualization of the data and program structures as a graph accelerates the development and makes the results easily comprehensible for everyone at any time."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://wayscript.com",
+        "name": "Wayscript",
+        "desc": "Wayscript - A rapid scripting platform for developers."
+    },
+    {
+        "category": "Flow-based programming",
+        "url": "https://zapier.com",
+        "name": "Zapier",
+        "desc": "Zapier - Connect your apps and automate workflows."
+    },
+    {
+        "category": "Infrastructure",
+        "url": "https://www.harpoon.io/",
+        "name": "harpoon",
+        "desc": "harpoon - Deploy software with No Code Kubernetes."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://accern.com",
+        "name": "Accern",
+        "desc": "Accern - Accelerate AI Workflows for Financial Services."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://flow.microsoft.com/en-us/ai-builder/",
+        "name": "AI Builder",
+        "desc": "AI Builder - Bring intelligent automation to your business processes with AI that’s easy to train and configure in Power Automate."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.alteryx.com/products/alteryx-platform/machine-learning",
+        "name": "Alteryx",
+        "desc": "Alteryx - Scale data science across your business with automated machine learning (AutoML)."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.dataiku.com/product/key-capabilities/machine-learning",
+        "name": "Dataiku",
+        "desc": "Dataiku - Build advanced machine learning models using the latest techniques."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.datarobot.com/platform/visual-ai/",
+        "name": "DataRobot",
+        "desc": "DataRobot - DataRobot Automated Machine Learning with Visual AI."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.gravity-ai.com/",
+        "name": "Gravity-AI",
+        "desc": "Gravity-AI - The fastest & most secure way to solve business problems with A.I."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.h2o.ai/",
+        "name": "h2o",
+        "desc": "h2o - Get free, hands-on experience with the H2O AI Hybrid Cloud."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.jasper.ai/",
+        "name": "Jasper",
+        "desc": "Jasper - Artificial intelligence makes it fast & easy to create content for your blog, social media, website, and more!"
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.knime.com/knime-analytics-platform",
+        "name": "Knime",
+        "desc": "Knime - Creating Data Science."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://rapidminer.com/products/studio/",
+        "name": "RapidMiner",
+        "desc": "RapidMiner - Comprehensive data science platform with visual workflow design and full automation."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://noogata.com/",
+        "name": "Noogata",
+        "desc": "Noogata - AI platform gives companies the impact of data science without the burden of development or the limitations of out-of-the-box solutions."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://aws.amazon.com/sagemaker/",
+        "name": "SaegMaker",
+        "desc": "SaegMaker - Machine learning for every data scientist and developer."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://www.sas.com/en_si/software/machine-learning-cloud.html",
+        "name": "Sas",
+        "desc": "Sas - On-demand programming access to machine learning algorithms in the cloud."
+    },
+    {
+        "category": "Machine Learning",
+        "url": "https://cloud.google.com/vertex-ai",
+        "name": "Vertex-AI",
+        "desc": "Vertex-AI - Build, deploy, and scale machine learning (ML) models faster, with fully managed ML tools for any use case."
+    },
+    {
+        "category": "Marketing",
+        "url": "https://appsumo.com/",
+        "name": "AppSumo",
+        "desc": "AppSumo - Discover, buy, & sell the products you need to grow your business."
+    },
+    {
+        "category": "Marketing",
+        "url": "https://www.bannerbear.com/",
+        "name": "Bannerbear",
+        "desc": "Bannerbear - Auto-generate social media visuals, ecommerce banners, dynamic email images and more with our API and integrations."
+    },
+    {
+        "category": "Marketing",
+        "url": "https://www.klaviyo.com/",
+        "name": "Klaviyo",
+        "desc": "Klaviyo - Ecommerce marketing automation platform."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://airtable.com/",
+        "name": "Airtable",
+        "desc": "Airtable - Part spreadsheet, part database, and entirely flexible, teams use Airtable to organize their work, their way."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://amplication.com/",
+        "name": "Amplication",
+        "desc": "Amplication - Build production-ready Node.js applications without wasting time on repetitive coding."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://baserow.io/",
+        "name": "Baserow",
+        "desc": "Baserow - Open source no-code database and Airtable alternative."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://www.caspio.com/",
+        "name": "Caspio",
+        "desc": "Caspio - Building online database applications without coding."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://www.claris.com/",
+        "name": "Claris",
+        "desc": "Claris - Quickly build custom apps yourself that you can’t find anywhere else."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://coda.io/",
+        "name": "Coda",
+        "desc": "Coda - All-in-one doc."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://hasura.io/",
+        "name": "Hasura",
+        "desc": "Hasura - From your databases to a unified GraphQL API in just one minute."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://nocodb.com/",
+        "name": "NocoDB",
+        "desc": "NocoDB - NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://retool.com/",
+        "name": "Retool",
+        "desc": "Retool - Retool cuts the time it takes to build internal tools in half so you can focus on your customers."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://rows.com/",
+        "name": "Rows",
+        "desc": "Rows - The spreadsheet with superpowers."
+    },
+    {
+        "category": "Online database creator apps",
+        "url": "https://supabase.com/",
+        "name": "Supabase",
+        "desc": "Supabase - The Open SourceFirebase Alternative."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.adalo.com/",
+        "name": "Adalo",
+        "desc": "Adalo - Turn Your Amazing App Concept Into Reality Without Coding!"
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.appbase.io",
+        "name": "Appbase.io",
+        "desc": "Appbase.io - Elasticsearch supercharged."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.appsheet.com/",
+        "name": "AppSheet",
+        "desc": "AppSheet - The fastest way to build apps and automate work."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.appsmith.com/",
+        "name": "Appsmith",
+        "desc": "Appsmith - A powerful open source framework to build internal tools."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://appwrite.io/",
+        "name": "Appwrite",
+        "desc": "Appwrite - Secure Open-Source Backend Server for Web, Mobile & Flutter Developers."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://aws.amazon.com/application-composer/",
+        "name": "AWS Application Composer",
+        "desc": "AWS Application Composer - Visually design and build serverless applications quickly."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.bildr.com",
+        "name": "Bildr",
+        "desc": "Bildr - Open-ended, extensible, collaboration-focused website and web app builder."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.boundlesslabs.com/",
+        "name": "Boundlesslabs",
+        "desc": "Boundlesslabs - Boundless lets you build the web site of your dreams. No code required."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://bubble.io/",
+        "name": "bubble",
+        "desc": "bubble - A code-free programming language that lets you build and host web applications without engineers."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://carrd.co/",
+        "name": "Carrd",
+        "desc": "Carrd - Simple, free, fully responsive one-page sites for pretty much anything."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://cloudscape.design/",
+        "name": "Cloudscape",
+        "desc": "Cloudscape - An open source design system for the cloud."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.dronahq.com",
+        "name": "Dronahq",
+        "desc": "Dronahq - Build business apps without coding."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://heyflow.app/",
+        "name": "Heyflow",
+        "desc": "Heyflow - Build interactive flows."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.glideapps.com/",
+        "name": "Glide",
+        "desc": "Glide - Create an app from a Google Sheet in five minutes, for free."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.growform.co/",
+        "name": "Growform",
+        "desc": "Growform - The Multi Step Form Builder that Gets You More Leads."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.honeycode.aws/",
+        "name": "Honeycode",
+        "desc": "Honeycode - Build a better way to work."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://insomnia.rest",
+        "name": "Insomnia",
+        "desc": "Insomnia - Build APIs that work."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.jotform.com/products/apps/",
+        "name": "Jotform App",
+        "desc": "Jotform App - Create apps for your business."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.mendix.com/",
+        "name": "Mendix",
+        "desc": "Mendix - Accelerate enterprise app development."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.outsystems.com/",
+        "name": "Outsystems",
+        "desc": "Outsystems - Build Applications Fast, Right, and for the Future."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.plasmic.app/",
+        "name": "Plasmic",
+        "desc": "Plasmic - The visual builder for your tech stack."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.potion.so/",
+        "name": "Potion",
+        "desc": "Potion - Create custom websitesin minutes. All on Notion."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://powerapps.microsoft.com",
+        "name": "Power Apps",
+        "desc": "Power Apps - Create the high productivity apps you need for your business with an advanced set of tools."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://quarkly.io",
+        "name": "Quarkly",
+        "desc": "Quarkly - Design tool for creating websites and web apps."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.quickbase.com",
+        "name": "Quickbase",
+        "desc": "Quickbase - Application development platform that unites business and IT teams."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.sanity.io/",
+        "name": "Sanity",
+        "desc": "Sanity - The unified content platform."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.sap.com/products/technology-platform/low-code.html",
+        "name": "SAP Build",
+        "desc": "SAP Build - Create apps, automate processes, and design business sites with drag-and-drop simplicity."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://shuffle.dev/",
+        "name": "Shuffle",
+        "desc": "Shuffle - Create teamplate in minutes."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.softr.io",
+        "name": "Softr",
+        "desc": "Softr - From zero to a website in 5 minutes, using building blocks."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://stacker.app",
+        "name": "Stacker",
+        "desc": "Stacker - Turn your spreadsheets into applications."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://storybook.js.org",
+        "name": "Storybook",
+        "desc": "Storybook - Build component driven UIs faster."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://super.so",
+        "name": "Super",
+        "desc": "Super - Build websites with the simplicity of Notion."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://typedream.com",
+        "name": "Typedream",
+        "desc": "Typedream - The new way to make a website."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://versoly.com/",
+        "name": "Versoly",
+        "desc": "Versoly - The no-code website builder that everyone loves to use."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://webflow.com",
+        "name": "Webflow",
+        "desc": "Webflow - Build better business websites, faster. Without coding."
+    },
+    {
+        "category": "Visual programming",
+        "url": "https://www.wized.io",
+        "name": "Wized",
+        "desc": "Wized - Rapidly build real web applications without coding."
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.algolia.com/",
+        "name": "Algolia",
+        "desc": "Algolia - Flexible Search & Discovery Hosted APIs."
+    },
+    {
+        "category": "Misc",
+        "url": "https://autocode.com",
+        "name": "Autocode",
+        "desc": "Autocode - New user notifications. Purchase alerts. Scheduled jobs. SQL queries."
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.craftar.io",
+        "name": "Craftar",
+        "desc": "Craftar - Build APIs with NoCode at Lightning Speed."
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.doppler.com/",
+        "name": "Doppler",
+        "desc": "Doppler - Sync environment variables at scale."
+    },
+    {
+        "category": "Misc",
+        "url": "https://fibery.io",
+        "name": "Fibery",
+        "desc": "Fibery - Build your own workspace."
+    },
+    {
+        "category": "Misc",
+        "url": "https://getstream.io",
+        "name": "Getstream",
+        "desc": "Getstream - Stream powers Chat Messaging and Activity Feeds for billions of global end-users across thousands of different apps."
+    },
+    {
+        "category": "Misc",
+        "url": "https://linx.software",
+        "name": "Linx",
+        "desc": "Linx - General-purpose low-code platform for building custom backends APIs, automations and integrations"
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.makerpad.co/",
+        "name": "Makerpad",
+        "desc": "Makerpad - Build tools & automate at work without code."
+    },
+    {
+        "category": "Misc",
+        "url": "https://nocodeapi.com/",
+        "name": "NoCodeAPI",
+        "desc": "NoCodeAPI - The easiest way to connect with APIs."
+    },
+    {
+        "category": "Misc",
+        "url": "https://placid.app/",
+        "name": "placeid",
+        "desc": "placeid - Generate your social share images automatically."
+    },
+    {
+        "category": "Misc",
+        "url": "https://saasblocks.io/",
+        "name": "SaaS Blocks",
+        "desc": "SaaS Blocks - Ready-to-use building blocks and APIs to take your SaaS application to the next level"
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.screenshotapi.net/",
+        "name": "Screenshot",
+        "desc": "Screenshot - Programmatic Screenshots of Any Website in Seconds."
+    },
+    {
+        "category": "Misc",
+        "url": "https://shopify.com/",
+        "name": "Shopify",
+        "desc": "Shopify - Build your business."
+    },
+    {
+        "category": "Misc",
+        "url": "https://simplescraper.io/",
+        "name": "Simplescraper",
+        "desc": "Simplescraper - Extract data from any website in seconds."
+    },
+    {
+        "category": "Misc",
+        "url": "https://stripe.com",
+        "name": "Stripe",
+        "desc": "Stripe - The new standard in online payments."
+    },
+    {
+        "category": "Misc",
+        "url": "https://github.com/ToolJet/ToolJet",
+        "name": "ToolJet",
+        "desc": "ToolJet - Low-code framework for building internal tools."
+    },
+    {
+        "category": "Misc",
+        "url": "https://vantiq.com/",
+        "name": "Vantiq",
+        "desc": "Vantiq - The Only Low Code Platform for Real Time Systems."
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.voiceflow.com/",
+        "name": "Voiceflow",
+        "desc": "Voiceflow - Design, prototype and build voice apps."
+    },
+    {
+        "category": "Misc",
+        "url": "https://www.zendesk.com/",
+        "name": "Zendesk",
+        "desc": "Zendesk - Build the best customer experiences."
+    }
+]
