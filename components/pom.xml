@@ -10,13 +10,12 @@
     </parent>
 
     <groupId>io.fluent</groupId>
-    <artifactId>fluent-erupts</artifactId>
+    <artifactId>components</artifactId>
     <packaging>pom</packaging>
+
     <modules>
-        <module>fluent-upload</module>
-        <module>fluent-base</module>
-        <module>fluent-tc</module>
-        <module>fluent-pm</module>
+        <module>fluent-builtin</module>
     </modules>
+
 
 </project>

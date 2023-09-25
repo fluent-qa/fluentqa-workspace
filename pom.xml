@@ -11,6 +11,8 @@
     <modules>
         <module>server</module>
         <module>fluent-erupts</module>
+        <module>components</module>
+        <module>components/fluent-excel</module>
     </modules>
 
     <properties>
@@ -18,6 +20,7 @@
         <fluent.version>1.0-SNAPSHOT</fluent.version>
         <postgresql.version>42.5.1</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <hutool.version>5.8.22</hutool.version>
     </properties>
 
     <dependencies>
@@ -61,6 +64,11 @@
                 <groupId>io.fluent</groupId>
                 <artifactId>fluent-upload</artifactId>
                 <version>${fluent.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
 
         </dependencies>
