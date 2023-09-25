@@ -18,6 +18,11 @@
             <artifactId>fluent-base</artifactId>
             <version>${fluent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-tc</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
 
     </dependencies>
 

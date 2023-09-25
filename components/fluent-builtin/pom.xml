@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>fluent-builtin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${fluent.version}</version>
 
     <dependencies>
         <dependency>

@@ -27,6 +27,12 @@
             <version>${fluent.version}</version>
         </dependency>
         <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-mindmap</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
         </dependency>
