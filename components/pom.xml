@@ -17,6 +17,7 @@
         <module>fluent-builtin</module>
         <module>fluent-mindmap</module>
         <module>fluentqa-md</module>
+        <module>fluent-openapi</module>
     </modules>
 
 
