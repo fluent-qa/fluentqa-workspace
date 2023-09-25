@@ -1,6 +1,6 @@
 package io.fluentqa.pm.product.model;
 
-import io.fluentqa.erupts.base.model.ModelWithValidFlagVo;
+import io.fluentqa.base.model.ModelWithValidFlagVo;
 import lombok.Getter;
 import lombok.Setter;
 import xyz.erupt.annotation.EruptField;
@@ -30,7 +30,7 @@ public class ProductModuleValidFlagVo extends ModelWithValidFlagVo {
                     referenceTreeType = @ReferenceTreeType(id = "id", label = "name",
                             pid = "parent.id"))
     )
-    private Product product;
+    private ProductModel product;
 
     @ManyToOne
     @JoinColumn(name = "module_id")
@@ -42,6 +42,6 @@ public class ProductModuleValidFlagVo extends ModelWithValidFlagVo {
                             dependColumn = "parent.id"
                     ))
     )
-    private Product module;
+    private ProductModel module;
 
 }

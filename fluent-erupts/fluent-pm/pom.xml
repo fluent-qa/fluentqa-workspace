@@ -18,6 +18,5 @@
             <artifactId>fluent-base</artifactId>
             <version>${fluent.version}</version>
         </dependency>
-
     </dependencies>
 </project>

@@ -60,11 +60,19 @@
 
         <dependency>
             <groupId>io.fluent</groupId>
-            <artifactId>fluent-upload</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>fluent-excel</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-mindmap</artifactId>
+            <version>${fluent.version}</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

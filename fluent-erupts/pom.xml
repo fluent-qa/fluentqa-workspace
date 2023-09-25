@@ -13,7 +13,6 @@
     <artifactId>fluent-erupts</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>fluent-upload</module>
         <module>fluent-base</module>
         <module>fluent-tc</module>
         <module>fluent-pm</module>
