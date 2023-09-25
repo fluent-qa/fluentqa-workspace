@@ -10,11 +10,11 @@ import xyz.erupt.annotation.sub_erupt.Power;
 import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
-import xyz.erupt.annotation.sub_field.sub_edit.CodeEditorType;
-import xyz.erupt.annotation.sub_field.sub_edit.Search;
-import xyz.erupt.annotation.sub_field.sub_edit.TagsType;
+import xyz.erupt.annotation.sub_field.sub_edit.*;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 
 /**
@@ -34,7 +34,7 @@ public class TestCase extends ProductModuleValidFlagVo {
             ),
             edit = @Edit(
                     title = "功能点",
-                    type = EditType.INPUT, search = @Search, notNull = true
+                    type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType(fullSpan = true)
             )
     )
     private String feature;
@@ -44,7 +44,7 @@ public class TestCase extends ProductModuleValidFlagVo {
             ),
             edit = @Edit(
                     title = "用例描述",
-                    type = EditType.INPUT, notNull = true
+                    type = EditType.INPUT, notNull = true,inputType = @InputType(fullSpan = true)
             )
     )
     private String summary;
@@ -64,6 +64,17 @@ public class TestCase extends ProductModuleValidFlagVo {
     )
     private String priority = "P2";
 
+    @EruptField(
+            views = @View(
+                    title = "用例前提条件"
+            ),
+            edit = @Edit(
+                    title = "用例前提条件",
+                    type = EditType.HTML_EDITOR,
+                    htmlEditorType = @HtmlEditorType(HtmlEditorType.Type.UEDITOR)
+            )
+    )
+    private String precondition;
 
     @EruptField(
             views = @View(
@@ -71,8 +82,8 @@ public class TestCase extends ProductModuleValidFlagVo {
             ),
             edit = @Edit(
                     title = "测试步骤",
-                    type = EditType.CODE_EDITOR, notNull = true,
-                    codeEditType = @CodeEditorType(language = "text")
+                    type = EditType.HTML_EDITOR,
+                    htmlEditorType = @HtmlEditorType(HtmlEditorType.Type.UEDITOR)
             )
     )
     private String steps;
@@ -82,8 +93,8 @@ public class TestCase extends ProductModuleValidFlagVo {
             ),
             edit = @Edit(
                     title = "用例期望结果",
-                    type = EditType.CODE_EDITOR,
-                    codeEditType = @CodeEditorType(language = "text")
+                    type = EditType.HTML_EDITOR,
+                    htmlEditorType = @HtmlEditorType(HtmlEditorType.Type.UEDITOR)
             )
     )
     private String expectedResult;
@@ -94,17 +105,7 @@ public class TestCase extends ProductModuleValidFlagVo {
             )
     )
     private String uuid;
-    @EruptField(
-            views = @View(
-                    title = "用例前提条件"
-            ),
-            edit = @Edit(
-                    title = "用例前提条件",
-                    type = EditType.CODE_EDITOR,
-                    codeEditType = @CodeEditorType(language = "text")
-            )
-    )
-    private String precondition;
+
 
     public String getFeature() {
         return feature;
