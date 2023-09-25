@@ -10,18 +10,15 @@
     </parent>
 
     <artifactId>fluent-upload</artifactId>
+    <version>${fluent.version}</version>
 
     <dependencies>
         <dependency>
-            <groupId>xyz.erupt</groupId>
-            <artifactId>erupt-jpa</artifactId>
-            <version>${erupt.version}</version>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-base</artifactId>
+            <version>${fluent.version}</version>
         </dependency>
-        <dependency>
-            <groupId>xyz.erupt</groupId>
-            <artifactId>erupt-toolkit</artifactId>
-            <version>${erupt.version}</version>
-        </dependency>
+
     </dependencies>
 
 </project>

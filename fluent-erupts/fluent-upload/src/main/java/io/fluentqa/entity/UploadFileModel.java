@@ -16,7 +16,7 @@ import xyz.erupt.toolkit.handler.SqlChoiceFetchHandler;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Erupt(name = "测试相关文件上传同步", orderBy = "SyncFileEntity.createTime desc")
+@Erupt(name = "测试相关文件上传同步", orderBy = "UploadFileModel.createTime desc")
 @Table(name = "uploaded_files")
 @Entity
 @Data
@@ -32,7 +32,7 @@ public class UploadFileModel extends MetaModel {
                     notNull = true,
                     choiceType = @ChoiceType(
                             fetchHandler = SqlChoiceFetchHandler.class,
-                            fetchHandlerParams = "select distinct key,name from master_data where category_code='UPLOAD_FILE_USAGE' and valid=true"
+                            fetchHandlerParams = "select distinct code,name from master_data where category='UPLOAD_FILE_USAGE' and valid=true"
                     ))
     )
     private String usage;

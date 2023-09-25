@@ -10,11 +10,18 @@
     </parent>
 
     <artifactId>fluent-base</artifactId>
-
-    <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <version>${fluent.version}</version>
+    <dependencies>
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-jpa</artifactId>
+            <version>${erupt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-toolkit</artifactId>
+            <version>${erupt.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
