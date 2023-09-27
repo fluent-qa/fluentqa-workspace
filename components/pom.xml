@@ -18,6 +18,7 @@
         <module>fluent-mindmap</module>
         <module>fluentqa-md</module>
         <module>fluent-openapi</module>
+        <module>fluent-plugins</module>
     </modules>
 
 
