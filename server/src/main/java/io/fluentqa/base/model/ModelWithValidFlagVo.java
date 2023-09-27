@@ -16,7 +16,6 @@ import xyz.erupt.jpa.model.MetaModelVo;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-@Data
 @DynamicUpdate
 @DynamicInsert
 @Where(clause = "valid=true")
@@ -34,4 +33,11 @@ public class ModelWithValidFlagVo extends MetaModelVo {
     )
     private Boolean valid = true;
 
+    public Boolean getValid() {
+        return valid;
+    }
+
+    public void setValid(Boolean valid) {
+        this.valid = valid;
+    }
 }

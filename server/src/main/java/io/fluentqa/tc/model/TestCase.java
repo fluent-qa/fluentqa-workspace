@@ -12,9 +12,7 @@ import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
 import xyz.erupt.annotation.sub_field.sub_edit.*;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Lob;
 import javax.persistence.Table;
 
 /**
@@ -27,6 +25,12 @@ import javax.persistence.Table;
         linkTree = @LinkTree(field = "product"))
 @Table(name = "test_cases")
 public class TestCase extends ProductModuleValidFlagVo {
+    @EruptField(
+            views = @View(
+                    title = "用例ID"
+            )
+    )
+    private String uuid;
 
     @EruptField(
             views = @View(
@@ -44,7 +48,7 @@ public class TestCase extends ProductModuleValidFlagVo {
             ),
             edit = @Edit(
                     title = "用例描述",
-                    type = EditType.INPUT, notNull = true,inputType = @InputType(fullSpan = true)
+                    type = EditType.INPUT, notNull = true, inputType = @InputType(fullSpan = true)
             )
     )
     private String summary;
@@ -98,13 +102,6 @@ public class TestCase extends ProductModuleValidFlagVo {
             )
     )
     private String expectedResult;
-
-    @EruptField(
-            views = @View(
-                    title = "用例ID"
-            )
-    )
-    private String uuid;
 
 
     public String getFeature() {
