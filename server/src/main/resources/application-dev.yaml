@@ -23,7 +23,7 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://127.0.0.1:5432/qa_workspace
+    url: jdbc:postgresql://127.0.0.1:7432/qa_workspace
     username: postgres
     password: changeit
   jpa:
@@ -56,21 +56,21 @@ springdoc:
   group-configs:
     - group: 'default'
       paths-to-match: '/**'
-      packages-to-scan: com.xiaominfo.knife4j.demo.web
+      packages-to-scan: io.fluentqa
 # knife4j的增强配置，不需要增强可以不配
 knife4j:
   enable: true
   openapi:
-    title: Knife4j官方文档
-    description: "`我是测试`,**你知道吗**
-    # aaa"
-    email: xiaoymin@foxmail.com
-    concat: 八一菜刀
-    url: https://docs.xiaominfo.com
-    version: v4.0
-    license: Apache 2.0
-    license-url: https://stackoverflow.com/
-    terms-of-service-url: https://stackoverflow.com/
+    title: QA Workspace API
+    description: "`QA Workspace API
+    # workspace"
+    email: fluentqa@163.com
+#    concat: 八一菜刀
+#    url: https://docs.xiaominfo.com
+#    version: v4.0
+#    license: Apache 2.0
+#    license-url: https://stackoverflow.com/
+#    terms-of-service-url: https://stackoverflow.com/
     group:
       test1:
         group-name: 分组名称
@@ -88,6 +88,6 @@ server:
     includeStacktrace: ALWAYS
     includeMessage: ALWAYS
   port: 9090
-logging:
-  level:
-    root: debug
+#logging:
+#  level:
+#    root: debug

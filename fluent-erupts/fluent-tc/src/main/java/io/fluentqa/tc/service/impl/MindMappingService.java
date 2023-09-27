@@ -4,9 +4,9 @@ package io.fluentqa.tc.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
-import io.fluentqa.erupts.base.proxies.AuditDataEnhancerProxy;
+import io.fluentqa.base.proxies.AuditDataEnhancerProxy;
 import io.fluentqa.mindmap.api.MindMapAccessor;
-import io.fluentqa.pm.product.model.Product;
+import io.fluentqa.pm.product.model.ProductModel;
 import io.fluentqa.tc.dto.TestCaseDTO;
 import io.fluentqa.tc.model.TestCase;
 import io.fluentqa.tc.repo.TestCaseRepo;
@@ -38,8 +38,8 @@ public class MindMappingService {
     @Transactional
     public void saveTestCases(String xmlFilePath, MetaModel model) {
         List<TestCaseDTO> testCaseModels = toTestCaseModel(xmlFilePath);
-        Product product = BeanUtil.getProperty(model, "product");
-        Product module = BeanUtil.getProperty(model, "module");
+        ProductModel product = BeanUtil.getProperty(model, "product");
+        ProductModel module = BeanUtil.getProperty(model, "module");
 
         List<TestCase> testCaseEntities = testCaseModels.stream().map(testCaseModel -> {
 

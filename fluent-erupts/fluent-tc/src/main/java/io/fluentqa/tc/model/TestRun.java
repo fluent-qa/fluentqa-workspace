@@ -1,11 +1,11 @@
 package io.fluentqa.tc.model;
 
-import io.fluentqa.pm.product.model.Product;
-import io.fluentqa.tc.handlers.GenerateTestRecordHandler;
+
+import io.fluentqa.pm.product.model.ProductModel;
+//import io.fluentqa.tc.handlers.GenerateTestRecordHandler;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.sub_erupt.Power;
-import xyz.erupt.annotation.sub_erupt.RowOperation;
 import xyz.erupt.annotation.sub_erupt.Tree;
 import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
@@ -25,10 +25,11 @@ import java.util.Set;
 @Table(name = "test_runs")
 @Erupt(name = "测试执行计划",
         power = @Power(importable = true, export = true),
-        tree = @Tree(id = "id", label = "name", pid = "parent.id"),
-        rowOperation = {@RowOperation(
-                title = "生成执行测试用例",
-                operationHandler = GenerateTestRecordHandler.class)})
+        tree = @Tree(id = "id", label = "name", pid = "parent.id")
+//        ,rowOperation = {@RowOperation(
+//                title = "生成执行测试用例",
+//                operationHandler = GenerateTestRecordHandler.class)}
+)
 
 public class TestRun extends MetaModel {
 
@@ -44,7 +45,7 @@ public class TestRun extends MetaModel {
                     referenceTreeType = @ReferenceTreeType(
                             pid = "parent.id"))
     )
-    private Product product;
+    private ProductModel product;
 
     @ManyToOne
     @EruptField(
@@ -94,11 +95,11 @@ public class TestRun extends MetaModel {
     )
     private Set<TestScenario> testScenarios;
 
-    public Product getProduct() {
+    public ProductModel getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(ProductModel product) {
         this.product = product;
     }
 

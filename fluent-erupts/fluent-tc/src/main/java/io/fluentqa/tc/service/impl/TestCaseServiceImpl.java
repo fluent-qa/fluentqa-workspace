@@ -4,8 +4,8 @@ package io.fluentqa.tc.service.impl;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.lang.UUID;
 import cn.hutool.core.util.StrUtil;
-import io.fluentqa.erupts.base.proxies.AuditDataEnhancerProxy;
-import io.fluentqa.pm.product.model.Product;
+import io.fluentqa.base.proxies.AuditDataEnhancerProxy;
+import io.fluentqa.pm.product.model.ProductModel;
 import io.fluentqa.pm.product.service.ProductService;
 import io.fluentqa.tc.dto.TestCaseDTO;
 import io.fluentqa.tc.model.TestCase;
@@ -41,7 +41,7 @@ public class TestCaseServiceImpl implements TestCaseService {
      *    A. UUID is found, and update the existing row
      *    B. UUID is not found, create a new row
      */
-    public void saveProductCases(List<TestCaseDTO> cases, Product parentProduct, Product module) {
+    public void saveProductCases(List<TestCaseDTO> cases, ProductModel parentProduct, ProductModel module) {
         for (TestCaseDTO aCase : cases) {
             TestCase tcEntity;
             if(StrUtil.isBlank(aCase.getUuid())) {
@@ -63,7 +63,7 @@ public class TestCaseServiceImpl implements TestCaseService {
             if (StrUtil.isBlank(aCase.getModuleName())) {
                 tcEntity.setModule(module);
             } else {
-                Product newModule = productMetaService.createModuleIfNotExist(parentProduct.getId(), aCase.getModuleName());
+                ProductModel newModule = productMetaService.createModuleIfNotExist(parentProduct.getId(), aCase.getModuleName());
                 tcEntity.setModule(newModule);
             }
             if(tcEntity.getPriority() ==null) {

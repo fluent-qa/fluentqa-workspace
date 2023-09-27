@@ -1,7 +1,7 @@
 package io.fluentqa.tc.model;
 
 
-import io.fluentqa.erupts.base.handlers.SqlTagFetchHandler;
+import io.fluentqa.base.handlers.SqlTagFetchHandler;
 import io.fluentqa.pm.product.model.ProductModuleValidFlagVo;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;

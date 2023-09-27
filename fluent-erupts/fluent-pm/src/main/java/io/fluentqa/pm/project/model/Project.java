@@ -1,8 +1,8 @@
 package io.fluentqa.pm.project.model;
 
 
-import io.fluentqa.erupts.base.model.ModelWithValidFlagVo;
-import io.fluentqa.pm.product.model.Product;
+import io.fluentqa.base.model.ModelWithValidFlagVo;
+import io.fluentqa.pm.product.model.ProductModel;
 import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
@@ -72,7 +72,7 @@ public class Project extends ModelWithValidFlagVo {
                     referenceTreeType = @ReferenceTreeType(pid = "parent.id")
             )
     )
-    private Product productId;
+    private ProductModel productId;
 
     @ManyToOne
     @EruptField(
