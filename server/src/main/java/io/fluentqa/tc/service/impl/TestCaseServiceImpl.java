@@ -11,6 +11,7 @@ import io.fluentqa.tc.dto.TestCaseDTO;
 import io.fluentqa.tc.model.TestCase;
 import io.fluentqa.tc.repo.TestCaseRepo;
 import io.fluentqa.tc.service.TestCaseService;
+import org.apache.commons.math3.stat.descriptive.summary.Product;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
@@ -44,32 +45,34 @@ public class TestCaseServiceImpl implements TestCaseService {
     public void saveProductCases(List<TestCaseDTO> cases, ProductModuleModel parentProduct, ProductModuleModel module) {
         for (TestCaseDTO aCase : cases) {
             TestCase tcEntity;
-            if(StrUtil.isBlank(aCase.getUuid())) {
+            if (StrUtil.isBlank(aCase.getUuid())) {
                 tcEntity = BeanUtil.copyProperties(aCase, TestCase.class);
-                tcEntity.setUuid( UUID.fastUUID().toString(true));
-            }else{
-                tcEntity = testCaseRepo.findTestCaseByUuid(aCase.getUuid());
-                if(tcEntity == null){
+                tcEntity.setUuid(UUID.fastUUID().toString(true));
+            } else {
+                tcEntity = testCaseRepo.findByUuid(aCase.getUuid());
+                if (tcEntity == null) {
                     tcEntity = BeanUtil.copyProperties(aCase, TestCase.class);
-                }else{
-                    BeanUtil.copyProperties(aCase,tcEntity,"id");
+                } else {
+                    BeanUtil.copyProperties(aCase, tcEntity, "id");
                 }
             }
 
             if (StrUtil.isBlank(aCase.getUuid())) {
                 tcEntity.setUuid(UUID.randomUUID().toString());
             }
-            tcEntity.setProduct(parentProduct);
-            if (StrUtil.isBlank(aCase.getModuleName())) {
-                tcEntity.setModule(module);
+            Product subModule;
+            if (module != null) {
+                subModule = productMetaService.createModuleIfNotExist(module.getId(), aCase.getModuleName());
             } else {
-                ProductModuleModel newModule = productMetaService.createModuleIfNotExist(parentProduct.getId(), aCase.getModuleName());
-                tcEntity.setModule(newModule);
+                subModule = productMetaService.createModuleIfNotExist(parentProduct.getId(), aCase.getModuleName());
             }
-            if(tcEntity.getPriority() ==null) {
+            tcEntity.setModule(subModule);
+
+            if (tcEntity.getPriority() == null) {
                 tcEntity.setPriority("P2");
             }
-            tcEntity.setProduct(parentProduct);
+            tcEntity.setSteps(StrUtil.join("\n", aCase.getFeature(),
+                    aCase.getSummary(), aCase.getSteps()));
             auditDataEnhancerProxy.enhanceTimeAndUserAuditData(tcEntity);
             testCaseRepo.save(tcEntity);
         }

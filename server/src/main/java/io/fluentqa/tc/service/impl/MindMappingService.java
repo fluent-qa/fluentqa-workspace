@@ -10,6 +10,7 @@ import io.fluentqa.pm.product.model.ProductModuleModel;
 import io.fluentqa.tc.dto.TestCaseDTO;
 import io.fluentqa.tc.model.TestCase;
 import io.fluentqa.tc.repo.TestCaseRepo;
+import io.fluentqa.tc.service.TestCaseService;
 import org.springframework.stereotype.Service;
 import xyz.erupt.jpa.model.MetaModel;
 
@@ -25,10 +26,9 @@ import java.util.stream.Collectors;
 //TODO: convert to same TestCase Converter
 @Service("mindMappingService")
 public class MindMappingService {
+
     @Resource
-    private TestCaseRepo testCaseRepo;
-    @Resource
-    private AuditDataEnhancerProxy auditDataEnhancerProxy;
+    private TestCaseService testCaseService;
 
     public List<TestCaseDTO> toTestCaseModel(String xmlFilePath) {
         MindMapAccessor accessor = new MindMapAccessor();
@@ -40,18 +40,7 @@ public class MindMappingService {
         List<TestCaseDTO> testCaseModels = toTestCaseModel(xmlFilePath);
         ProductModuleModel product = BeanUtil.getProperty(model, "product");
         ProductModuleModel module = BeanUtil.getProperty(model, "module");
-
-        List<TestCase> testCaseEntities = testCaseModels.stream().map(testCaseModel -> {
-
-            TestCase tc = BeanUtil.copyProperties(testCaseModel, TestCase.class);
-            tc.setProduct(product);
-            tc.setModule(module);
-            tc.setSteps(StrUtil.join("\n", testCaseModel.getFeature(),
-                    testCaseModel.getSummary(), testCaseModel.getSteps()));
-            auditDataEnhancerProxy.enhanceTimeAndUserAuditData(tc);
-            return tc;
-        }).collect(Collectors.toList());
-        testCaseRepo.saveAll(testCaseEntities);
+        testCaseService.saveProductCases(testCaseModels,product,module);
     }
 
 }

@@ -42,10 +42,13 @@ public class XmindTransformer implements MindMapTransformer<Attached> {
     private List<MindMapPath<Attached>> convertToList(String xmindFilePath) {
         XmindRawData rawData = XMindUtil.readXMindFile(xmindFilePath);
         List<JsonRootBean> root = JSONUtil.toList(rawData.getContentJson(), JsonRootBean.class);
-        Attached rootNode = root.get(0).getRootTopic().getChildren().getAttached().get(0);
-        XMindNode xmindNode = new XMindNode(rootNode);
+        List<Attached> attachedNodes = root.get(0).getRootTopic().getChildren().getAttached();
         List<MindMapPath<Attached>> result = new ArrayList<>();
-        populateNodes(List.of(xmindNode), result);
+        for (Attached attachedMindMapPath : attachedNodes) {
+            XMindNode xmindNode = new XMindNode(attachedMindMapPath);
+            populateNodes(List.of(xmindNode), result);
+        }
+
         return result;
     }
 
