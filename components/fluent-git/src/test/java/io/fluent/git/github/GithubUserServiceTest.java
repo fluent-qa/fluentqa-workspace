@@ -46,6 +46,13 @@ public class GithubUserServiceTest {
     }
 
     @Test
+    public void testUserFollowing() throws IOException {
+        var result = github.entry().uri().path("/users/qdriven/following")
+                .back().fetch().as(JsonResponse.class);
+        System.out.println(result);
+    }
+
+    @Test
     public void testSaveGithubRepos(){
         GithubUserService service = new GithubUserService();
         service.saveUserStarredRepo("qdriven");

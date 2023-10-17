@@ -1,0 +1,20 @@
+{
+  "login": "headius",
+  "id": 10135,
+  "node_id": "MDQ6VXNlcjEwMTM1",
+  "avatar_url": "https://avatars.githubusercontent.com/u/10135?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/headius",
+  "html_url": "https://github.com/headius",
+  "followers_url": "https://api.github.com/users/headius/followers",
+  "following_url": "https://api.github.com/users/headius/following{/other_user}",
+  "gists_url": "https://api.github.com/users/headius/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/headius/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/headius/subscriptions",
+  "organizations_url": "https://api.github.com/users/headius/orgs",
+  "repos_url": "https://api.github.com/users/headius/repos",
+  "events_url": "https://api.github.com/users/headius/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/headius/received_events",
+  "type": "User",
+  "site_admin": false
+}
