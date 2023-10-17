@@ -1,9 +1,7 @@
 package io.fluentqa.excel;
 
 
-import io.fluentqa.table.FluentExcelReader;
-import io.fluentqa.table.FluentExcelWriter;
-import io.fluentqa.table.base.TableType;
+
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Order;
@@ -15,23 +13,19 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ExcelUtilsTest {
-
+  ExcelReadWriter readWriter = new ExcelReadWriter();
     List<DemoExcelModel> data = Arrays.asList(new DemoExcelModel("k", 12),
             new DemoExcelModel("y", 10));
 
   @Test
   void testWriteToExcel() throws IOException {
-    File demo= new File("demo.xlsx");
-    FluentExcelWriter.create(TableType.XLSX).withRows(
-      data
-    ).to(demo);
+    readWriter.writeExcel(data,"demo.xlsx",DemoExcelModel.class);
   }
     @Test
     @Order(100)
     void testReadExcel() {
-        List<DemoExcelModel> models =FluentExcelReader.create(DemoExcelModel.class,
-                        new File("demo.xlsx"))
-                .asList();
+        List<DemoExcelModel> models =readWriter.readExcel("demo.xlsx",
+                        DemoExcelModel.class);
         System.out.println(models);
 
     }
