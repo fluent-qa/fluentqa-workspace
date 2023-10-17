@@ -49,7 +49,7 @@ public class TestCaseServiceImpl implements TestCaseService {
                 tcEntity = BeanUtil.copyProperties(aCase, TestCase.class);
                 tcEntity.setUuid(UUID.fastUUID().toString(true));
             } else {
-                tcEntity = testCaseRepo.findByUuid(aCase.getUuid());
+                tcEntity = testCaseRepo.findTestCaseByUuid(aCase.getUuid());
                 if (tcEntity == null) {
                     tcEntity = BeanUtil.copyProperties(aCase, TestCase.class);
                 } else {
@@ -60,7 +60,7 @@ public class TestCaseServiceImpl implements TestCaseService {
             if (StrUtil.isBlank(aCase.getUuid())) {
                 tcEntity.setUuid(UUID.randomUUID().toString());
             }
-            Product subModule;
+            ProductModuleModel subModule;
             if (module != null) {
                 subModule = productMetaService.createModuleIfNotExist(module.getId(), aCase.getModuleName());
             } else {
