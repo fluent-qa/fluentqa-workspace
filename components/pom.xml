@@ -25,6 +25,7 @@
         <module>fluent-quickdao</module>
         <module>fluent-httpclients</module>
         <module>fluent-datafactory</module>
+        <module>fluent-testlibs</module>
     </modules>
 
 
