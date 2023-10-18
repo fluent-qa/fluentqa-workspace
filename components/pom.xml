@@ -24,6 +24,7 @@
         <module>fluent-generator</module>
         <module>fluent-quickdao</module>
         <module>fluent-httpclients</module>
+        <module>fluent-datafactory</module>
     </modules>
 
 
