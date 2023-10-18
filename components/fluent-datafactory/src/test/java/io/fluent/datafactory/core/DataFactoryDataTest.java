@@ -1,7 +1,11 @@
 package io.fluent.datafactory.core;
 
 import io.fluent.datafactory.core.util.DataFactoryDataUtil;
+
 import org.junit.jupiter.api.Test;
+import org.qstd.QuickSqlTestData;
+
+import javax.sql.DataSource;
 
 class DataFactoryDataTest {
 
@@ -12,5 +16,7 @@ class DataFactoryDataTest {
         UserAnnotationNumber userNumber = DataFactoryDataUtil.build(UserAnnotationNumber.class);
         System.out.println(userNumber);
     }
+
+
 
 }
