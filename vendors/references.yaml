@@ -1,0 +1,8 @@
+repos:
+  - https://github.com/spotify/github-java-client.git
+  - https://github.com/cdimascio/dotenv-java.git
+  - https://github.com/jcabi/jcabi-github.git
+  - https://github.com/joelittlejohn/jsonschema2pojo.git
+  - https://github.com/pf4j/pf4j.git
+  - https://github.com/domaframework/doma.git
+
