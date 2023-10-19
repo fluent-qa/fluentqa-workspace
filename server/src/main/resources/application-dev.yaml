@@ -65,7 +65,7 @@ knife4j:
     description: "`QA Workspace API
     # workspace"
     email: fluentqa@163.com
-#    concat: 八一菜刀
+    concat: fluent-qa
 #    url: https://docs.xiaominfo.com
 #    version: v4.0
 #    license: Apache 2.0
@@ -73,7 +73,7 @@ knife4j:
 #    terms-of-service-url: https://stackoverflow.com/
     group:
       test1:
-        group-name: 分组名称
+        group-name: qa workspace api
         api-rule: package
 #        api-rule-resources:
 #          - com.knife4j.demo.new3
