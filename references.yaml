@@ -40,3 +40,37 @@ tutorials:
 product:
   - https://app.qase.io/apps
   - https://testsigma.com/
+  - https://www.kualitee.com/
+  - https://www.techtarget.com/searchsoftwarequality/definition/test-case
+
+testing-tutorial:
+  - https://www.coursera.org/articles/how-to-write-test-cases
+  - https://www.guru99.com/
+  - https://strongqa.com/
+  - https://www.geeksforgeeks.org/difference-between-test-case-and-scenarios/
+  - https://www.leapwork.com/blog/test-case-vs-test-scenario
+  - https://www.lambdatest.com/blog/test-scenario-vs-test-case/
+  - https://smartbear.com/test-management/testing-scripts-cases-scenarios/
+  - https://www.tatvasoft.com/outsourcing/2023/07/test-case-vs-test-scenario.html
+  - https://www.qamadness.com/knowledge-base/test-scenario-definition-purpose-and-how-to-create/
+  - https://www.wetest.net/blog/understanding-the-difference-test-scenario-test-case-707.html
+  - https://blog.testlodge.com/whats-the-difference-between-test-case-and-test-scenario/
+  - https://toolsqa.com/software-testing/test-scenario/
+  - https://www.botplayautomation.com/
+  - https://artoftesting.com/
+  - https://www.browserstack.com/guide/how-to-write-test-cases
+  - https://www.applause.com/blog/what-is-a-test-case-examples-types-format
+
+products:
+  - JIRA
+  - JunoOne
+  - Klaros-Testmanagement
+  - QACoverage
+  - Qase
+  - SPIRATEST by Inflectra
+  - TestFLO for JIRA
+  - Testpad
+  - XQual
+  - Xray
+  - Zephyr Scale
+  - Zephyr Squad
