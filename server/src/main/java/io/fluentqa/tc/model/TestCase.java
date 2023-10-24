@@ -2,6 +2,8 @@ package io.fluentqa.tc.model;
 
 
 import io.fluentqa.base.handlers.SqlTagFetchHandler;
+import io.fluentqa.base.model.ModelWithValidFlagVo;
+import io.fluentqa.pm.product.model.ProductModuleModel;
 import io.fluentqa.pm.product.model.ProductModuleValidFlagVo;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
@@ -13,6 +15,8 @@ import xyz.erupt.annotation.sub_field.View;
 import xyz.erupt.annotation.sub_field.sub_edit.*;
 
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
@@ -22,9 +26,22 @@ import javax.persistence.Table;
 @Erupt(name = "测试用例",
         power = @Power(export = true),
         orderBy = "TestCase.updateTime desc",
-        linkTree = @LinkTree(field = "product"))
+        linkTree = @LinkTree(field = "module"))
 @Table(name = "test_cases")
-public class TestCase extends ProductModuleValidFlagVo {
+public class TestCase extends ModelWithValidFlagVo {
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    @EruptField(
+            views = @View(title = "产品名称",column = "details"),
+            edit = @Edit(
+                    search = @Search,
+                    title = "产品选择",
+                    type = EditType.REFERENCE_TREE,
+                    desc = "动态获取产品",
+                    referenceTreeType = @ReferenceTreeType(id = "id", label = "name",
+                            pid = "parent.id"))
+    )
+    private ProductModuleModel module;
     @EruptField(
             views = @View(
                     title = "用例ID"
