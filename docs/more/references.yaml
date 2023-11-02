@@ -1,0 +1,8 @@
+java:
+  - category: project-template
+    repos:
+      - https://github.com/jshaptic/java-project-template.git
+
+  - category: integration
+    repos:
+      - https://github.com/rh-messaging/jira-git-report.git

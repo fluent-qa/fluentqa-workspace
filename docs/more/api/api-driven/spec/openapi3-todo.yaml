@@ -1,0 +1,262 @@
+openapi: 3.0.2
+info:
+  title: Todos API
+  description: Documentation of a simple Todos API
+  version: 0.0.2
+servers:
+  - url: 'https://test-api.temp.com'
+    description: Production
+  - url: localhost
+    description: Development server
+tags:
+  - name: todo
+    description: Todo related end-points
+  - name: tag
+    description: Tag related end-points
+  - name: healthcheck
+    description: Tag for internal healthcheck routes
+paths:
+  /v1/todos:
+    get:
+      summary: List all the todos
+      description: List all the todos of the user provided in the query parameters
+      operationId: listTodos
+      tags:
+        - todo
+      parameters:
+        - name: ownerUuid
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully retrieved all the todos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Todo'
+              example:
+                - uuid: 3d780d09-c520-4817-b430-ce849bcc5423
+                  ownerUuid: 535d6711-2ec0-4ba7-9f34-3d13f25de822
+                  title: Groceries
+                  state: ACTIVE
+              examples: {}
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+    post:
+      summary: Create a new todo
+      description: Create a new todo
+      operationId: createTodo
+      tags:
+        - todo
+      requestBody:
+        description: New todo payload
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Todo'
+      responses:
+        '200':
+          description: Successfully created a new todo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todo'
+          links:
+            GetTodoByUuid:
+              $ref: '#/components/links/GetTodoByUuid'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+  '/v1/todos/{todoUuid}':
+    get:
+      summary: Get a todo
+      description: Get a todo by providing its uuid
+      operationId: getTodo
+      tags:
+        - todo
+      parameters:
+        - name: ownerUuid
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: todoUuid
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully retrieved the todo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todo'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          description: Couldn't find the todo with the provided uuid
+        '429':
+          $ref: '#/components/responses/RateLimited'
+    put:
+      summary: Update a todo
+      description: Update a todo by providing its uuid and the updated todo content
+      operationId: updateTodo
+      tags:
+        - todo
+      parameters:
+        - name: ownerUuid
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: todoUuid
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        description: New todo payload
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Todo'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Todo'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+    delete:
+      summary: Delete a todo
+      description: Delete a todo by providing its uuid
+      operationId: deleteTodo
+      tags:
+        - todo
+      parameters:
+        - name: todoUuid
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: ownerUuid
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: hard
+          description: |
+            Defines if the deletion is a "hard" delete (true) or a "soft" delete (false or not present)
+          in: query
+          required: false
+          schema:
+            type: boolean
+      responses:
+        '204':
+          description: Successful response
+        '400':
+          $ref: '#/components/responses/BadRequest'
+  /ready:
+    get:
+      summary: Get the readiness of the service
+      operationId: isReady
+      tags:
+        - healthcheck
+      responses:
+        '200':
+          description: Service is ready
+        '503':
+          description: Service isn't ready yet
+  /healthy:
+    get:
+      summary: Get the healthiness of the service
+      operationId: isHealthy
+      tags:
+        - healthcheck
+      responses:
+        '200':
+          description: Service is healthy
+        '503':
+          description: Service isn't healthy
+components:
+  schemas:
+    Todo:
+      type: object
+      properties:
+        uuid:
+          description: Unique identifier of the todo
+          type: string
+        ownerUuid:
+          description: Unique identifier of the owner of the todo
+          type: string
+        title:
+          description: Title/short summary of the todo
+          type: string
+        state:
+          description: State of the todo
+          type: string
+          enum:
+            - ACTIVE
+            - COMPLETED
+            - DELETED
+        description:
+          description: The lengthy description of this todo
+          type: string
+      required:
+        - uuid
+        - ownerUuid
+        - title
+        - state
+      example:
+        uuid: 3d780d09-c520-4817-b430-ce849bcc5423
+        ownerUuid: 535d6711-2ec0-4ba7-9f34-3d13f25de822
+        title: Groceries
+        state: ACTIVE
+    Error:
+      type: object
+      properties:
+        statusCode:
+          description: Status code of the response
+          type: number
+        error:
+          description: Name of the error
+          type: string
+        message:
+          description: Explanation of the error
+          type: string
+      example:
+        statusCode: 400
+        error: Bad Request
+        message: querystring must have required property 'ownerUuid'
+  responses:
+    BadRequest:
+      description: Request badly formatted
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    RateLimited:
+      description: Too many requests were sent
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+  links:
+    GetTodoByUuid:
+      operationId: getTodo
+      parameters:
+        todoUuid: $response.body#/uuid
+      description: |
+        The `uuid` value returned in the response can be used as the `todoUuid` parameter in `GET /todos/{todoUuid}`.

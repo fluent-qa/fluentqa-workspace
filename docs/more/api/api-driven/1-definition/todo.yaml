@@ -1,0 +1,477 @@
+swagger: '2.0'
+info:
+  description: API providing access to a task management system.
+  version: '1'
+  title: To Do
+basePath: /v1
+tags:
+  - name: tasks
+    description: Retrieve and manage tasks
+  - name: users
+    description: Retrieve and manage users
+  - name: notifications
+    description: Register for notifications
+parameters:
+  taskIdParam:
+    name: taskId
+    in: path
+    description: The identifier of a task
+    required: true
+    type: string
+  skipCountParam:
+    name: skipCount
+    in: query
+    description: The number of items to skip
+    required: false
+    type: integer
+  pageSizeParam:
+    name: pageSize
+    in: query
+    description: The maximum number of items to return in the list
+    required: false
+    type: integer
+paths:
+  /tasks:
+    get:
+      tags:
+        - tasks
+      summary: Retrieve tasks
+      description: Retrieve tasks for the current user
+      operationId: retrieveTasks
+      produces:
+        - application/json
+      parameters: 
+        - $ref: '#/parameters/skipCountParam'
+        - $ref: '#/parameters/pageSizeParam'
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/TaskList'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+    post:
+      tags:
+        - tasks
+      summary: Create task
+      description: Creates a new task owned by the current user
+      operationId: createTask
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: taskBody
+          description: The task details
+          required: true
+          schema:
+            $ref: '#/definitions/Task'
+      responses:
+        '201':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/Task'
+        '400':
+          description: If the task can not be created
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  /tasks/{taskId}:
+    get:
+      tags:
+        - tasks
+      summary: Retrieve a task
+      description: Retrieve details of a specific task
+      operationId: retrieveTask
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters: 
+        - $ref: '#/parameters/taskIdParam'
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/Task'
+        '404':
+          description: If **taskId** does not exist
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+    put:
+      tags:
+        - tasks
+      summary: Update a task
+      description: Updates an existing task
+      operationId: updateTask
+      produces:
+        - application/json
+      parameters:
+        - $ref: '#/parameters/taskIdParam'
+        - in: body
+          name: taskBody
+          description: The task details
+          required: true
+          schema:
+            $ref: '#/definitions/Task'
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/Task'
+        '400':
+          description: If the task can not be updated
+          schema:
+            $ref: '#/definitions/Error'
+        '404':
+          description: If taskId does not exist
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+    delete:
+      tags:
+        - tasks
+      summary: Delete a task
+      description: Deletes an existing task
+      operationId: deleteTask
+      produces:
+        - application/json
+      parameters:
+        - $ref: '#/parameters/taskIdParam'
+      responses:
+        '204':
+          description: Successful response
+        '404':
+          description: If taskId does not exist
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  
+  /tasks/{taskId}/attachments:
+    get:
+      tags:
+        - tasks
+      summary: Retrieve attachments
+      description: Returns a list of attachments for a task
+      operationId: retrieveAttachments
+      produces:
+        - application/json
+      parameters: 
+        - $ref: '#/parameters/taskIdParam'
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/AttachmentList'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+    post:
+      tags:
+        - tasks
+      summary: Add attachment
+      description: Adds a new attachment to the task
+      operationId: addAttachment
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - $ref: '#/parameters/taskIdParam'
+        - in: body
+          name: attachmentBody
+          description: The attachment details
+          required: true
+          schema:
+            $ref: '#/definitions/Attachment'
+      responses:
+        '201':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/Attachment'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  /users:
+    get:
+      tags:
+        - users
+      summary: Retrieve users
+      description: Returns a list of users defined in the system
+      operationId: retrieveUsers
+      produces:
+        - application/json
+      parameters: 
+        - $ref: '#/parameters/skipCountParam'
+        - $ref: '#/parameters/pageSizeParam'
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/UserList'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+    post:
+      tags:
+        - users
+      summary: Create user
+      description: Creates a new user
+      operationId: createUser
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: userBody
+          description: The users details
+          required: true
+          schema:
+            $ref: '#/definitions/User'
+      responses:
+        '201':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/User'
+        '400':
+          description: If the user can not be created
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  /notifications:
+    post:
+      tags:
+        - notifications
+      summary: Register webhook
+      description: Registers a webhook callback with the system
+      operationId: registerNotification
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: notificationBody
+          description: The webhook details
+          required: true
+          schema:
+            $ref: '#/definitions/Notification'
+      responses:
+        '201':
+          description: Successful response
+          schema:
+            $ref: '#/definitions/Notification'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+definitions:
+  Error:
+    type: object
+    required:
+      - statusCode
+      - message
+      - messageKey
+    properties:
+      id:
+        type: string
+        description: Unique identifier of the error, can be used to look up the error in the logs
+      statusCode:
+        type: string
+        description: The HTTP status code
+      message:
+        type: string
+        description: The error message
+      messageKey:
+        type: string
+        description: The key of the message, can be used for localising the error message
+    description: Error response
+    
+  Paging:
+    type: object
+    required:
+      - count
+      - hasMore
+      - pageSize
+      - skipCount
+    properties:
+      count:
+        type: integer
+        format: int32
+        description: The number of items returned
+      hasMore:
+        type: boolean
+        default: false
+      pageSize:
+        type: integer
+        format: int32
+        description: The requested maximum number of items to return
+      skipCount:
+        type: integer
+        format: int32
+        description: The requested number of items to skip
+      totalItems:
+        type: integer
+        format: int32
+        description: If present, indicated the total number of items there are in the system
+    description: Pagination information
+  
+  TaskList:
+    type: object
+    required:
+      - pagination
+      - data
+    properties:
+      pagination:
+        $ref: '#/definitions/Paging'
+      data:
+        type: array
+        items:
+          $ref: '#/definitions/Task'
+    description: List of tasks
+  
+  Task:
+    type: object
+    required:
+      - id
+      - owner
+      - state
+      - title
+    properties:
+      id:
+        type: string
+        description: Unique identifier
+        readOnly: true
+      title:
+        type: string
+        description: The title of the task
+      description:
+        type: string
+        description: Description of the task
+      dueDate:
+        type: string
+        format: date-time
+        description: The date the task is due to be done by
+      owner:
+        type: string
+        description: The id of the owner of the task
+      state:
+        type: string
+        description: The state of the task
+      tags:
+        type: array
+        description: List of tags
+        items:
+          type: string
+    description: A task
+  
+  UserList:
+    type: object
+    required:
+      - pagination
+      - data
+    properties:
+      pagination:
+        $ref: '#/definitions/Paging'
+      data:
+        type: array
+        items:
+          $ref: '#/definitions/User'
+    description: List of users
+  
+  User:
+    type: object
+    required:
+      - id
+      - firstName
+      - email
+    properties:
+      id:
+        type: string
+        description: Unique identifier for the user
+        readOnly: true
+      firstName:
+        type: string
+        description: The users first name
+      lastName:
+        type: string
+        description: The users last (family) name
+      email:
+        type: string
+        description: The email address of the user
+      password:
+        type: string
+        description: The password for the user
+    description: A user
+  
+  AttachmentList:
+    type: object
+    required:
+      - pagination
+      - data
+    properties:
+      pagination:
+        $ref: '#/definitions/Paging'
+      data:
+        type: array
+        items:
+          $ref: '#/definitions/Attachment'
+    description: List of attachments
+  
+  Attachment:
+    type: object
+    description: Represents a task attachment
+    required:
+      - id
+      - url
+    properties:
+      id:
+        type: string
+        description: Unique identifier for the attachment
+        readOnly: true
+      url:
+        type: string
+        description: URL of the attachment
+        
+  Notification:
+    type: object
+    description: Represents a notification
+    required:
+      - id
+      - url
+    properties:
+      id:
+        type: string
+        description: Unique identifier for the notification
+        readOnly: true
+      url:
+        type: string
+        description: URL of the webhook
+        

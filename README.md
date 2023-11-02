@@ -14,7 +14,7 @@ FluentQA Workspace project is as A Project for QA:
 ![img](img.png)
 ![img](overall.png)
 
-## 1.1 QA Java frequence used libs
+## 1.1 QA Java frequent used libs
 
 ### 1.1 OpenAPI Parser
 
@@ -25,6 +25,9 @@ FluentQA Workspace project is as A Project for QA:
 
 - [slides](https://fluentqa-revistied.netlify.app/present/tc-mgt-one-day/#/1)
 
+## 3. Integration Libs
+
+- [integration with other application]http://github.com/fluent-qa/fluent-integrations.git)
 
 ## stats
 

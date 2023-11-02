@@ -176,4 +176,12 @@ public class TestCase extends ModelWithValidFlagVo {
     public void setPrecondition(String precondition) {
         this.precondition = precondition;
     }
+
+    public ProductModuleModel getModule() {
+        return module;
+    }
+
+    public void setModule(ProductModuleModel module) {
+        this.module = module;
+    }
 }

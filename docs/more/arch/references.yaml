@@ -1,0 +1,8 @@
+low-code:
+  backend:
+    - https://www.jhipster.tech/tech-board/
+  frontend:
+    - https://github.com/ReactBricks
+code-composition:
+  - https://developer.entando.com/v7.0/docs/
+

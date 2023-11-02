@@ -1,0 +1,58 @@
+@startuml
+
+Title To Do Architecture
+
+skinparam defaultFontSize 16
+skinparam linetype ortho
+skinparam titleFontSize 22
+skinparam backgroundColor #EEEEEE
+
+actor "User" as U
+actor "Webhook" as W
+
+node "Queue" as Q #D1C4E9{
+}
+
+node "API Gateway" as APIG #C8E6C9
+
+node "Tasks" as T #E3F2FD {
+  node "/tasks" as tasks #FFF9C4
+  database "DB" as tasksDB
+}
+
+node "Identity" as I #E3F2FD {
+  node "/users" as users #FFF9C4
+  database "DB" as usersDB
+}
+
+node "Attachments" as A #E3F2FD {
+  node "/attachments" as attachments #FFF9C4
+  database "DB" as attachmentsDB
+  database "Content" as attachmentsContent
+}
+
+node "Notifications" as N #E3F2FD {
+  node "/notifications" as notifications #FFF9C4
+  database "DB" as notificationsDB
+}
+
+U->APIG
+APIG->T
+APIG->I
+APIG->A
+APIG->N
+
+tasks<->Q
+users<->Q
+attachments<->Q
+notifications<->Q
+
+tasks->tasksDB
+users->usersDB
+attachments->attachmentsDB
+attachments->attachmentsContent
+notifications->notificationsDB
+
+N->W
+
+@enduml

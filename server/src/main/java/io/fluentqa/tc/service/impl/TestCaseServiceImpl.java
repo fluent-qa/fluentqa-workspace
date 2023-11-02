@@ -11,7 +11,6 @@ import io.fluentqa.tc.dto.TestCaseDTO;
 import io.fluentqa.tc.model.TestCase;
 import io.fluentqa.tc.repo.TestCaseRepo;
 import io.fluentqa.tc.service.TestCaseService;
-import org.apache.commons.math3.stat.descriptive.summary.Product;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
