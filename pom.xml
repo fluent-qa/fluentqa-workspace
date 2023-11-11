@@ -12,7 +12,6 @@
         <module>server</module>
 <!--        <module>fluent-erupts</module>-->
         <module>components</module>
-<!--        <module>components/fluent-excel</module>-->
     </modules>
 
     <properties>

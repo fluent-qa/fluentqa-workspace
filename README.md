@@ -1,6 +1,7 @@
 # README
 
-FluentQA Workspace project is as A Project for QA:
+FluentQA Workspace project is JAVA Project includes:
+
 1. Toolkits to handler QA Daily Work
 2. Workspace Server for QA Daily Work
 3. Learning JAVA in QA  perspective
@@ -9,25 +10,37 @@ FluentQA Workspace project is as A Project for QA:
 6. All Codes are Used for Real Cases
 7. All libs have its purpose in QA Daily Work
 
+But Actually not only for QA, it also for anyone want to create
+JAVA Libs or Applications.
 
-## 1. JAVA Revisited Overview
-![img](img.png)
+## 1. Software QA: JAVA Revisited Overview
+
+**Automation Language Perspective**:
+![img](qa-automation.png)
+
+**Different Libs Perspective**:
+
 ![img](overall.png)
 
 ## 1.1 QA Java frequent used libs
 
-### 1.1 OpenAPI Parser
-
-- []
+- [basic-libs](./components/fluent-builtin)
+- [excel-csv-operation](./components/fluent-excel)
+- [mindmap-operation](./components/fluent-mindmap)
+- [openapi-operations](./components/fluent-openapi)
+- [quick-database-operations](./components/fluent-quickdao)
+- [markdonw-operations](./components/fluentqa-md)
+- [testlibs](./components/fluent-testlibs)
 
 ### 2. Real Cases
+
 ## 2.1. How to Build a Just-Working Test Case System in one day
 
 - [slides](https://fluentqa-revistied.netlify.app/present/tc-mgt-one-day/#/1)
 
 ## 3. Integration Libs
 
-- [integration with other application]http://github.com/fluent-qa/fluent-integrations.git)
+- [integration with other application](http://github.com/fluent-qa/fluent-integrations.git)
 
 ## stats
 
