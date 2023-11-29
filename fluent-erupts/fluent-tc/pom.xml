@@ -13,8 +13,8 @@
     <dependencies>
         <dependency>
             <groupId>io.fluent</groupId>
-            <artifactId>fluent-base</artifactId>
-            <version>${fluent.version}</version>
+            <artifactId>fluent-erupts-base</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.fluent</groupId>

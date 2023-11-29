@@ -13,9 +13,9 @@
     <artifactId>fluent-erupts</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>fluent-base</module>
-        <module>fluent-tc</module>
-        <module>fluent-pm</module>
+        <module>fluent-erupts-base</module>
+<!--        <module>fluent-tc</module>-->
+<!--        <module>fluent-pm</module>-->
     </modules>
 
 </project>

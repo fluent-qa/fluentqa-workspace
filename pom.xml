@@ -9,9 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>server</module>
-<!--        <module>fluent-erupts</module>-->
+        <module>qaserver</module>
+        <module>fluent-erupts</module>
         <module>components</module>
+        <module>collector-server</module>
     </modules>
 
     <properties>

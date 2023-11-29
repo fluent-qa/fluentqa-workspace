@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>server</artifactId>
+    <artifactId>qaserver</artifactId>
 
 
     <dependencies>
@@ -68,6 +68,12 @@
             <artifactId>fluent-mindmap</artifactId>
             <version>${fluent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-erupts-base</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>cn.hutool</groupId>
