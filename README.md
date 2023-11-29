@@ -24,13 +24,13 @@ JAVA Libs or Applications.
 
 ## 1.1 QA Java frequent used libs
 
-- [basic-libs](./components/fluent-builtin)
-- [excel-csv-operation](./components/fluent-excel)
-- [mindmap-operation](./components/fluent-mindmap)
-- [openapi-operations](./components/fluent-openapi)
-- [quick-database-operations](./components/fluent-quickdao)
-- [markdonw-operations](./components/fluentqa-md)
-- [testlibs](./components/fluent-testlibs)
+- [basic-libs](./components/fluent-builtin) basic JAVA Utils
+- [excel-csv-operation](./components/fluent-excel) JAVA Excel/CSV Lib 
+- [mindmap-operation](./components/fluent-mindmap) JAVA mindmap Lib
+- [openapi-operations](./components/fluent-openapi) JAVA openapi lib
+- [quick-database-operations](./components/fluent-quickdao) JAVA Database access Lib
+- [markdonw-operations](./components/fluentqa-md) JAVA Markdown Lib
+- [testlibs](./components/fluent-testlibs) JAVA test libs
 
 ### 2. Real Cases
 
@@ -128,11 +128,9 @@ JAVA Libs or Applications.
 
 [//]: # (</p>)
 
-组件库
+[//]: # (组件库)
 
 ## 🧭 开源贡献指南
-
-[//]: # (请阅读 [贡献指南]&#40;https://github.com/ihub-pub/.github/blob/main/CONTRIBUTING.md&#41; 为该项目做出贡献)
 
 ## 👨‍💻 Contributors
 
