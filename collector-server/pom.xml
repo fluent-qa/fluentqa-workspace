@@ -68,6 +68,17 @@
             <artifactId>fluent-erupts-base</artifactId>
             <version>${fluent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-job</artifactId>
+            <version>${erupt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-git</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+
 
     </dependencies>
     <build>

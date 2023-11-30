@@ -8,7 +8,6 @@ import lombok.Data;
 @Data
 public class GithubStarredRepo {
     private Long id;
-
     private String name;
     private String url;
     @QuickDaoColumn(name = "full_name")
@@ -16,8 +15,8 @@ public class GithubStarredRepo {
     @QuickDaoColumn(name = "node_id")
     private String nodeId;
     private String description;
-    @QuickDaoColumn(name = "forked_count")
-    private int forkedCount;
+    @QuickDaoColumn(name = "forks_count")
+    private int forksCount;
     @QuickDaoColumn(name = "stargazers_count")
     private int stargazersCount;
     private String topics;

@@ -11,6 +11,7 @@
 
     <groupId>io.fluent</groupId>
     <artifactId>components</artifactId>
+    <version>${fluent.version}</version>
     <packaging>pom</packaging>
 
 
@@ -26,7 +27,7 @@
         <module>fluent-httpclients</module>
         <module>fluent-datafactory</module>
         <module>fluent-testlibs</module>
-<!--        <module>fluent-mocker</module>-->
+        <!--        <module>fluent-mocker</module>-->
     </modules>
 
 

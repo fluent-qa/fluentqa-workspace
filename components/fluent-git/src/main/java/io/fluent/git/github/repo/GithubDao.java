@@ -6,9 +6,11 @@ import io.fluent.git.github.config.ConfigHolder;
 import io.fluent.git.github.entity.GithubStarredRepo;
 import io.fluent.git.github.models.GithubRepoModel;
 import io.fluent.quickdao.QuickDao;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 
+@Slf4j
 public class GithubDao {
     private QuickDao dao = ConfigHolder.getDao();
 
@@ -23,6 +25,7 @@ public class GithubDao {
 
     public void saveAll(List<GithubRepoModel> models){
         for (GithubRepoModel model : models) {
+            log.info("start save model : {}", model.getFullName());
             save(model);
         }
     }
