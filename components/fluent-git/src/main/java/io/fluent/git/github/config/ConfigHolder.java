@@ -16,13 +16,11 @@ public class ConfigHolder {
                 .driver(dotenv.get("DB_DRIVER"))
                 .username(dotenv.get("DB_USER"))
                 .password(dotenv.get("DB_PWD")).build();
-
-
     }
 
     public static QuickDao getDao() {
         DataSourceSetting setting = createDatabaseSetting();
-        return QuickDao.createDao(createDatabaseSetting());
+        return QuickDao.createDao(setting);
     }
 
     public static Github getGithubApiClient() {
