@@ -1,0 +1,2 @@
+select r.name,r.stargazers_count,r.description,r.full_name,r.topics from collectors.github_starred_repo r where stargazers_count between {{min_count}} and {{max_count}}
+order by r.stargazers_count desc
