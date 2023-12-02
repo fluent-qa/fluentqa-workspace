@@ -48,6 +48,6 @@ public class GithubUserServiceTest {
     @Test
     public void testSaveGithubRepos(){
         GithubUserService service = new GithubUserService();
-        service.saveUserStarredRepo("qdriven",124);
+        service.saveUserStarredRepo("kennethreitz",0);
     }
 }
