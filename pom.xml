@@ -13,14 +13,18 @@
         <module>fluent-erupts</module>
         <module>components</module>
         <module>collector-server</module>
+        <module>modules</module>
+        <module>fluent-wrappers</module>
+        <module>fluent-wrappers/fluent-vika</module>
+        <module>fluent-wrappers/fluent-jira</module>
     </modules>
 
     <properties>
-        <erupt.version>1.12.8</erupt.version>
+        <erupt.version>1.12.9</erupt.version>
         <fluent.version>1.0-SNAPSHOT</fluent.version>
         <postgresql.version>42.5.1</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hutool.version>5.8.22</hutool.version>
+        <hutool.version>5.8.23</hutool.version>
 <!--        <spotbugs.excludeFilterFile>spotbugsexclude.xml</spotbugs.excludeFilterFile>-->
         <checkstyle.violationSeverity>error</checkstyle.violationSeverity>
         <checkstyle.config.location>./ci/checkstyle.xml</checkstyle.config.location>
