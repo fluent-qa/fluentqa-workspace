@@ -13,7 +13,7 @@
     <artifactId>fluent-wrappers</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>fluent-feishu</module>
+<!--        <module>fluent-feishu</module>-->
         <module>fluent-git</module>
     </modules>
 </project>

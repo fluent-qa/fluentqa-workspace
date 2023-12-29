@@ -3,8 +3,6 @@ package io.fluentqa.jira.domain;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 public class JiraRemoteLink extends JiraIdResource {
 
@@ -39,12 +37,5 @@ public class JiraRemoteLink extends JiraIdResource {
 		this.object = object;
 	}
 
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("id", getId())
-			.append("object", object)
-			.toString();
-	}
 
 }

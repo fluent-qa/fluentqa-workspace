@@ -3,8 +3,6 @@ package io.fluentqa.jira.domain;
 import java.io.Serializable;
 import java.net.URL;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 public class JiraRemoteLinkObject implements Serializable {
 
@@ -45,14 +43,6 @@ public class JiraRemoteLinkObject implements Serializable {
 
 	public void setIcon(JiraLinkIcon icon) {
 		this.icon = icon;
-	}
-
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("url", url)
-			.append("title", title)
-			.toString();
 	}
 
 }

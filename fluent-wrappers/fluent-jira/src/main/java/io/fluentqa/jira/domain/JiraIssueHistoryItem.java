@@ -3,8 +3,6 @@ package io.fluentqa.jira.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -72,14 +70,6 @@ public class JiraIssueHistoryItem implements Serializable {
 		return this;
 	}
 
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("field", getField())
-			.append("fromString", getFromString())
-			.append("toString", getToString())
-			.toString();
-	}
 
 	@Override
 	public boolean equals(Object o) {

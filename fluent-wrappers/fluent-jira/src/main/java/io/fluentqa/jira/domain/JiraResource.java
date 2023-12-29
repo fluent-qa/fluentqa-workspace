@@ -2,9 +2,6 @@ package io.fluentqa.jira.domain;
 
 import java.io.Serializable;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
-
 public abstract class JiraResource implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -24,10 +21,4 @@ public abstract class JiraResource implements Serializable {
 		return self;
 	}
 
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("self", self)
-			.toString();
-	}
 }

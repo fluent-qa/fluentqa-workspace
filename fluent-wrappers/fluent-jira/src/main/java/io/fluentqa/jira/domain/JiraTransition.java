@@ -1,8 +1,5 @@
 package io.fluentqa.jira.domain;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
@@ -27,14 +24,5 @@ public class JiraTransition extends JiraNamedResource {
 
 	public void setTo(JiraIssueStatus to) {
 		this.to = to;
-	}
-
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("id", getId())
-			.append("name", getName())
-			.append("to", to)
-			.toString();
 	}
 }

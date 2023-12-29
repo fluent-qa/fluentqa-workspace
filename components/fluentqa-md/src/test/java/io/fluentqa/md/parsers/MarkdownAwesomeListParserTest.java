@@ -7,7 +7,7 @@ import com.vladsch.flexmark.ast.Heading;
 import com.vladsch.flexmark.html.HtmlRenderer;
 import com.vladsch.flexmark.parser.Parser;
 import com.vladsch.flexmark.util.ast.Node;
-import io.fluentqa.builtin.project.JavaProjectUtils;
+import io.fluent.builtin.JavaProjectFileUtils;
 import io.fluentqa.md.parser.awesome.AwesomeModel;
 import io.fluentqa.md.parser.awesome.MarkdownAwesomeListParser;
 import org.jsoup.Jsoup;
@@ -22,11 +22,10 @@ import java.util.List;
 public class MarkdownAwesomeListParserTest {
     MarkdownAwesomeListParser parser = new MarkdownAwesomeListParser();
     private Node parseMarkdownDoc(String fileName){
-        String filePath = JavaProjectUtils.getFilePath(fileName);
-        String mdStr = JavaProjectUtils.readString(new File(filePath), Charset.defaultCharset());
+        String filePath = JavaProjectFileUtils.getFilePath(fileName);
+        String mdStr = JavaProjectFileUtils.readString(new File(filePath), Charset.defaultCharset());
         Parser parser = Parser.builder().build();
-        Node document = parser.parse(mdStr);
-        return document;
+        return parser.parse(mdStr);
     }
 
     private String renderToHtml(Node doc){
@@ -59,7 +58,7 @@ public class MarkdownAwesomeListParserTest {
     public void testTransformByXmlPath(){
         Node document = parseMarkdownDoc("low-code-1.md");
         String htmlStr = renderToHtml(document);
-        JavaProjectUtils.writeToFile("low-code.html",htmlStr);
+        JavaProjectFileUtils.writeToFile("low-code.html",htmlStr);
         Document htmlDocs = Jsoup.parse(htmlStr);
         List<Element> elementList= htmlDocs.select("ul>li");
         for (Element element : elementList) {
@@ -73,7 +72,7 @@ public class MarkdownAwesomeListParserTest {
   public void testToHtml(){
     Node document = parseMarkdownDoc("test-resources.md");
     String htmlStr = renderToHtml(document);
-    JavaProjectUtils.writeToFile("test-resources.html",htmlStr);
+      JavaProjectFileUtils.writeToFile("test-resources.html",htmlStr);
   }
 
 //    @Test
@@ -81,7 +80,7 @@ public class MarkdownAwesomeListParserTest {
         for (int i = 3; i < 7 ; i++) {
             List<AwesomeModel> repos = parser.transform("low-code-%d.md".formatted(i));
             System.out.println(repos);
-            JavaProjectUtils.writeToFile("low-code-%d.json".formatted(i),JSONUtil.toJsonPrettyStr(repos));
+            JavaProjectFileUtils.writeToFile("low-code-%d.json".formatted(i),JSONUtil.toJsonPrettyStr(repos));
         }
 
     }

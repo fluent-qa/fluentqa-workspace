@@ -2,8 +2,6 @@ package io.fluentqa.jira.domain;
 
 import java.util.List;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 public class JiraProject extends JiraIdResource implements JiraNamedBean {
 
@@ -55,13 +53,4 @@ public class JiraProject extends JiraIdResource implements JiraNamedBean {
 		return issueTypes;
 	}
 
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("id", getId())
-			.append("key", key)
-			.append("name", name)
-			.append("description", description)
-			.toString();
-	}
 }

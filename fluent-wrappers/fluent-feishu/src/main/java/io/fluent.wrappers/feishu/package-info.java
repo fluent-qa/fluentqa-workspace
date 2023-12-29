@@ -1,4 +1,4 @@
-package io.fluentqa.feishu;
+package io.fluent.wrappers.feishu;
 
 /**
  * 1. Field Build/Field Record

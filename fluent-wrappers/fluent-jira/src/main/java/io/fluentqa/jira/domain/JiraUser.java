@@ -1,7 +1,5 @@
 package io.fluentqa.jira.domain;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 public class JiraUser extends JiraNamedResource {
 
@@ -33,12 +31,4 @@ public class JiraUser extends JiraNamedResource {
 		this.displayName = displayName;
 	}
 
-	@Override
-	public String toString() {
-		return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-			.append("key", getId())
-			.append("name", getName())
-			.append("displayName", displayName)
-			.toString();
-	}
 }
