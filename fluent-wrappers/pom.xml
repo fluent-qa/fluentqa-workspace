@@ -13,7 +13,9 @@
     <artifactId>fluent-wrappers</artifactId>
     <packaging>pom</packaging>
     <modules>
-<!--        <module>fluent-feishu</module>-->
+        <module>fluent-feishu</module>
         <module>fluent-git</module>
+        <module>fluent-vika</module>
+        <module>fluent-allure</module>
     </modules>
 </project>
