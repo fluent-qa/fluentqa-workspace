@@ -5,6 +5,14 @@ api-mgt:
 low-code:
   - https://gitee.com/zj1983/zz.git
   - https://gitee.com/y_project/RuoYi-Vue.git
+  - https://gitee.com/newcorenet/elcube-backend.git
+  - https://github.com/sallamy2580/goframe2.0-fullstack.git
+  - https://github.com/structr/structr
+  - https://gitee.com/jmix/jmix
+bi:
+  -  https://github.com/pinterest/querybook.git
+openapi:
+  -  https://github.com/getkin/kin-openapi.git
 todo:
   - https://github.com/omkarcloud/bose.git
   - https://github.com/emaiannone/surface
@@ -79,3 +87,14 @@ products:
   - Xray
   - Zephyr Scale
   - Zephyr Squad
+
+self-hosts:
+  - https://github.com/dronahq/self-hosted.git
+
+solutions:
+  - name: cal
+    repos:
+      - https://github.com/calcom/cal.com.git
+  - name: payment
+    repos:
+      - https://gitee.com/dromara/payment-spring-boot.git
