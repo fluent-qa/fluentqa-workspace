@@ -16,6 +16,7 @@ public class DataSourceSetting extends Dict {
   private String username;
   private String password;
   private String driver;
+  @Builder.Default
   private String dbType = POSTGRESQL;
 
   public Setting toSetting() {

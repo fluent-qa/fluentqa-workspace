@@ -1,6 +1,6 @@
 # Fluent Code Generator 
 
-## pojo Generator
+## pojo Generator: Generate POJO from JSON file
 
 ```java
 class PojoGeneratorTest {
@@ -12,3 +12,10 @@ class PojoGeneratorTest {
 }
 ```
 
+## Code Generator
+
+- Data Source
+- Table Data
+- Field Data
+- Generate Type/Template MAPPING
+- Generate Code

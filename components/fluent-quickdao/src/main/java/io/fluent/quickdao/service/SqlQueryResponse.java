@@ -11,5 +11,5 @@ import java.util.List;
 @Builder
 public class SqlQueryResponse {
 
-    private List<Entity> result = new ArrayList<>();
+    private List<Entity> result;
 }

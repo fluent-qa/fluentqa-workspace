@@ -29,7 +29,7 @@
         <fluent.version>1.0-SNAPSHOT</fluent.version>
         <postgresql.version>42.5.1</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hutool.version>5.8.23</hutool.version>
+        <hutool.version>5.8.24</hutool.version>
 <!--        <spotbugs.excludeFilterFile>spotbugsexclude.xml</spotbugs.excludeFilterFile>-->
         <checkstyle.violationSeverity>error</checkstyle.violationSeverity>
         <checkstyle.config.location>./ci/checkstyle.xml</checkstyle.config.location>

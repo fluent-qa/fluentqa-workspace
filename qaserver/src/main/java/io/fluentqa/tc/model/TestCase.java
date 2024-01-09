@@ -19,9 +19,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- *
- */
 @Entity
 @Erupt(name = "测试用例",
         power = @Power(export = true),

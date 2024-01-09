@@ -9,10 +9,13 @@ low-code:
   - https://github.com/sallamy2580/goframe2.0-fullstack.git
   - https://github.com/structr/structr
   - https://gitee.com/jmix/jmix
+  - https://github.com/jet-admin/jet-bridge
 bi:
   -  https://github.com/pinterest/querybook.git
 openapi:
   -  https://github.com/getkin/kin-openapi.git
+code-gen:
+  -  https://github.com/cmeza20/spring-data-generator.git
 todo:
   - https://github.com/omkarcloud/bose.git
   - https://github.com/emaiannone/surface

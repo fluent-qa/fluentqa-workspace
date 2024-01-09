@@ -1,5 +1,6 @@
 package io.fluent.quickdao;
 
+import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.setting.Setting;
@@ -11,9 +12,13 @@ import lombok.extern.slf4j.Slf4j;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Slf4j
 public class QuickDao {
@@ -121,4 +126,15 @@ public class QuickDao {
    * 2. sql action
    * 3. after sql action
    */
+
+  public <T> List<T> queryForObjects(String query, Map<String,Object> parameters,Class<T> clazz){
+      try {
+          var queryResult =  this.getDb().query(query,parameters);
+          return queryResult.stream().map(entity -> BeanUtil.copyProperties(entity,clazz))
+                  .collect(Collectors.toList());
+      } catch (SQLException e) {
+          log.error("sql query error,error=",e);
+          return Collections.emptyList();
+      }
+  }
 }

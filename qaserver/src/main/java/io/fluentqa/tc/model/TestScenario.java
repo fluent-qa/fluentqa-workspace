@@ -11,14 +11,10 @@ import xyz.erupt.annotation.sub_field.View;
 import javax.persistence.*;
 import java.util.Set;
 
-/**
- * 1. 创建测试场景，关联测试用例
- */
 @Entity
 @Table(name = "test_scenarios")
 @Erupt(name = "测试场景管理",
         power = @Power(importable = true, export = true)
-
 )
 //@PreDataProxy(value= TestScenarioCaseProxy.class)
 

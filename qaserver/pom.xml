@@ -74,12 +74,24 @@
             <version>${fluent.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-generator</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
         </dependency>
-<!--        <dependency>-->
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-quickdao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--        <dependency>-->
 <!--            <groupId>io.hypersistence</groupId>-->
 <!--            <artifactId>hypersistence-utils-hibernate-62</artifactId>-->
 <!--            <version>3.6.0</version>-->

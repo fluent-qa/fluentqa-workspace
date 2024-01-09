@@ -1,25 +1,23 @@
-package io.fluent.generator.pojo;
+package io.fluentqa.generator.service;
 
 import com.beust.jcommander.internal.Lists;
-import com.sun.codemodel.JCodeModel;
-import com.sun.codemodel.JType;
-import org.jsonschema2pojo.*;
+import org.jsonschema2pojo.Jsonschema2Pojo;
+import org.jsonschema2pojo.SourceType;
 import org.jsonschema2pojo.cli.Arguments;
 import org.jsonschema2pojo.cli.CommandLineLogger;
-import org.jsonschema2pojo.rules.RuleFactory;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Iterator;
 
-public class PojoGenerator {
+public class JsonToPojoGenerateService {
 
     public void generate(String schemaFile,
-                         String packageName,String className,
+                         String packageName, String className,
                          String outputDir) throws IOException {
-        URL source = PojoGenerator.class.getResource("/schema/"+schemaFile);
-        Arguments config = new Arguments(){
+        URL source = JsonToPojoGenerateService.class.getResource("/schema/" + schemaFile);
+        Arguments config = new Arguments() {
 
             @Override
             public Iterator<URL> getSource() {

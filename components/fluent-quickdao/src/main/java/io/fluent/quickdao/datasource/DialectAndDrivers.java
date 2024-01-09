@@ -29,7 +29,8 @@ public class DialectAndDrivers {
     Map<String, String> result = new ConcurrentHashMap<>();
     fields.forEach((s, field) -> {
       try {
-        result.put(s.replaceAll("DRIVER_",""), (String) field.get(DriverNamePool.class));
+        result.put(s.replaceAll("DRIVER_",""),
+                (String) field.get(DriverNamePool.class));
       } catch (IllegalAccessException e) {
         throw new RuntimeException(e);
       }

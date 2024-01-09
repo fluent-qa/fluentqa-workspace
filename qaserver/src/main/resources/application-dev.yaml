@@ -23,7 +23,7 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://127.0.0.1:7432/workspace
+    url: jdbc:postgresql://127.0.0.1:5432/qa?currentSchema=workspace
     username: postgres
     password: changeit
   jpa:
@@ -32,14 +32,14 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     database: postgresql
 
-  mail:
-    username: xxxx@qq.com
-    password: xxxxxxx
-    host: smtp.qq.com
-    properties:
-      mail.smtp.ssl.auth: true
-      mail.smtp.ssl.enable: true
-      mail.smtp.ssl.required: true
+#  mail:
+#    username: xxxx@qq.com
+#    password: xxxxxxx
+#    host: smtp.qq.com
+#    properties:
+#      mail.smtp.ssl.auth: true
+#      mail.smtp.ssl.enable: true
+#      mail.smtp.ssl.required: true
   servlet:
     multipart:
       max-file-size: 100MB

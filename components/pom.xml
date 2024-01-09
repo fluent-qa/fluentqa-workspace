@@ -21,7 +21,6 @@
         <module>fluentqa-md</module>
         <module>fluent-openapi</module>
         <module>fluent-excel</module>
-        <module>fluent-generator</module>
         <module>fluent-quickdao</module>
         <module>fluent-httpclients</module>
         <module>fluent-datafactory</module>

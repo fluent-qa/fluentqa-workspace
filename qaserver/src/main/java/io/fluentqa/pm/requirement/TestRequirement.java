@@ -3,7 +3,7 @@ package io.fluentqa.pm.requirement;
 
 import io.fluentqa.base.handlers.SqlTagFetchHandler;
 import io.fluentqa.base.model.ModelWithValidFlag;
-import org.apache.commons.math3.stat.descriptive.summary.Product;
+import io.fluentqa.pm.product.model.ProductModuleModel;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.fun.ChoiceFetchHandler;
@@ -42,7 +42,8 @@ public class TestRequirement extends ModelWithValidFlag implements ChoiceFetchHa
             views = @View(title = "需求类型"),
             edit = @Edit(title = "需求类型",
                     notNull = true, type = EditType.CHOICE,
-                    choiceType = @ChoiceType(type = ChoiceType.Type.RADIO, fetchHandler = TestRequirement.class))
+                    choiceType = @ChoiceType(type = ChoiceType.Type.RADIO,
+                            fetchHandler = TestRequirement.class))
     )
     private String type;
 
@@ -75,7 +76,7 @@ public class TestRequirement extends ModelWithValidFlag implements ChoiceFetchHa
                     referenceTreeType = @ReferenceTreeType(id = "id", label = "name",
                             pid = "parent.id"))
     )
-    private Product module;
+    private ProductModuleModel module;
 
     @EruptField(
             views = @View(
@@ -181,11 +182,11 @@ public class TestRequirement extends ModelWithValidFlag implements ChoiceFetchHa
         this.status = status;
     }
 
-    public Product getModule() {
+    public ProductModuleModel getModule() {
         return module;
     }
 
-    public void setModule(Product module) {
+    public void setModule(ProductModuleModel module) {
         this.module = module;
     }
 }

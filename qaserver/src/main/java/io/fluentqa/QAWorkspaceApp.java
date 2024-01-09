@@ -9,8 +9,8 @@ import xyz.erupt.core.annotation.EruptScan;
 
 @SpringBootApplication
 @EnableAsync
-@EruptScan(value = {"io.fluentqa"})
-@EntityScan(value = {"io.fluentqa"})
+@EruptScan
+@EntityScan
 public class QAWorkspaceApp {
     public static void main(String[] args) {
         SpringApplication.run(QAWorkspaceApp.class);
