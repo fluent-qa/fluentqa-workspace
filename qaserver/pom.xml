@@ -30,6 +30,12 @@
             <artifactId>erupt-job</artifactId>
             <version>${erupt.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-generator</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
+
         <!--后台WEB界面-->
         <dependency>
             <groupId>xyz.erupt</groupId>

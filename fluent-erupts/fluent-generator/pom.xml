@@ -10,6 +10,10 @@
     </parent>
 
     <artifactId>fluent-generator</artifactId>
+    <properties>
+        <magic-api.version>2.1.1</magic-api.version>
+    </properties>
+
 
     <dependencies>
         <dependency>
@@ -27,5 +31,26 @@
             <artifactId>fluent-erupts-base</artifactId>
             <version>${fluent.version}</version>
         </dependency>
+
+            <dependency>
+                <groupId>xyz.erupt</groupId>
+                <artifactId>erupt-upms</artifactId>
+                <version>${erupt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xyz.erupt</groupId>
+                <artifactId>erupt-tpl</artifactId>
+                <version>${erupt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>2.3.32</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ssssssss</groupId>
+                <artifactId>magic-api-spring-boot-starter</artifactId>
+                <version>${magic-api.version}</version>
+            </dependency>
     </dependencies>
 </project>

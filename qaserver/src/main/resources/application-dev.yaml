@@ -91,3 +91,7 @@ server:
 logging:
   level:
     root: debug
+
+magic-api:
+  web: /fluentapi/v1
+  resource.location: ./magic-script
