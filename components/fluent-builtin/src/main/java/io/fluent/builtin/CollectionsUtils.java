@@ -5,9 +5,12 @@ import cn.hutool.core.collection.CollectionUtil;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import static io.fluent.builtin.PredictionsUtil.distinctByKey;
 
 /**
  * 集合操作工具类
@@ -112,6 +115,11 @@ public class CollectionsUtils extends CollectionUtil {
         if (objects == null || objects.length == 0) return null;
         int length = objects.length;
         return objects[length - 1];
+    }
+
+    public static <T> List<T> filterToReduceRedundant(List<T> redundantList,
+                                                      Function<T,String> keyExtractor) {
+        return redundantList.stream().filter(distinctByKey(keyExtractor)).toList();
     }
 
 }

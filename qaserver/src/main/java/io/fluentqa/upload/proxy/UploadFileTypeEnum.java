@@ -1,7 +1,7 @@
 package io.fluentqa.upload.proxy;
 
 public enum UploadFileTypeEnum {
-    EXCEL_TC,FREEMIND,PM;
+    EXCEL_TC,FREEMIND,PM,MINDMAP;
 
     public static UploadFileTypeEnum parseType(String uploadFileType) {
         for (UploadFileTypeEnum uploadFileTypeEnum : UploadFileTypeEnum.values()) {

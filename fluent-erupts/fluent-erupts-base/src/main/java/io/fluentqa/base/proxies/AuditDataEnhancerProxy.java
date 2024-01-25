@@ -11,14 +11,12 @@ import java.time.LocalDateTime;
 @Component
 public class AuditDataEnhancerProxy extends MetaDataProxy {
 
-  public void enhanceTimeAndUserAuditData(MetaModel metaModel) {
-    if (metaModel.getCreateTime()!=null){
+  public void enhanceTimeAndUserAuditData(MetaModel metaModel, String userName) {
+    if (metaModel.getCreateTime() == null) {
       metaModel.setCreateTime(LocalDateTime.now());
     }
-    if(StringUtils.isAllEmpty(metaModel.getCreateBy())){
-      metaModel.setCreateBy(MetaContext.getUser().getName());
-    }
-    metaModel.setUpdateTime(metaModel.getCreateTime());
-    metaModel.setUpdateBy(metaModel.getCreateBy());
+    metaModel.setUpdateBy(userName);
+    if (metaModel.getCreateBy() != null) metaModel.setCreateBy(userName);
+    metaModel.setUpdateTime(LocalDateTime.now());
   }
 }

@@ -18,7 +18,6 @@
         <module>qaserver</module>
         <module>fluent-erupts</module>
         <module>components</module>
-        <module>collector-server</module>
         <module>modules</module>
         <module>fluent-wrappers</module>
         <module>fluent-wrappers/fluent-jira</module>

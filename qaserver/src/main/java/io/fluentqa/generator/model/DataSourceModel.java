@@ -14,12 +14,10 @@ import xyz.erupt.annotation.sub_erupt.Tree;
 import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
-import xyz.erupt.annotation.sub_field.sub_edit.InputType;
-import xyz.erupt.annotation.sub_field.sub_edit.ReferenceTreeType;
-import xyz.erupt.annotation.sub_field.sub_edit.Search;
-import xyz.erupt.annotation.sub_field.sub_edit.TagsType;
+import xyz.erupt.annotation.sub_field.sub_edit.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -80,13 +78,41 @@ public class DataSourceModel extends ModelWithValidFlagVo {
     /**
      * URL
      */
+
+
+
+    @EruptField(
+            views = @View(
+                    title = "schema名称"
+            ),
+            edit = @Edit(
+                    title = "schema名称",
+                    type = EditType.INPUT,
+                    inputType = @InputType
+            )
+    )
+    private String schemaName;
+
+    @EruptField(
+            views = @View(
+                    title = "数据源连接配置"
+            ),
+            edit = @Edit(
+                    title = "数据源连接配置",
+                    type = EditType.CODE_EDITOR,
+                    codeEditType = @CodeEditorType(language = "json")
+            )
+    )
+    @org.hibernate.annotations.Type(type = "org.hibernate.type.TextType")
+    private @Lob String connectionConfig;
+
     @EruptField(
             views = @View(
                     title = "数据源名称连接"
             ),
             edit = @Edit(
                     title = "数据源名称连接",
-                    type = EditType.INPUT, search = @Search, notNull = true,
+                    type = EditType.INPUT, search = @Search,
                     inputType = @InputType
             )
     )
@@ -100,7 +126,7 @@ public class DataSourceModel extends ModelWithValidFlagVo {
             ),
             edit = @Edit(
                     title = "用户名",
-                    type = EditType.INPUT, search = @Search, notNull = true,
+                    type = EditType.INPUT, search = @Search,
                     inputType = @InputType
             )
     )
@@ -114,7 +140,7 @@ public class DataSourceModel extends ModelWithValidFlagVo {
             ),
             edit = @Edit(
                     title = "密码",
-                    type = EditType.INPUT, notNull = true,
+                    type = EditType.INPUT,
                     inputType = @InputType(type = "password")
             )
     )
@@ -132,18 +158,6 @@ public class DataSourceModel extends ModelWithValidFlagVo {
     )
     private String driverClass;
 
-
-    @EruptField(
-            views = @View(
-                    title = "schema名称"
-            ),
-            edit = @Edit(
-                    title = "schema名称",
-                    type = EditType.INPUT,
-                    inputType = @InputType
-            )
-    )
-    private String schemaName;
 
     public String getDbType() {
         return dbType;
@@ -207,5 +221,13 @@ public class DataSourceModel extends ModelWithValidFlagVo {
 
     public void setParent(DataSourceModel parent) {
         this.parent = parent;
+    }
+
+    public String getConnectionConfig() {
+        return connectionConfig;
+    }
+
+    public void setConnectionConfig(String connectionConfig) {
+        this.connectionConfig = connectionConfig;
     }
 }

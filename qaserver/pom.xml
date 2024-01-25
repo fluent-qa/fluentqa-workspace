@@ -25,6 +25,11 @@
             <artifactId>erupt-security</artifactId>
             <version>${erupt.version}</version>
         </dependency>
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-job</artifactId>
+            <version>${erupt.version}</version>
+        </dependency>
         <!--后台WEB界面-->
         <dependency>
             <groupId>xyz.erupt</groupId>
@@ -79,7 +84,11 @@
             <artifactId>fluent-generator</artifactId>
             <version>${fluent.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-git</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>cn.hutool</groupId>
@@ -89,7 +98,11 @@
             <groupId>io.fluent</groupId>
             <artifactId>fluent-quickdao</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-openapi</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--        <dependency>-->
 <!--            <groupId>io.hypersistence</groupId>-->

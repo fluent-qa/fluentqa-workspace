@@ -12,7 +12,7 @@ public class PostmanRequest {
     private String method;
     private String schema;
     private List<PostmanKeyValue> header;
-    private PostmanBody body;
+    private Map<String,Object> body;
     private PostmanQuery query;
     private Map<String,Object> auth;
     private PostmanUrl url;

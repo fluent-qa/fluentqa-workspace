@@ -4,10 +4,10 @@ package io.fluentqa.upload.proxy;
 
 import cn.hutool.core.bean.BeanUtil;
 import io.fluentqa.excel.ExcelReadWriter;
-import io.fluentqa.pm.product.model.ProductModuleModel;
-import io.fluentqa.tc.dto.TestCaseDTO;
-import io.fluentqa.tc.service.TestCaseService;
-import io.fluentqa.tc.service.impl.MindMappingService;
+import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.qtm.tc.dto.TestCaseDTO;
+import io.fluentqa.qtm.tc.service.TestCaseService;
+import io.fluentqa.qtm.tc.service.impl.MindMappingService;
 import lombok.extern.slf4j.Slf4j;
 import xyz.erupt.core.prop.EruptProp;
 import xyz.erupt.core.util.EruptSpringUtil;
@@ -46,7 +46,7 @@ public class UploadFileDataProxy extends MetaDataProxy {
         if(UploadFileTypeEnum.parseType(uploadType).equals(UploadFileTypeEnum.EXCEL_TC)){
             ProductModuleModel product = BeanUtil.getProperty(metaModel, "product");
             ProductModuleModel module = BeanUtil.getProperty(metaModel, "module");
-            testCaseService.saveProductCases(getExcelTestCases(filePath),product,module);
+            testCaseService.saveTestCases(getExcelTestCases(filePath),product,module,metaModel.getUpdateBy());
         }
         if(UploadFileTypeEnum.parseType(uploadType).equals(UploadFileTypeEnum.FREEMIND)){
             mindMappingService.saveTestCases(filePath,metaModel);

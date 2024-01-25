@@ -88,6 +88,6 @@ server:
     includeStacktrace: ALWAYS
     includeMessage: ALWAYS
   port: 9090
-#logging:
-#  level:
-#    root: debug
+logging:
+  level:
+    root: debug

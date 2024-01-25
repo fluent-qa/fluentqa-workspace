@@ -18,10 +18,12 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.meilisearch.sdk/meilisearch-java -->
         <dependency>
             <groupId>com.meilisearch.sdk</groupId>
             <artifactId>meilisearch-java</artifactId>
-            <version>0.11.6</version>
+            <version>0.11.5</version>
         </dependency>
+
     </dependencies>
 </project>
