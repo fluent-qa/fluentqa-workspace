@@ -8,6 +8,17 @@ low-code:
 toolkits:
   - https://github.com/sharat87/littletools.git
   -  https://github.com/QAInsights/Streamlit-JMeter.git
+  - https://github.com/mnotgod96/AppAgent.git
+  - https://github.com/shulieTech/Takin-web.git
 openapi:
   - https://github.com/wu-clan/httpfpt.git
   - https://openapi.tools/
+
+integrations:
+  - https://gitee.com/durcframework/torna.git
+  - metersphere
+  - https://github.com/crusher-dev/crusher.git
+  - http://github.com/hoppscotch/hoppscotch.git
+report:
+  - https://github.com/SeldomQA/XTestRunner.git
+  - https://github.com/extent-framework/extentreports-java.git
