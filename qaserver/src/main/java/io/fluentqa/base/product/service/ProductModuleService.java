@@ -1,11 +1,11 @@
-package io.fluentqa.qtm.pm.product.service;
+package io.fluentqa.base.product.service;
 
 import io.fluent.builtin.PingYinUtils;
+import io.fluentqa.base.product.repo.ProductModuleRepo;
 import io.fluentqa.base.proxies.AuditDataEnhancerProxy;
-import io.fluentqa.base.repo.MasterDataRepo;
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
-import io.fluentqa.base.model.MasterData;
-import io.fluentqa.qtm.pm.product.repo.ProductModuleRepo;
+import io.fluentqa.base.masterdata.repo.MasterDataRepo;
+import io.fluentqa.base.product.model.ProductModuleModel;
+import io.fluentqa.base.masterdata.model.MasterData;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

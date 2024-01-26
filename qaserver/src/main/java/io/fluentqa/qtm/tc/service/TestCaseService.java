@@ -1,6 +1,6 @@
 package io.fluentqa.qtm.tc.service;
 
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import io.fluentqa.qtm.tc.dto.TestCaseDTO;
 import org.springframework.stereotype.Service;
 

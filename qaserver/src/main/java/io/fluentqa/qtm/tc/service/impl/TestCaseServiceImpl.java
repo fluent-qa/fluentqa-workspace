@@ -5,16 +5,14 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.lang.UUID;
 import cn.hutool.core.util.StrUtil;
 import io.fluentqa.base.proxies.AuditDataEnhancerProxy;
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
-import io.fluentqa.qtm.pm.product.service.ProductModuleService;
+import io.fluentqa.base.product.model.ProductModuleModel;
+import io.fluentqa.base.product.service.ProductModuleService;
 import io.fluentqa.qtm.tc.dto.TestCaseDTO;
 import io.fluentqa.qtm.tc.model.TestCase;
 import io.fluentqa.qtm.tc.repo.TestCaseRepo;
 import io.fluentqa.qtm.tc.service.TestCaseService;
-import org.apache.commons.math3.stat.descriptive.summary.Product;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
-import xyz.erupt.upms.service.EruptUserService;
 
 import javax.annotation.Resource;
 import javax.transaction.Transactional;

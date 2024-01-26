@@ -1,4 +1,4 @@
-package io.fluentqa.upload.proxy;
+package io.fluentqa.base.upload.proxy;
 
 public enum UploadFileTypeEnum {
     EXCEL_TC,FREEMIND,PM,MINDMAP;

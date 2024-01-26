@@ -1,4 +1,4 @@
-package io.fluentqa.qtm.pm.product.model;
+package io.fluentqa.base.product.model;
 
 import io.fluentqa.base.model.ModelWithValidFlagVo;
 import lombok.Getter;

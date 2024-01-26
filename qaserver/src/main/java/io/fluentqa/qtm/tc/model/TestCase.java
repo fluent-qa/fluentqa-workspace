@@ -2,7 +2,7 @@ package io.fluentqa.qtm.tc.model;
 
 import io.fluentqa.base.handlers.SqlTagFetchHandler;
 import io.fluentqa.base.model.ModelWithValidFlagVo;
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.sub_erupt.Layout;

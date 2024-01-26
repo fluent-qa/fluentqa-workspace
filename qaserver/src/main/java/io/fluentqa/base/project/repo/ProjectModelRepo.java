@@ -1,7 +1,7 @@
-package io.fluentqa.qtm.pm.project.repo;
+package io.fluentqa.base.project.repo;
 
 
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

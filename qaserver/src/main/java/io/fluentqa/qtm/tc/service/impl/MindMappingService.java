@@ -4,7 +4,7 @@ package io.fluentqa.qtm.tc.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import io.fluentqa.mindmap.api.MindMapAccessor;
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import io.fluentqa.qtm.tc.dto.TestCaseDTO;
 import io.fluentqa.qtm.tc.service.TestCaseService;
 import org.springframework.stereotype.Service;

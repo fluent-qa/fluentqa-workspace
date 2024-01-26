@@ -1,6 +1,6 @@
 data:
   - https://gitee.com/opengoofy/crane4j
-
+  - https://github.com/datageartech/datagear.git
 
 low-code:
   - https://github.com/pingapi/crabc-api

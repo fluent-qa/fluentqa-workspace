@@ -1,6 +1,6 @@
-package io.fluentqa.base.repo;
+package io.fluentqa.base.masterdata.repo;
 
-import io.fluentqa.base.model.MasterData;
+import io.fluentqa.base.masterdata.model.MasterData;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

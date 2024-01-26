@@ -1,6 +1,7 @@
-package io.fluentqa.base.model;
+package io.fluentqa.base.masterdata.model;
 
 import io.fluentqa.base.handlers.SqlTagFetchHandler;
+import io.fluentqa.base.model.ModelWithValidFlagVo;
 import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;

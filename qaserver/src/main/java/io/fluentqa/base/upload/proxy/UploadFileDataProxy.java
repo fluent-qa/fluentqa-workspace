@@ -1,10 +1,10 @@
-package io.fluentqa.upload.proxy;
+package io.fluentqa.base.upload.proxy;
 
 
 
 import cn.hutool.core.bean.BeanUtil;
 import io.fluentqa.excel.ExcelReadWriter;
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import io.fluentqa.qtm.tc.dto.TestCaseDTO;
 import io.fluentqa.qtm.tc.service.TestCaseService;
 import io.fluentqa.qtm.tc.service.impl.MindMappingService;

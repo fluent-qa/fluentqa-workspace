@@ -1,7 +1,7 @@
-package io.fluentqa.upload.model;
+package io.fluentqa.base.upload.model;
 
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
-import io.fluentqa.upload.proxy.UploadFileDataProxy;
+import io.fluentqa.base.upload.proxy.UploadFileDataProxy;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;

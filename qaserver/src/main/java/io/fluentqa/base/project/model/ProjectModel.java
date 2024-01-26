@@ -1,6 +1,9 @@
-package io.fluentqa.qtm.pm.product.model;
+package io.fluentqa.base.project.model;
+
 
 import io.fluentqa.base.model.ModelWithValidFlagVo;
+import io.fluentqa.base.product.model.ProductModuleModel;
+import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.sub_erupt.Power;
@@ -8,21 +11,20 @@ import xyz.erupt.annotation.sub_erupt.Tree;
 import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
 import xyz.erupt.annotation.sub_field.View;
-import xyz.erupt.annotation.sub_field.sub_edit.ChoiceType;
 import xyz.erupt.annotation.sub_field.sub_edit.InputType;
 import xyz.erupt.annotation.sub_field.sub_edit.ReferenceTreeType;
 import xyz.erupt.annotation.sub_field.sub_edit.Search;
-import xyz.erupt.toolkit.handler.SqlChoiceFetchHandler;
 
 import javax.persistence.*;
 import java.util.UUID;
 
-@Erupt(name = "产品模块配置",
+@Erupt(name = "项目",
         power = @Power(importable = true, export = true),
         tree = @Tree(pid = "parent.id"))
 @Entity
-@Table(name = "products")
-public class ProductModuleModel extends ModelWithValidFlagVo {
+@Table(name = "projects")
+@Data
+public class ProjectModel extends ModelWithValidFlagVo {
 
     @EruptField(
             views = @View(
@@ -62,19 +64,15 @@ public class ProductModuleModel extends ModelWithValidFlagVo {
     )
     private String details;
 
+    @ManyToOne
     @EruptField(
-            views = @View(title = "类型"),
             edit = @Edit(
-                    search = @Search,
-                    title = "获取可选类型",
-                    type = EditType.CHOICE,
-                    desc = "动态获取可选类型",
-                    choiceType = @ChoiceType(
-                            fetchHandler = SqlChoiceFetchHandler.class,
-                            fetchHandlerParams = "select id,name from master_data where category='PRODUCT'"
-                    ))
+                    title = "产品列表",
+                    type = EditType.REFERENCE_TREE,
+                    referenceTreeType = @ReferenceTreeType(pid = "parent.id")
+            )
     )
-    private String metaType;
+    private ProductModuleModel productId;
 
     @ManyToOne
     @EruptField(
@@ -84,57 +82,8 @@ public class ProductModuleModel extends ModelWithValidFlagVo {
                     referenceTreeType = @ReferenceTreeType(pid = "parent.id")
             )
     )
-    private ProductModuleModel parent;
+    private ProjectModel parent;
 
-
-    @Column(length = 36, nullable = true, updatable = false)
+    @Column(length = 36, nullable = false, updatable = false)
     private String uuid = UUID.randomUUID().toString();
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public String getDetails() {
-        return details;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
-    }
-
-    public String getMetaType() {
-        return metaType;
-    }
-
-    public void setMetaType(String metaType) {
-        this.metaType = metaType;
-    }
-
-    public ProductModuleModel getParent() {
-        return parent;
-    }
-
-    public void setParent(ProductModuleModel parent) {
-        this.parent = parent;
-    }
-
-    public String getUuid() {
-        return uuid;
-    }
-
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
 }

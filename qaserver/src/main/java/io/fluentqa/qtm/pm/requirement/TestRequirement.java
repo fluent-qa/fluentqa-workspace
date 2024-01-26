@@ -3,7 +3,7 @@ package io.fluentqa.qtm.pm.requirement;
 
 import io.fluentqa.base.handlers.SqlTagFetchHandler;
 import io.fluentqa.base.model.ModelWithValidFlag;
-import io.fluentqa.qtm.pm.product.model.ProductModuleModel;
+import io.fluentqa.base.product.model.ProductModuleModel;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
 import xyz.erupt.annotation.fun.ChoiceFetchHandler;
