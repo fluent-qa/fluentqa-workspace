@@ -15,7 +15,7 @@
     <modules>
         <module>fluent-erupts-base</module>
         <module>fluent-generator</module>
-<!--        <module>fluent-tc</module>-->
+        <!--        <module>fluent-tc</module>-->
 <!--        <module>fluent-pm</module>-->
     </modules>
 
