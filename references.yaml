@@ -33,6 +33,9 @@ libs:
   - https://github.com/joelittlejohn/jsonschema2pojo.git
   - https://github.com/pf4j/pf4j.git
   - https://github.com/domaframework/doma.git
+  - https://github.com/jcabi/jcabi-github.git
+  - https://github.com/javaxcel/javaxcel-core.git
+  - https://github.com/joelittlejohn/jsonschema2pojo.git
 data-plugins:
   - https://github.com/data-integrations/database-plugins.git
 data-factory:
