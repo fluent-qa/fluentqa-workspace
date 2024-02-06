@@ -17,5 +17,6 @@
         <module>fluent-git</module>
         <module>fluent-vika</module>
         <module>fluent-allure</module>
+        <module>fluent-jira</module>
     </modules>
 </project>

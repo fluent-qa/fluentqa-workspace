@@ -20,7 +20,7 @@
         <module>components</module>
         <module>modules</module>
         <module>fluent-wrappers</module>
-        <module>fluent-wrappers/fluent-jira</module>
+        <module>susu-portal</module>
     </modules>
 
     <properties>
