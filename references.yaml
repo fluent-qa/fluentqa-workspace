@@ -18,6 +18,7 @@ openapi:
   -  https://github.com/getkin/kin-openapi.git
 code-gen:
   -  https://github.com/cmeza20/spring-data-generator.git
+  - https://github.com/fescobar/allure-docker-service.git
 todo:
   - https://github.com/omkarcloud/bose.git
   - https://github.com/emaiannone/surface
@@ -27,6 +28,34 @@ todo:
 testing-framework:
   - https://github.com/ghoshasish99/CognizantIntelligentTestScripter.git
 libs:
+  - https://github.com/yqhp/yqhp.git
+  -  https://github.com/test-instructor/yangfan.git
+  - https://github.com/sartography/SpiffWorkflow.git
+  - https://github.com/baloise/test-automation-framework.git
+  -  https://github.com/kubeshop/tracetest.git
+  - https://github.com/trytouca/trytouca.git
+  -  https://github.com/aws/universal-test-runner.git
+  - https://github.com/EsperoTech/yaade.git
+  - https://github.com/taverntesting/tavern.git
+  - https://github.com/shulieTech/Takin-web.git
+  - https://github.com/QualitySphere/qsphere-svc.git
+  -  https://gitee.com/hsth/qingyun.git
+  - https://github.com/teemtee/tmt.git
+  -  https://github.com/ae86sen/aomaker.git
+  - https://github.com/dongfanger/tep.git
+  - https://gitee.com/season-fan/autometer-api.git
+  - https://github.com/kiwicom/contessa.git
+  - https://github.com/testsigmahq/testsigma.git
+  - https://github.com/httprunner/httprunner.git
+  - https://github.com/wu-clan/httpfpt.git
+  -  https://github.com/cobrateam/splinter.git
+  - https://github.com/bcpeinhardt/schnauzerUI.git
+  - https://github.com/hamibot/hamibot.git
+  -  https://github.com/Blazemeter/taurus.git
+  - https://github.com/bmarsh9/spate.git
+  - https://github.com/SeldomQA/seldom.git
+  -  https://github.com/keploy/keploy.git
+  - https://github.com/Blazemeter/apiritif.git
   - https://github.com/spotify/github-java-client.git
   - https://github.com/cdimascio/dotenv-java.git
   - https://github.com/jcabi/jcabi-github.git
@@ -36,6 +65,33 @@ libs:
   - https://github.com/jcabi/jcabi-github.git
   - https://github.com/javaxcel/javaxcel-core.git
   - https://github.com/joelittlejohn/jsonschema2pojo.git
+  - https://github.com/exactpro/clearth
+  - https://github.com/FeatureProbe/FeatureProbe.git
+  - https://github.com/dipjyotimetia/HybridTestFramework.git
+  - https://github.com/microsoft/HydraLab.git
+  - https://github.com/qu-niao/LimApiTest.git
+  - https://github.com/Chras-fu/Liuma-engine.git
+  - https://github.com/Chras-fu/Liuma-platform.git
+  - https://github.com/easysoft/zendata.git
+  - https://github.com/bmw-software-engineering/trlc.git
+  - https://github.com/flawiddsouza/Restfox.git
+  - https://github.com/easysoft/zentaoatf.git
+  - https://github.com/authorjapps/zerocode.git
+  - https://github.com/baizunxian/zerorunner.git
+  - https://github.com/testingisdocumenting/znai.git
+  - https://github.com/ShaftHQ/SHAFT_ENGINE
+  - https://github.com/oneops/oneops.git
+  - https://github.com/SeldomQA/poium.git
+  - https://github.com/testingisdocumenting/webtau.git
+  - https://github.com/Tinkoff/overhave.git
+  - https://github.com/ryandem1/oar.git
+  - https://github.com/tag1consulting/goose
+  - https://github.com/stepci/stepci.git
+  - https://github.com/ctripcorp/flybirds.git
+  - https://github.com/Meituan-Dianping/lyrebird.git
+  - https://github.com/zebrunner/carina.git
+  - https://github.com/os7blue/dobby.git
+  - https://github.com/SciCrunch/scibot.git
 data-plugins:
   - https://github.com/data-integrations/database-plugins.git
 data-factory:
