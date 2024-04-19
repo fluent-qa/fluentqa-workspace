@@ -1,5 +1,7 @@
-
-
+springboot:
+  - https://github.com/spring-projects-experimental/spring-modulith.git
+data-orm:
+  -  https://github.com/ebean-orm/ebean.git
 api-mgt:
   - https://github.com/apiaryio/dredd.git
   - https://github.com/Kong/insomnia.git
@@ -13,11 +15,11 @@ low-code:
   - https://gitee.com/jmix/jmix
   - https://github.com/jet-admin/jet-bridge
 bi:
-  -  https://github.com/pinterest/querybook.git
+  - https://github.com/pinterest/querybook.git
 openapi:
-  -  https://github.com/getkin/kin-openapi.git
+  - https://github.com/getkin/kin-openapi.git
 code-gen:
-  -  https://github.com/cmeza20/spring-data-generator.git
+  - https://github.com/cmeza20/spring-data-generator.git
   - https://github.com/fescobar/allure-docker-service.git
 todo:
   - https://github.com/omkarcloud/bose.git
@@ -25,36 +27,39 @@ todo:
   - https://github.com/Tencent/QTAF
   - https://github.com/BalamiRR/Testinium-QA.git
   - https://github.com/abstracta/jmeter-java-dsl.git
+  - https://github.com/graalvm/graalvm-demos.git
 testing-framework:
   - https://github.com/ghoshasish99/CognizantIntelligentTestScripter.git
 libs:
+  - https://github.com/pf4j/pf4j.git
+  -  https://github.com/xvik/guice-validator.git
   - https://github.com/yqhp/yqhp.git
-  -  https://github.com/test-instructor/yangfan.git
+  - https://github.com/test-instructor/yangfan.git
   - https://github.com/sartography/SpiffWorkflow.git
   - https://github.com/baloise/test-automation-framework.git
-  -  https://github.com/kubeshop/tracetest.git
+  - https://github.com/kubeshop/tracetest.git
   - https://github.com/trytouca/trytouca.git
-  -  https://github.com/aws/universal-test-runner.git
+  - https://github.com/aws/universal-test-runner.git
   - https://github.com/EsperoTech/yaade.git
   - https://github.com/taverntesting/tavern.git
   - https://github.com/shulieTech/Takin-web.git
   - https://github.com/QualitySphere/qsphere-svc.git
-  -  https://gitee.com/hsth/qingyun.git
+  - https://gitee.com/hsth/qingyun.git
   - https://github.com/teemtee/tmt.git
-  -  https://github.com/ae86sen/aomaker.git
+  - https://github.com/ae86sen/aomaker.git
   - https://github.com/dongfanger/tep.git
   - https://gitee.com/season-fan/autometer-api.git
   - https://github.com/kiwicom/contessa.git
   - https://github.com/testsigmahq/testsigma.git
   - https://github.com/httprunner/httprunner.git
   - https://github.com/wu-clan/httpfpt.git
-  -  https://github.com/cobrateam/splinter.git
+  - https://github.com/cobrateam/splinter.git
   - https://github.com/bcpeinhardt/schnauzerUI.git
   - https://github.com/hamibot/hamibot.git
-  -  https://github.com/Blazemeter/taurus.git
+  - https://github.com/Blazemeter/taurus.git
   - https://github.com/bmarsh9/spate.git
   - https://github.com/SeldomQA/seldom.git
-  -  https://github.com/keploy/keploy.git
+  - https://github.com/keploy/keploy.git
   - https://github.com/Blazemeter/apiritif.git
   - https://github.com/spotify/github-java-client.git
   - https://github.com/cdimascio/dotenv-java.git
@@ -92,6 +97,7 @@ libs:
   - https://github.com/zebrunner/carina.git
   - https://github.com/os7blue/dobby.git
   - https://github.com/SciCrunch/scibot.git
+  - https://gitee.com/troyzhxu/bean-searcher.git
 data-plugins:
   - https://github.com/data-integrations/database-plugins.git
 data-factory:
@@ -99,6 +105,9 @@ data-factory:
 
 guides:
   - https://github.com/Snailclimb/JavaGuide.git
+  -  https://github.com/vladmihalcea/high-performance-java-persistence.git
+  - https://github.com/Linkshegelianer/java-labs.git
+  - https://github.com/jvm-bloggers/jvm-bloggers.git
 test-libs:
   - https://github.com/quick-perf/quickperf
 tutorials:
