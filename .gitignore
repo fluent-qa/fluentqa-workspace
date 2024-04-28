@@ -1,4 +1,6 @@
 .idea/
+.erupt/
+.env
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -11,6 +13,7 @@ target/
 *.iws
 *.iml
 *.ipr
+srcipts/jaxb-ri/*
 
 ### Eclipse ###
 .apt_generated

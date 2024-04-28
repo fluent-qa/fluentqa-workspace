@@ -164,6 +164,9 @@ products:
 self-hosts:
   - https://github.com/dronahq/self-hosted.git
 
+agile/NPM:
+
+
 solutions:
   - name: cal
     repos:

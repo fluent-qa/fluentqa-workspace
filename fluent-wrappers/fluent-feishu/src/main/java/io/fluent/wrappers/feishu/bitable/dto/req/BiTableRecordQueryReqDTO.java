@@ -1,8 +1,8 @@
 package io.fluent.wrappers.feishu.bitable.dto.req;
 
-import com.cloudminds.data.smith.external.feishu.common.dto.PageReqDTO;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import io.fluent.wrappers.feishu.common.dto.PageReqDTO;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

@@ -1,6 +1,5 @@
 package io.fluent.wrappers.feishu.common.constant;
 
-import com.cloudminds.data.smith.exception.ICode;
 
 /**
  * 飞书错误码
@@ -8,7 +7,7 @@ import com.cloudminds.data.smith.exception.ICode;
  * @author Tao.Liu
  * @date 2021/12/9 14:50
  */
-public enum FeishuErrorCodeEnum implements ICode {
+public enum FeishuErrorCodeEnum  {
 
     TABLE_ERROR("smith.feishu_table_error", "飞书接口响应异常"),
     TRY_AGAIN_LATER("cade.feishu_try_again_later", "请求超时，请稍后重试"),
@@ -29,12 +28,10 @@ public enum FeishuErrorCodeEnum implements ICode {
     }
 
 
-    @Override
     public String getCode() {
         return this.code;
     }
 
-    @Override
     public String getMessage() {
         return this.message;
     }
