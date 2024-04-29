@@ -24,7 +24,7 @@
     </modules>
 
     <properties>
-        <erupt.version>1.12.11</erupt.version>
+        <erupt.version>1.12.12</erupt.version>
         <fluent.version>1.0-SNAPSHOT</fluent.version>
         <postgresql.version>42.5.1</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
