@@ -1,7 +1,7 @@
 springboot:
   - https://github.com/spring-projects-experimental/spring-modulith.git
 data-orm:
-  -  https://github.com/ebean-orm/ebean.git
+  - https://github.com/ebean-orm/ebean.git
 api-mgt:
   - https://github.com/apiaryio/dredd.git
   - https://github.com/Kong/insomnia.git
@@ -31,8 +31,9 @@ todo:
 testing-framework:
   - https://github.com/ghoshasish99/CognizantIntelligentTestScripter.git
 libs:
+  - https://github.com/opengoofy/hippo4j.git
   - https://github.com/pf4j/pf4j.git
-  -  https://github.com/xvik/guice-validator.git
+  - https://github.com/xvik/guice-validator.git
   - https://github.com/yqhp/yqhp.git
   - https://github.com/test-instructor/yangfan.git
   - https://github.com/sartography/SpiffWorkflow.git
@@ -105,7 +106,7 @@ data-factory:
 
 guides:
   - https://github.com/Snailclimb/JavaGuide.git
-  -  https://github.com/vladmihalcea/high-performance-java-persistence.git
+  - https://github.com/vladmihalcea/high-performance-java-persistence.git
   - https://github.com/Linkshegelianer/java-labs.git
   - https://github.com/jvm-bloggers/jvm-bloggers.git
 test-libs:

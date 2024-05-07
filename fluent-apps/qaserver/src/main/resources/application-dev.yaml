@@ -23,9 +23,9 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://127.0.0.1:5432/qa?currentSchema=workspace
+    url: jdbc:postgresql://supabase_db_dev-stacks.orb.local:5432/workspace?schema=qa
     username: postgres
-    password: changeit
+    password: postgres
   jpa:
     show-sql: true
     generate-ddl: true

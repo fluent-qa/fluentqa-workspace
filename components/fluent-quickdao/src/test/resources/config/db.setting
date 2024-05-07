@@ -1,8 +1,8 @@
 ## db.setting文件
 
-url = jdbc:postgresql://127.0.0.1:7432/test_hub?currentSchema=demo
+url = jdbc:postgresql://127.0.0.1:7432/workspace?schema=qa
 user = postgres
-pass = changeit
+pass = postgres
 
 ## 可选配置
 # 是否在日志中显示执行的SQL

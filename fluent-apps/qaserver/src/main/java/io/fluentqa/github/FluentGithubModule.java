@@ -37,7 +37,7 @@ public class FluentGithubModule implements EruptModule {
 
     @Override
     public List<MetaMenu> initMenus() {
-        List<MetaMenu> menus = new ArrayList();
+        List<MetaMenu> menus = new ArrayList<>();
         menus.add(MetaMenu.createRootMenu("$github", "github管理", "fa fa-github", 1));
         MetaMenu starredMenu =MetaMenu.createEruptClassMenu(GithubStarredRepo.class, menus.get(0), 0, MenuTypeEnum.TABLE);
         starredMenu.setIcon("fa fa-star");
