@@ -33,12 +33,14 @@ public class GithubStarredCollectorJob implements EruptJobHandler {
         }else {
             parameters = JSONUtil.toBean(param, GithubJobFetchParameters.class);
         }
+        //TODO: make it async
         userNames=StringUtils.split(parameters.getUserNames(),",");
         for (String userName : userNames) {
             githubService.saveUserStarredRepo(userName,parameters.getFromPage());
         }
         return "success";
     }
+
 
     @Override
     public void success(String result, String param) {

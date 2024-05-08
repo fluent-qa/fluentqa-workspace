@@ -34,7 +34,6 @@ public class GithubStarredRepo extends MetaModelVo {
 
 
     @EruptField(views = @View(title = "主题"), edit = @Edit(title = "主题", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
-
     private String topics;
 
     @EruptField(views = @View(title = "语言"), edit = @Edit(title = "语言", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
