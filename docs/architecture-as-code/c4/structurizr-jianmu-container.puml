@@ -1,0 +1,24 @@
+@startuml
+title 建木自动化集成平台 - Containers
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+LAYOUT_WITH_LEGEND()
+
+Person(1, "用户", "泛指用户")
+
+System_Boundary("2_boundary", "建木自动化集成平台") {
+  Container(11, "数据库", "Mysql 8.0")
+  Container(12, "docker-worker", "容器化执行环境")
+  Container(16, "shell-worker", "非容器化执行环境")
+  Container(3, "SPA单页面应用", "TypeScript and Vue 3.0", "Provides all of the Jianmu functionality to customers via their web browser.")
+  Container(4, "主服务", "主服务")
+}
+
+Rel_D(1, 3, "操作或查看流程与任务", "Rest API")
+Rel_D(4, 11, "读写数据", "JDBC/SSL")
+Rel_D(12, 4, "获取任务执行", "http/https")
+Rel_D(16, 4, "获取任务执行", "http/https")
+Rel_D(3, 4, "启动流程或任务", "Rest API")
+@enduml
