@@ -63,7 +63,7 @@ public class RemoteApi extends ModelWithValidFlag {
                     desc = "获取产品",
                     choiceType = @ChoiceType(
                             fetchHandler = SqlChoiceFetchHandler.class,
-                            fetchHandlerParams = "select id,name,details from product_meta where valid =true and parent_id is NULL"
+                            fetchHandlerParams = "select id,name,details from products where valid =true and parent_id is NULL"
                     ))
     )
     private Long productId;

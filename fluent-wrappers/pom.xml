@@ -18,5 +18,6 @@
         <module>fluent-vika</module>
         <module>fluent-allure</module>
         <module>fluent-jira</module>
+        <module>fluent-tw</module>
     </modules>
 </project>

@@ -32,3 +32,12 @@ devops:
   - https://github.com/YaoApp/xgen.git
   - https://gitee.com/jianmu-dev/jianmu.git
   - https://gitee.com/ketr/jecloud
+
+database-tools:
+  -  https://github.com/azimuttapp/azimutt.git
+qa-tools:
+  - https://gitee.com/cat2bug/cat2bug-platform.git
+qa-ai-tools:
+  - https://gitee.com/panday94/chat-master.git
+admin:
+  - https://github.com/build-admin/build-admin-nuxt.git

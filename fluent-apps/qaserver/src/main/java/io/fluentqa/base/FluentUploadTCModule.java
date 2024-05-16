@@ -1,6 +1,6 @@
-package io.fluentqa.github;
+package io.fluentqa.base;
 
-import io.fluentqa.github.model.GithubStarredRepo;
+import io.fluentqa.base.upload.model.UploadFileModel;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
@@ -20,14 +20,14 @@ import java.util.List;
 @EntityScan
 @EruptScan
 @EnableConfigurationProperties
-public class FluentGithubModule implements EruptModule {
+public class FluentUploadTCModule implements EruptModule {
 
-    public FluentGithubModule() {
+    public FluentUploadTCModule() {
     }
 
     @Override
     public ModuleInfo info() {
-        return ModuleInfo.builder().name("fluent-github").build();
+        return ModuleInfo.builder().name("fluent-tc-sync").build();
     }
 
     @Override
@@ -38,16 +38,16 @@ public class FluentGithubModule implements EruptModule {
     @Override
     public List<MetaMenu> initMenus() {
         List<MetaMenu> menus = new ArrayList<>();
-        menus.add(MetaMenu.createRootMenu("$github", "github管理", "fa fa-github", 1000));
-        MetaMenu starredMenu =MetaMenu.createEruptClassMenu(GithubStarredRepo.class, menus.get(0), 0, MenuTypeEnum.TABLE);
-        starredMenu.setIcon("fa fa-star");
-        starredMenu.setName("github收藏");
-        starredMenu.setCode("$github-starred");
-        menus.add(starredMenu);
+        menus.add(MetaMenu.createRootMenu("$tc-upload", "测试文件管理", "fa fa-file", 100));
+        MetaMenu tfUploadSyncMenu = MetaMenu.createEruptClassMenu(UploadFileModel.class, menus.get(0), 0, MenuTypeEnum.TABLE);
+        tfUploadSyncMenu.setIcon("fa fa-folder-open");
+        tfUploadSyncMenu.setName("测试文件同步");
+        tfUploadSyncMenu.setCode("$tc-upload-sync");
+        menus.add(tfUploadSyncMenu);
         return menus;
     }
 
     static {
-        EruptModuleInvoke.addEruptModule(FluentGithubModule.class);
+        EruptModuleInvoke.addEruptModule(FluentUploadTCModule.class);
     }
 }

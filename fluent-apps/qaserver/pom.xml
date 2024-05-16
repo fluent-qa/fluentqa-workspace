@@ -110,6 +110,12 @@
             <artifactId>fluent-openapi</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- 代码生成器模块 -->
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-generator</artifactId>
+            <version>${erupt.version}</version>
+        </dependency>
         <!--        <dependency>-->
         <!--            <groupId>io.hypersistence</groupId>-->
         <!--            <artifactId>hypersistence-utils-hibernate-62</artifactId>-->
