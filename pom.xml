@@ -15,12 +15,12 @@
         <developerConnection>scm:git:git@github.com:${repository-owner}/${repository-name}.git</developerConnection>
     </scm>
     <modules>
-        <module>qaserver</module>
         <module>fluent-erupts</module>
         <module>components</module>
         <module>modules</module>
         <module>fluent-wrappers</module>
-        <module>susu-portal</module>
+        <module>fluent-apps</module>
+        <module>fluent-wrappers/fluent-ai</module>
     </modules>
 
     <properties>
@@ -41,6 +41,7 @@
         <repository-name>fluentqa-workspace</repository-name>
         <branch-name>main</branch-name>
         <github.global.server>github</github.global.server>
+        <lombok.version>1.18.32</lombok.version>
     </properties>
 
     <dependencies>
@@ -53,7 +54,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>${lombok.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -74,12 +75,9 @@
             <artifactId>slf4j-api</artifactId>
             <version>2.0.9</version>
         </dependency>
-
-
     </dependencies>
 
     <dependencyManagement>
-
         <dependencies>
             <dependency>
                 <groupId>org.junit</groupId>

@@ -1,0 +1,38 @@
+@startuml
+title 建木自动化集成平台 - Deployment - dev
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+LAYOUT_WITH_LEGEND()
+
+Deployment_Node(55, "Docker Container - Worker Server", "Docker") {
+  Deployment_Node(56, "Worker Server", "Golang") {
+    Container(57, "docker-worker", "容器化执行环境")
+  }
+
+}
+
+Deployment_Node(45, "Web Browser", "Chrome, Firefox, Safari, or Edge") {
+  Container(46, "SPA单页面应用", "TypeScript and Vue 3.0", "Provides all of the Jianmu functionality to customers via their web browser.")
+}
+
+Deployment_Node(47, "Docker Container - Web Server", "Docker") {
+  Deployment_Node(48, "Spring boot", "Spring boot 2.x") {
+    Container(49, "主服务", "主服务")
+  }
+
+}
+
+Deployment_Node(51, "Docker Container - Database Server", "Docker") {
+  Deployment_Node(52, "Database Server", "Mysql 8.0") {
+    Container(53, "数据库", "Mysql 8.0")
+  }
+
+}
+
+Rel_D(46, 49, "启动流程或任务", "Rest API")
+Rel_D(49, 53, "读写数据", "JDBC/SSL")
+Rel_D(57, 49, "获取任务执行", "http/https")
+@enduml
