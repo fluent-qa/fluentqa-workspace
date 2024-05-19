@@ -16,12 +16,9 @@
         <module>fluent-base-ext</module>
         <module>fluent-payment</module>
         <module>fluent-search</module>
-        <module>fluent-apiway</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
