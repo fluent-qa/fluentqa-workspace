@@ -166,6 +166,7 @@ low-code:
 self-hosts:
   - https://github.com/dronahq/self-hosted.git
   - https://github.com/LetTTGACO/elog.git
+  - https://zeon.studio/
 agile/NPM:
 
 
