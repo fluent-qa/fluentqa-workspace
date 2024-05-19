@@ -14,6 +14,7 @@ low-code:
   - https://github.com/structr/structr
   - https://gitee.com/jmix/jmix
   - https://github.com/jet-admin/jet-bridge
+  - https://netease.github.io/tango-site/
 bi:
   - https://github.com/pinterest/querybook.git
 openapi:
@@ -161,8 +162,7 @@ products:
   - Xray
   - Zephyr Scale
   - Zephyr Squad
-low-code:
-  - https://netease.github.io/tango-site/
+
 self-hosts:
   - https://github.com/dronahq/self-hosted.git
   - https://github.com/LetTTGACO/elog.git
