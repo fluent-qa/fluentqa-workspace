@@ -1,8 +1,8 @@
-//package io.fluentqa.clients.base;
+// package io.fluentqa.clients.base;
 //
-//import org.junit.jupiter.api.Test;
+// import org.junit.jupiter.api.Test;
 //
-//class HttpRequestModelTest {
+// class HttpRequestModelTest {
 //
 //  @Test
 //  void getRequestPath() {
@@ -10,4 +10,4 @@
 //    requestModel.setUrlPath("/test");
 //
 //  }
-//}
+// }

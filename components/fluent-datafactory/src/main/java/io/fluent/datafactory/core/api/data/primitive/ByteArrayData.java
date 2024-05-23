@@ -9,14 +9,13 @@ import io.fluent.datafactory.core.util.InnerDataUtil;
 @AutoService(IData.class)
 public class ByteArrayData implements IData<byte[]> {
 
-    @Override
-    public byte[] build(IDataFactoryContext context, Class<byte[]> aClass) {
-        int size = InnerDataUtil.randomSize();
-        byte[] array = new byte[size];
-        for(int i = 0; i < size; i++) {
-            array[i] = DataFactoryDataUtil.build(byte.class);
-        }
-        return array;
+  @Override
+  public byte[] build(IDataFactoryContext context, Class<byte[]> aClass) {
+    int size = InnerDataUtil.randomSize();
+    byte[] array = new byte[size];
+    for (int i = 0; i < size; i++) {
+      array[i] = DataFactoryDataUtil.build(byte.class);
     }
-
+    return array;
+  }
 }

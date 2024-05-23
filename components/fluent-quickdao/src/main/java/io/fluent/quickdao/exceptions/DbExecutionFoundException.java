@@ -1,8 +1,7 @@
 package io.fluent.quickdao.exceptions;
 
-public class DbExecutionFoundException extends RuntimeException{
-  public DbExecutionFoundException() {
-  }
+public class DbExecutionFoundException extends RuntimeException {
+  public DbExecutionFoundException() {}
 
   public DbExecutionFoundException(String message) {
     super(message);
@@ -16,7 +15,8 @@ public class DbExecutionFoundException extends RuntimeException{
     super(cause);
   }
 
-  public DbExecutionFoundException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+  public DbExecutionFoundException(
+      String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
     super(message, cause, enableSuppression, writableStackTrace);
   }
 }

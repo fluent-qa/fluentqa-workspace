@@ -2,9 +2,8 @@ package io.fluent.wrappers.feishu.common.dto;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import lombok.Data;
-
 import java.util.List;
+import lombok.Data;
 
 /**
  * 飞书分页结构
@@ -16,24 +15,15 @@ import java.util.List;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Page<T> {
 
-    /**
-     * 是否还有更多项
-     */
-    private Boolean hasMore;
+  /** 是否还有更多项 */
+  private Boolean hasMore;
 
-    /**
-     * 分页标记，当 has_more 为 true 时，会同时返回新的 page_token，否则不返回 page_token
-     */
-    private String pageToken;
+  /** 分页标记，当 has_more 为 true 时，会同时返回新的 page_token，否则不返回 page_token */
+  private String pageToken;
 
-    /**
-     * 总数
-     */
-    private Integer total;
+  /** 总数 */
+  private Integer total;
 
-    /**
-     * 列表项
-     */
-    private List<T> items;
-
+  /** 列表项 */
+  private List<T> items;
 }

@@ -4,28 +4,27 @@ import java.util.Set;
 
 public interface JiraFieldsBean {
 
-	String getDescription();
+  String getDescription();
 
-	JiraUser getAssignee();
+  JiraUser getAssignee();
 
-	JiraResolution getResolution();
+  JiraResolution getResolution();
 
-	void setDescription(String description);
+  void setDescription(String description);
 
-	void setAssignee(JiraUser assignee);
+  void setAssignee(JiraUser assignee);
 
-	void setResolution(JiraResolution resolution);
+  void setResolution(JiraResolution resolution);
 
-	Set<JiraVersion> getVersions();
+  Set<JiraVersion> getVersions();
 
-	void setVersions(Set<JiraVersion> versions);
+  void setVersions(Set<JiraVersion> versions);
 
-	Set<JiraVersion> getFixVersions();
+  Set<JiraVersion> getFixVersions();
 
-	void setFixVersions(Set<JiraVersion> fixVersions);
+  void setFixVersions(Set<JiraVersion> fixVersions);
 
-	Set<JiraComponent> getComponents();
+  Set<JiraComponent> getComponents();
 
-	void setComponents(Set<JiraComponent> components);
-
+  void setComponents(Set<JiraComponent> components);
 }

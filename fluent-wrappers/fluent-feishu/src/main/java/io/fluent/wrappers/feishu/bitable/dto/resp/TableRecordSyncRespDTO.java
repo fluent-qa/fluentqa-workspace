@@ -13,25 +13,18 @@ import lombok.Data;
 @AllArgsConstructor
 public class TableRecordSyncRespDTO {
 
-    /**
-     * 新增数量
-     */
-    private Integer insertNum;
+  /** 新增数量 */
+  private Integer insertNum;
 
-    /**
-     * 更新数量
-     */
-    private Integer updateNum;
+  /** 更新数量 */
+  private Integer updateNum;
 
-    /**
-     * 删除数量
-     */
-    private Integer deleteNum;
+  /** 删除数量 */
+  private Integer deleteNum;
 
-    public TableRecordSyncRespDTO() {
-        this.insertNum = 0;
-        this.updateNum = 0;
-        this.deleteNum = 0;
-    }
-
+  public TableRecordSyncRespDTO() {
+    this.insertNum = 0;
+    this.updateNum = 0;
+    this.deleteNum = 0;
+  }
 }

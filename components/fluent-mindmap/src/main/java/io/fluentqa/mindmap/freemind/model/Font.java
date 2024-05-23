@@ -5,16 +5,13 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.*;
-
 import java.math.BigInteger;
 
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -43,117 +40,93 @@ import java.math.BigInteger;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
 @XmlRootElement(name = "font")
 public class Font {
 
-    @XmlAttribute(name = "BOLD")
-    protected String bold;
-    @XmlAttribute(name = "ITALIC")
-    protected String italic;
-    @XmlAttribute(name = "NAME", required = true)
-    protected String name;
-    @XmlAttribute(name = "SIZE", required = true)
-    protected BigInteger size;
+  @XmlAttribute(name = "BOLD")
+  protected String bold;
 
-    /**
-     * 获取bold属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getBOLD() {
-        return bold;
-    }
+  @XmlAttribute(name = "ITALIC")
+  protected String italic;
 
-    /**
-     * 设置bold属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setBOLD(String value) {
-        this.bold = value;
-    }
+  @XmlAttribute(name = "NAME", required = true)
+  protected String name;
 
-    /**
-     * 获取italic属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getITALIC() {
-        return italic;
-    }
+  @XmlAttribute(name = "SIZE", required = true)
+  protected BigInteger size;
 
-    /**
-     * 设置italic属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setITALIC(String value) {
-        this.italic = value;
-    }
+  /**
+   * 获取bold属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getBOLD() {
+    return bold;
+  }
 
-    /**
-     * 获取name属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getNAME() {
-        return name;
-    }
+  /**
+   * 设置bold属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setBOLD(String value) {
+    this.bold = value;
+  }
 
-    /**
-     * 设置name属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setNAME(String value) {
-        this.name = value;
-    }
+  /**
+   * 获取italic属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getITALIC() {
+    return italic;
+  }
 
-    /**
-     * 获取size属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *
-     */
-    public BigInteger getSIZE() {
-        return size;
-    }
+  /**
+   * 设置italic属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setITALIC(String value) {
+    this.italic = value;
+  }
 
-    /**
-     * 设置size属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *
-     */
-    public void setSIZE(BigInteger value) {
-        this.size = value;
-    }
+  /**
+   * 获取name属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getNAME() {
+    return name;
+  }
 
+  /**
+   * 设置name属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setNAME(String value) {
+    this.name = value;
+  }
+
+  /**
+   * 获取size属性的值。
+   *
+   * @return possible object is {@link BigInteger }
+   */
+  public BigInteger getSIZE() {
+    return size;
+  }
+
+  /**
+   * 设置size属性的值。
+   *
+   * @param value allowed object is {@link BigInteger }
+   */
+  public void setSIZE(BigInteger value) {
+    this.size = value;
+  }
 }

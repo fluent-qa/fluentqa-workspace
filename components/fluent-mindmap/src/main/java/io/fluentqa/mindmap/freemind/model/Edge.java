@@ -5,14 +5,12 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.*;
 
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -27,91 +25,72 @@ import jakarta.xml.bind.annotation.*;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
 @XmlRootElement(name = "edge")
 public class Edge {
 
-    @XmlAttribute(name = "COLOR")
-    protected String color;
-    @XmlAttribute(name = "STYLE")
-    protected String style;
-    @XmlAttribute(name = "WIDTH")
-    protected String width;
+  @XmlAttribute(name = "COLOR")
+  protected String color;
 
-    /**
-     * 获取color属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getCOLOR() {
-        return color;
-    }
+  @XmlAttribute(name = "STYLE")
+  protected String style;
 
-    /**
-     * 设置color属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setCOLOR(String value) {
-        this.color = value;
-    }
+  @XmlAttribute(name = "WIDTH")
+  protected String width;
 
-    /**
-     * 获取style属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getSTYLE() {
-        return style;
-    }
+  /**
+   * 获取color属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getCOLOR() {
+    return color;
+  }
 
-    /**
-     * 设置style属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setSTYLE(String value) {
-        this.style = value;
-    }
+  /**
+   * 设置color属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setCOLOR(String value) {
+    this.color = value;
+  }
 
-    /**
-     * 获取width属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getWIDTH() {
-        return width;
-    }
+  /**
+   * 获取style属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getSTYLE() {
+    return style;
+  }
 
-    /**
-     * 设置width属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setWIDTH(String value) {
-        this.width = value;
-    }
+  /**
+   * 设置style属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setSTYLE(String value) {
+    this.style = value;
+  }
 
+  /**
+   * 获取width属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getWIDTH() {
+    return width;
+  }
+
+  /**
+   * 设置width属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setWIDTH(String value) {
+    this.width = value;
+  }
 }

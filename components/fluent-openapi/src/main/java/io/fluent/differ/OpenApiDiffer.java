@@ -29,5 +29,4 @@ public class OpenApiDiffer {
     ChangedOpenApi diff = OpenApiCompare.fromLocations(oriLocation, newLocation);
     return render.render(diff);
   }
-
 }

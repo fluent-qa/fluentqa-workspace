@@ -2,11 +2,10 @@ package io.fluent.wrappers.feishu.bitable.dto.req;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 /**
  * 数据表字段保存请求数据
@@ -20,10 +19,6 @@ import java.util.List;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class TableRecordSaveReqDTO {
 
-    /**
-     * 记录
-     */
-    public List<BiRecordSaveItemReqDTO> records;
-
-
+  /** 记录 */
+  public List<BiRecordSaveItemReqDTO> records;
 }

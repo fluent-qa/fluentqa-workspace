@@ -5,10 +5,8 @@ import org.junit.jupiter.api.Test;
 class MatcherUtilsTest {
 
   @Test
-  void match() {
-  }
+  void match() {}
 
   @Test
-  void containChinese() {
-  }
+  void containChinese() {}
 }

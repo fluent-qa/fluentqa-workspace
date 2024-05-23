@@ -1,20 +1,17 @@
 package io.fluent.builtin.config;
 
-
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.setting.Setting;
-import io.fluent.builtin.meta.ReflectionUtils;
 import io.fluent.builtin.StringUtils;
-
+import io.fluent.builtin.meta.ReflectionUtils;
 import java.util.HashMap;
 
 public class AppConfig {
   Setting setting;
 
-  private AppConfig() {
-  }
+  private AppConfig() {}
 
-  private final static String DEFAULT_SETTING_PATH = "config/app.setting";
+  private static final String DEFAULT_SETTING_PATH = "config/app.setting";
 
   public static AppConfig create() {
     return create(DEFAULT_SETTING_PATH);
@@ -51,7 +48,8 @@ public class AppConfig {
   }
 
   public <T> T getConfigSetBean(Class<T> beanType) {
-    ConfigGroupName groupName = ReflectionUtils.getClassLevelAnnotation(beanType, ConfigGroupName.class);
+    ConfigGroupName groupName =
+        ReflectionUtils.getClassLevelAnnotation(beanType, ConfigGroupName.class);
     if (groupName != null && StringUtils.isBlank(groupName.name())) {
       throw new AppConfigException(beanType.getName() + "is not annotated by ConfigGroupName");
     }

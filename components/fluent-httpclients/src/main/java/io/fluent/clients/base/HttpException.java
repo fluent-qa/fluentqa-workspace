@@ -1,10 +1,8 @@
 package io.fluent.clients.base;
 
-import okhttp3.Response;
-
 import java.util.List;
 import java.util.Map;
-
+import okhttp3.Response;
 
 public class HttpException extends RuntimeException {
 
@@ -25,23 +23,28 @@ public class HttpException extends RuntimeException {
     this.code = code;
   }
 
-  public HttpException(String message, Throwable throwable,
-                       int code, Map<String, List<String>> responseHeaders,
-                       String responseBody) {
+  public HttpException(
+      String message,
+      Throwable throwable,
+      int code,
+      Map<String, List<String>> responseHeaders,
+      String responseBody) {
     super(message, throwable);
     this.code = code;
     this.responseHeaders = responseHeaders;
     this.responseBody = responseBody;
   }
 
-  public HttpException(String message, int code, Map<String, List<String>> responseHeaders, String responseBody) {
+  public HttpException(
+      String message, int code, Map<String, List<String>> responseHeaders, String responseBody) {
     super(message);
     this.code = code;
     this.responseHeaders = responseHeaders;
     this.responseBody = responseBody;
   }
 
-  public HttpException(String message, Throwable throwable, int code, Map<String, List<String>> responseHeaders) {
+  public HttpException(
+      String message, Throwable throwable, int code, Map<String, List<String>> responseHeaders) {
     super(message, throwable);
     this.code = code;
     this.responseHeaders = responseHeaders;
@@ -51,6 +54,6 @@ public class HttpException extends RuntimeException {
     super(response.message());
     this.code = 15000 + response.code();
     this.responseHeaders = response.headers().toMultimap();
-    //this.responseBody = response.body().string();
+    // this.responseBody = response.body().string();
   }
 }

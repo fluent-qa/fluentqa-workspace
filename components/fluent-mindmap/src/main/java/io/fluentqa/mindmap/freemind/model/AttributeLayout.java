@@ -5,16 +5,13 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.*;
-
 import java.math.BigInteger;
 
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -28,65 +25,51 @@ import java.math.BigInteger;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
 @XmlRootElement(name = "attribute_layout")
 public class AttributeLayout {
 
-    @XmlAttribute(name = "NAME_WIDTH", required = true)
-    protected BigInteger namewidth;
-    @XmlAttribute(name = "VALUE_WIDTH")
-    protected BigInteger valuewidth;
+  @XmlAttribute(name = "NAME_WIDTH", required = true)
+  protected BigInteger namewidth;
 
-    /**
-     * 获取namewidth属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *
-     */
-    public BigInteger getNAMEWIDTH() {
-        return namewidth;
-    }
+  @XmlAttribute(name = "VALUE_WIDTH")
+  protected BigInteger valuewidth;
 
-    /**
-     * 设置namewidth属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *
-     */
-    public void setNAMEWIDTH(BigInteger value) {
-        this.namewidth = value;
-    }
+  /**
+   * 获取namewidth属性的值。
+   *
+   * @return possible object is {@link BigInteger }
+   */
+  public BigInteger getNAMEWIDTH() {
+    return namewidth;
+  }
 
-    /**
-     * 获取valuewidth属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link BigInteger }
-     *
-     */
-    public BigInteger getVALUEWIDTH() {
-        return valuewidth;
-    }
+  /**
+   * 设置namewidth属性的值。
+   *
+   * @param value allowed object is {@link BigInteger }
+   */
+  public void setNAMEWIDTH(BigInteger value) {
+    this.namewidth = value;
+  }
 
-    /**
-     * 设置valuewidth属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link BigInteger }
-     *
-     */
-    public void setVALUEWIDTH(BigInteger value) {
-        this.valuewidth = value;
-    }
+  /**
+   * 获取valuewidth属性的值。
+   *
+   * @return possible object is {@link BigInteger }
+   */
+  public BigInteger getVALUEWIDTH() {
+    return valuewidth;
+  }
 
+  /**
+   * 设置valuewidth属性的值。
+   *
+   * @param value allowed object is {@link BigInteger }
+   */
+  public void setVALUEWIDTH(BigInteger value) {
+    this.valuewidth = value;
+  }
 }

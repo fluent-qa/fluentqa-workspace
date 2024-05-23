@@ -1,11 +1,8 @@
 package io.fluent.builtin;
 
-
 import cn.hutool.core.io.FileUtil;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import lombok.extern.slf4j.Slf4j;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -15,24 +12,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+import lombok.extern.slf4j.Slf4j;
 
-/**
- * 文件操作工具类
- */
+/** 文件操作工具类 */
 @Slf4j
 public class JavaProjectFileUtils extends FileUtil {
 
   private static final String classPath = getClassPath();
   public static final String separatorChar = File.separatorChar == '\\' ? "\\\\" : File.separator;
-  private static final String SOURCEBASEPATH = classPath.replaceAll("target/classes/", "")
-    .replaceAll("target/test-classes/", "");
+  private static final String SOURCEBASEPATH =
+      classPath.replaceAll("target/classes/", "").replaceAll("target/test-classes/", "");
 
-  private JavaProjectFileUtils() {
-  }
+  private JavaProjectFileUtils() {}
 
   private static String getClassPath() {
     try {
-      return java.net.URLDecoder.decode(JavaProjectFileUtils.class.getClassLoader().getResource("").getPath(), "utf-8");
+      return java.net.URLDecoder.decode(
+          JavaProjectFileUtils.class.getClassLoader().getResource("").getPath(), "utf-8");
     } catch (UnsupportedEncodingException e) {
       log.error("error+{}", e);
     }
@@ -64,9 +60,7 @@ public class JavaProjectFileUtils extends FileUtil {
     return SOURCEBASEPATH + "src/test/resources/" + resourcePath;
   }
 
-  /**
-   * package转换为路径格式
-   */
+  /** package转换为路径格式 */
   public static String packageToDir(String packageName) {
     String[] array = packageName.split("\\.");
     StringBuilder sb = new StringBuilder();
@@ -77,19 +71,18 @@ public class JavaProjectFileUtils extends FileUtil {
   }
 
   public static Map<String, List<String>> getResourceDirFileMap(String dirPath) {
-    Map<String, List<String>> maps = Maps.newHashMap();// {dir_name, list<file_name>}
+    Map<String, List<String>> maps = Maps.newHashMap(); // {dir_name, list<file_name>}
     File dir = new File(dirPath);
     if (dir.isDirectory()) {
       File[] files = dir.listFiles();
-      if (files == null)
-        throw new RuntimeException("输入路径错误，请检查输入路径");
+      if (files == null) throw new RuntimeException("输入路径错误，请检查输入路径");
       for (File f : files) {
         if (f.isDirectory()) {
           if (maps.get(dir.getName()) == null) {
             maps.putAll(getResourceDirFileMap(dirPath + "/" + f.getName()));
           } else {
-            maps.get(dir.getName()).addAll(
-              getResourceDirFileMap(dirPath + "/" + f.getName()).get(dirPath));
+            maps.get(dir.getName())
+                .addAll(getResourceDirFileMap(dirPath + "/" + f.getName()).get(dirPath));
           }
         } else {
           if (maps.get(dir.getName()) == null) {
@@ -113,11 +106,12 @@ public class JavaProjectFileUtils extends FileUtil {
   public static File writeToFile(String path, String text) {
 
     File file = new File(path);
-    if (!file.exists()) try {
-      file.createNewFile();
-    } catch (IOException e) {
-      throw new RuntimeException("create file failed for " + file.getName());
-    }
+    if (!file.exists())
+      try {
+        file.createNewFile();
+      } catch (IOException e) {
+        throw new RuntimeException("create file failed for " + file.getName());
+      }
     ArrayList<String> texts = Lists.newArrayList(text);
     FileUtil.writeLines(texts, file, "utf-8", true);
 
@@ -127,17 +121,17 @@ public class JavaProjectFileUtils extends FileUtil {
   public static File writeToFile(String path, String text, boolean isAppend) {
 
     File file = new File(path);
-    if (!file.exists()) try {
-      file.createNewFile();
-    } catch (IOException e) {
-      throw new RuntimeException("create file failed for " + file.getName());
-    }
+    if (!file.exists())
+      try {
+        file.createNewFile();
+      } catch (IOException e) {
+        throw new RuntimeException("create file failed for " + file.getName());
+      }
     ArrayList<String> texts = Lists.newArrayList(text);
     FileUtil.writeLines(texts, file, "utf-8", isAppend);
 
     return file;
   }
-
 
   /**
    * 删除文件
@@ -147,9 +141,7 @@ public class JavaProjectFileUtils extends FileUtil {
   public static boolean deleteFile(String path) {
     File file = new File(path);
     return file.delete();
-
   }
-
 
   /**
    * Read file from class Path
@@ -166,7 +158,6 @@ public class JavaProjectFileUtils extends FileUtil {
       log.error("result={}", (Object) e.getStackTrace());
       throw new RuntimeException(pathInClassPath + " is not existing");
     }
-
   }
 
   public static File createFileInClassPath(String dir, String fileName) {
@@ -203,16 +194,13 @@ public class JavaProjectFileUtils extends FileUtil {
    * @param path
    * @param fileSuffix
    */
-
   public static void checkIfSuitableFile(String path, String... fileSuffix) {
 
     for (String s : fileSuffix) {
       if (path.endsWith(s)) return;
     }
     throw new RuntimeException(path + " ,File suffix is not correct,please check the file");
-
   }
-
 
   /**
    * 创建目录
@@ -298,5 +286,4 @@ public class JavaProjectFileUtils extends FileUtil {
     File file = new File(fileName);
     return file.getAbsolutePath();
   }
-
 }

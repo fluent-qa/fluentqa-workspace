@@ -4,5 +4,5 @@ import lombok.Data;
 
 @Data
 public class PostmanFileBody {
-  private String fileBody ;
+  private String fileBody;
 }

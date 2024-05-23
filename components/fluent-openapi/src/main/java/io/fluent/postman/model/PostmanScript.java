@@ -1,11 +1,10 @@
 package io.fluent.postman.model;
 
-import lombok.Data;
-
 import java.util.List;
+import lombok.Data;
 
 @Data
 public class PostmanScript {
-    private List<String> exec;
-    private String type;
+  private List<String> exec;
+  private String type;
 }

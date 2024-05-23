@@ -17,33 +17,23 @@ import lombok.NoArgsConstructor;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class BiTableRecordQueryReqDTO extends PageReqDTO {
 
-    /**
-     * 视图 id
-     */
-    private String viewId;
+  /** 视图 id */
+  private String viewId;
 
-    /**
-     * 筛选参数
-     */
-    private String filter;
+  /** 筛选参数 */
+  private String filter;
 
-    /**
-     * 排序参数
-     */
-    private String sort;
+  /** 排序参数 */
+  private String sort;
 
-    /**
-     * 字段名称
-     */
-    private String fieldNames;
+  /** 字段名称 */
+  private String fieldNames;
 
-    /**
-     * 控制多行文本字段数据的返回格式，true 表示以数组形式返回
-     */
-    private Boolean textFieldAsArray;
+  /** 控制多行文本字段数据的返回格式，true 表示以数组形式返回 */
+  private Boolean textFieldAsArray;
 
-    public BiTableRecordQueryReqDTO(final String filter, final Integer pageSize) {
-        super(pageSize);
-        this.filter = filter;
-    }
+  public BiTableRecordQueryReqDTO(final String filter, final Integer pageSize) {
+    super(pageSize);
+    this.filter = filter;
+  }
 }

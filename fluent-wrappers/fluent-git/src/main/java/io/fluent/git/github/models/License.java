@@ -5,74 +5,71 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonPropertyOrder({
-    "key",
-    "name",
-    "spdx_id",
-    "url",
-    "node_id"
-})
+@JsonPropertyOrder({"key", "name", "spdx_id", "url", "node_id"})
 public class License {
 
-    @JsonProperty("key")
-    private String key;
-    @JsonProperty("name")
-    private String name;
-    @JsonProperty("spdx_id")
-    private String spdxId;
-    @JsonProperty("url")
-    private String url;
-    @JsonProperty("node_id")
-    private String nodeId;
+  @JsonProperty("key")
+  private String key;
 
-    @JsonProperty("key")
-    public String getKey() {
-        return key;
-    }
+  @JsonProperty("name")
+  private String name;
 
-    @JsonProperty("key")
-    public void setKey(String key) {
-        this.key = key;
-    }
+  @JsonProperty("spdx_id")
+  private String spdxId;
 
-    @JsonProperty("name")
-    public String getName() {
-        return name;
-    }
+  @JsonProperty("url")
+  private String url;
 
-    @JsonProperty("name")
-    public void setName(String name) {
-        this.name = name;
-    }
+  @JsonProperty("node_id")
+  private String nodeId;
 
-    @JsonProperty("spdx_id")
-    public String getSpdxId() {
-        return spdxId;
-    }
+  @JsonProperty("key")
+  public String getKey() {
+    return key;
+  }
 
-    @JsonProperty("spdx_id")
-    public void setSpdxId(String spdxId) {
-        this.spdxId = spdxId;
-    }
+  @JsonProperty("key")
+  public void setKey(String key) {
+    this.key = key;
+  }
 
-    @JsonProperty("url")
-    public String getUrl() {
-        return url;
-    }
+  @JsonProperty("name")
+  public String getName() {
+    return name;
+  }
 
-    @JsonProperty("url")
-    public void setUrl(String url) {
-        this.url = url;
-    }
+  @JsonProperty("name")
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    @JsonProperty("node_id")
-    public String getNodeId() {
-        return nodeId;
-    }
+  @JsonProperty("spdx_id")
+  public String getSpdxId() {
+    return spdxId;
+  }
 
-    @JsonProperty("node_id")
-    public void setNodeId(String nodeId) {
-        this.nodeId = nodeId;
-    }
+  @JsonProperty("spdx_id")
+  public void setSpdxId(String spdxId) {
+    this.spdxId = spdxId;
+  }
 
+  @JsonProperty("url")
+  public String getUrl() {
+    return url;
+  }
+
+  @JsonProperty("url")
+  public void setUrl(String url) {
+    this.url = url;
+  }
+
+  @JsonProperty("node_id")
+  public String getNodeId() {
+    return nodeId;
+  }
+
+  @JsonProperty("node_id")
+  public void setNodeId(String nodeId) {
+    this.nodeId = nodeId;
+  }
 }

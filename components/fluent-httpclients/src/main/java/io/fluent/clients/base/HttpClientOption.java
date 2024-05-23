@@ -1,41 +1,29 @@
 package io.fluent.clients.base;
 
+import java.net.Proxy;
 import lombok.Data;
 import okhttp3.logging.HttpLoggingInterceptor;
 
-import java.net.Proxy;
-
-
 @Data
-public class HttpClientOption extends HttpRequestModel{
+public class HttpClientOption extends HttpRequestModel {
 
-  /**
-   * 日志等级
-   */
+  /** 日志等级 */
   private HttpLoggingInterceptor.Level loggLevel = HttpLoggingInterceptor.Level.BODY;
-  /**
-   * 读取超时时间，秒
-   */
+  /** 读取超时时间，秒 */
   private long readTimeout = 30;
-  /**
-   * 链接超时时间
-   */
+  /** 链接超时时间 */
   private long connectTimeout = 30;
+
   private boolean followRedirects = false;
-  /**
-   * 最大的连接数
-   */
+  /** 最大的连接数 */
   private int maxIdleConnections = 5;
-  /**
-   * 最大的kepAlive 时间 秒
-   */
+  /** 最大的kepAlive 时间 秒 */
   private long keepAliveDuration = 5;
   //    private String userAgent = "OKHTTP";
   private String referer = "";
-  /**
-   * 是否支持cookie
-   */
+  /** 是否支持cookie */
   private boolean cookie = false;
+
   private ProxyConfig proxy;
   private boolean useProxy = false;
 
@@ -58,6 +46,4 @@ public class HttpClientOption extends HttpRequestModel{
     this.useProxy = true;
     return this;
   }
-
-
 }

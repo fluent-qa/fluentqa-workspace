@@ -4,19 +4,20 @@ import net.sourceforge.pinyin4j.PinyinHelper;
 
 public class PingYinUtils {
 
-    public static String convertToPinyinAbbreviation(String chineseName) {
-        StringBuilder abbreviation = new StringBuilder();
+  private PingYinUtils() {}
 
-        // 将中文名转换为拼音数组
-        char[] chineseNameArray = chineseName.toCharArray();
-        for (char c : chineseNameArray) {
-            String[] pinyinArray = PinyinHelper.toHanyuPinyinStringArray(c);
-            for (String pinyin : pinyinArray) {
-                // 提取每个拼音的首字母
-                abbreviation.append(pinyin.charAt(0));
-            }
+  public static String convertToPinyinAbbreviation(final String chineseName) {
+    StringBuilder abbreviation = new StringBuilder();
 
-        }
-        return abbreviation.toString().toUpperCase();
+    // 将中文名转换为拼音数组
+    char[] chineseNameArray = chineseName.toCharArray();
+    for (char c : chineseNameArray) {
+      String[] pinyinArray = PinyinHelper.toHanyuPinyinStringArray(c);
+      for (String pinyin : pinyinArray) {
+        // 提取每个拼音的首字母
+        abbreviation.append(pinyin.charAt(0));
+      }
     }
+    return abbreviation.toString().toUpperCase();
+  }
 }

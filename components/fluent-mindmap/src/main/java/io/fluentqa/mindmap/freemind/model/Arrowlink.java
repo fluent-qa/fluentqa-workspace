@@ -5,14 +5,12 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.*;
 
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -31,195 +29,156 @@ import jakarta.xml.bind.annotation.*;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
 @XmlRootElement(name = "arrowlink")
 public class Arrowlink {
 
-    @XmlAttribute(name = "COLOR")
-    protected String color;
-    @XmlAttribute(name = "DESTINATION", required = true)
-    protected String destination;
-    @XmlAttribute(name = "ENDARROW")
-    protected String endarrow;
-    @XmlAttribute(name = "ENDINCLINATION")
-    protected String endinclination;
-    @XmlAttribute(name = "ID")
-    protected String id;
-    @XmlAttribute(name = "STARTARROW")
-    protected String startarrow;
-    @XmlAttribute(name = "STARTINCLINATION")
-    protected String startinclination;
+  @XmlAttribute(name = "COLOR")
+  protected String color;
 
-    /**
-     * 获取color属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getCOLOR() {
-        return color;
-    }
+  @XmlAttribute(name = "DESTINATION", required = true)
+  protected String destination;
 
-    /**
-     * 设置color属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setCOLOR(String value) {
-        this.color = value;
-    }
+  @XmlAttribute(name = "ENDARROW")
+  protected String endarrow;
 
-    /**
-     * 获取destination属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getDESTINATION() {
-        return destination;
-    }
+  @XmlAttribute(name = "ENDINCLINATION")
+  protected String endinclination;
 
-    /**
-     * 设置destination属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setDESTINATION(String value) {
-        this.destination = value;
-    }
+  @XmlAttribute(name = "ID")
+  protected String id;
 
-    /**
-     * 获取endarrow属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getENDARROW() {
-        return endarrow;
-    }
+  @XmlAttribute(name = "STARTARROW")
+  protected String startarrow;
 
-    /**
-     * 设置endarrow属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setENDARROW(String value) {
-        this.endarrow = value;
-    }
+  @XmlAttribute(name = "STARTINCLINATION")
+  protected String startinclination;
 
-    /**
-     * 获取endinclination属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getENDINCLINATION() {
-        return endinclination;
-    }
+  /**
+   * 获取color属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getCOLOR() {
+    return color;
+  }
 
-    /**
-     * 设置endinclination属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setENDINCLINATION(String value) {
-        this.endinclination = value;
-    }
+  /**
+   * 设置color属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setCOLOR(String value) {
+    this.color = value;
+  }
 
-    /**
-     * 获取id属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getID() {
-        return id;
-    }
+  /**
+   * 获取destination属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getDESTINATION() {
+    return destination;
+  }
 
-    /**
-     * 设置id属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setID(String value) {
-        this.id = value;
-    }
+  /**
+   * 设置destination属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setDESTINATION(String value) {
+    this.destination = value;
+  }
 
-    /**
-     * 获取startarrow属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getSTARTARROW() {
-        return startarrow;
-    }
+  /**
+   * 获取endarrow属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getENDARROW() {
+    return endarrow;
+  }
 
-    /**
-     * 设置startarrow属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setSTARTARROW(String value) {
-        this.startarrow = value;
-    }
+  /**
+   * 设置endarrow属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setENDARROW(String value) {
+    this.endarrow = value;
+  }
 
-    /**
-     * 获取startinclination属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getSTARTINCLINATION() {
-        return startinclination;
-    }
+  /**
+   * 获取endinclination属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getENDINCLINATION() {
+    return endinclination;
+  }
 
-    /**
-     * 设置startinclination属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setSTARTINCLINATION(String value) {
-        this.startinclination = value;
-    }
+  /**
+   * 设置endinclination属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setENDINCLINATION(String value) {
+    this.endinclination = value;
+  }
 
+  /**
+   * 获取id属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getID() {
+    return id;
+  }
+
+  /**
+   * 设置id属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setID(String value) {
+    this.id = value;
+  }
+
+  /**
+   * 获取startarrow属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getSTARTARROW() {
+    return startarrow;
+  }
+
+  /**
+   * 设置startarrow属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setSTARTARROW(String value) {
+    this.startarrow = value;
+  }
+
+  /**
+   * 获取startinclination属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getSTARTINCLINATION() {
+    return startinclination;
+  }
+
+  /**
+   * 设置startinclination属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setSTARTINCLINATION(String value) {
+    this.startinclination = value;
+  }
 }

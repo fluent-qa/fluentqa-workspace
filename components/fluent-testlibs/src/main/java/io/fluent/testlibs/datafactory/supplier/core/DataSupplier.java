@@ -5,22 +5,20 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * Key annotation which replaces common DataProvider.
- */
+/** Key annotation which replaces common DataProvider. */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD, ElementType.TYPE})
 public @interface DataSupplier {
 
-    String name() default "";
+  String name() default "";
 
-    boolean transpose() default false;
+  boolean transpose() default false;
 
-    boolean flatMap() default false;
+  boolean flatMap() default false;
 
-    boolean runInParallel() default false;
+  boolean runInParallel() default false;
 
-    int[] indices() default {};
+  int[] indices() default {};
 
-    boolean propagateTestFailure() default false;
+  boolean propagateTestFailure() default false;
 }

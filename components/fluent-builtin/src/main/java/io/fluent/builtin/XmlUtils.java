@@ -3,12 +3,11 @@ package io.fluent.builtin;
 import cn.hutool.core.util.XmlUtil;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.Unmarshaller;
-import lombok.extern.slf4j.Slf4j;
-import org.w3c.dom.Document;
-
-import javax.xml.xpath.XPathConstants;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
+import javax.xml.xpath.XPathConstants;
+import lombok.extern.slf4j.Slf4j;
+import org.w3c.dom.Document;
 
 @Slf4j
 public class XmlUtils extends XmlUtil {
@@ -17,14 +16,12 @@ public class XmlUtils extends XmlUtil {
     return XmlUtil.readXML(xmlFilePath);
   }
 
-  public static Object getValueByXpath(String xmlFilePath,
-                                       String xpathExpr) {
+  public static Object getValueByXpath(String xmlFilePath, String xpathExpr) {
     Document doc = getDocument(xmlFilePath);
     return XmlUtil.getByXPath(xpathExpr, doc, XPathConstants.STRING);
   }
 
-  public static Object getValueByXpath(Document doc,
-                                       String xpathExpr) {
+  public static Object getValueByXpath(Document doc, String xpathExpr) {
     return XmlUtil.getByXPath(xpathExpr, doc, XPathConstants.STRING);
   }
 

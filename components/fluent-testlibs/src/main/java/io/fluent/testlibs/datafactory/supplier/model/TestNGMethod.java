@@ -1,47 +1,51 @@
 package io.fluent.testlibs.datafactory.supplier.model;
 
-import io.fluent.testlibs.datafactory.supplier.core.DataSupplier;
-import io.vavr.Tuple;
-import io.vavr.Tuple2;
-import org.testng.ITestContext;
-import org.testng.ITestNGMethod;
-
-import java.lang.reflect.Method;
-import java.util.function.Function;
-
 import static io.fluent.testlibs.datafactory.supplier.utils.ReflectionUtils.findDataSupplier;
 import static io.vavr.API.*;
 import static java.util.Arrays.stream;
 import static java.util.Optional.ofNullable;
 
-/**
- * Internal entity required for storing TestNG meta data retrieved from listeners.
- */
+import io.fluent.testlibs.datafactory.supplier.core.DataSupplier;
+import io.vavr.Tuple;
+import io.vavr.Tuple2;
+import java.lang.reflect.Method;
+import java.util.function.Function;
+import org.testng.ITestContext;
+import org.testng.ITestNGMethod;
+
+/** Internal entity required for storing TestNG meta data retrieved from listeners. */
 public class TestNGMethod {
 
-    private final ITestNGMethod testMethod;
-    private final Method dataSupplierMethod;
-    private final ITestContext context;
-    private final DataSupplier dataSupplier;
+  private final ITestNGMethod testMethod;
+  private final Method dataSupplierMethod;
+  private final ITestContext context;
+  private final DataSupplier dataSupplier;
 
-    public TestNGMethod(final ITestContext context, final ITestNGMethod testMethod) {
-        this.context = context;
-        this.testMethod = testMethod;
-        this.dataSupplierMethod = findDataSupplier(testMethod);
-        this.dataSupplier = dataSupplierMethod.getDeclaredAnnotation(DataSupplier.class);
-    }
+  public TestNGMethod(final ITestContext context, final ITestNGMethod testMethod) {
+    this.context = context;
+    this.testMethod = testMethod;
+    this.dataSupplierMethod = findDataSupplier(testMethod);
+    this.dataSupplier = dataSupplierMethod.getDeclaredAnnotation(DataSupplier.class);
+  }
 
-    public <T> T getDataSupplierArg(final Function<DataSupplier, T> mapper, final T other) {
-        return ofNullable(dataSupplier).map(mapper).orElse(other);
-    }
+  public <T> T getDataSupplierArg(final Function<DataSupplier, T> mapper, final T other) {
+    return ofNullable(dataSupplier).map(mapper).orElse(other);
+  }
 
-    public Tuple2<Method, Object[]> getDataSupplierMetaData() {
-        return Tuple.of(dataSupplierMethod, stream(dataSupplierMethod.getParameterTypes())
-            .map(t -> Match((Class) t).of(
-                Case($(ITestContext.class), () -> context),
-                Case($(Method.class), () -> testMethod.getConstructorOrMethod().getMethod()),
-                Case($(ITestNGMethod.class), () -> testMethod),
-                Case($(), () -> null)))
+  public Tuple2<Method, Object[]> getDataSupplierMetaData() {
+    return Tuple.of(
+        dataSupplierMethod,
+        stream(dataSupplierMethod.getParameterTypes())
+            .map(
+                t ->
+                    Match((Class) t)
+                        .of(
+                            Case($(ITestContext.class), () -> context),
+                            Case(
+                                $(Method.class),
+                                () -> testMethod.getConstructorOrMethod().getMethod()),
+                            Case($(ITestNGMethod.class), () -> testMethod),
+                            Case($(), () -> null)))
             .toArray());
-    }
+  }
 }

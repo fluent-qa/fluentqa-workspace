@@ -23,7 +23,7 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://supabase_db_dev-stacks.orb.local:5432/workspace
+    url: jdbc:postgresql://db.supabase.orb.local:5432/workspace
     username: postgres
     password: postgres
   jpa:

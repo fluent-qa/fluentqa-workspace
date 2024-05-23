@@ -15,19 +15,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class BiFieldSaveReqDTO {
 
-    /**
-     * 字段ID
-     */
-    private String fieldId;
+  /** 字段ID */
+  private String fieldId;
 
-    /**
-     * 表格ID
-     */
-    private String tableId;
+  /** 表格ID */
+  private String tableId;
 
-    /**
-     * 请求体
-     */
-    private BiFieldSaveBodyReqDTO saveBody;
-
+  /** 请求体 */
+  private BiFieldSaveBodyReqDTO saveBody;
 }

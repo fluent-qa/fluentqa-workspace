@@ -1,5 +1,29 @@
 # README
 
+This Project is the answer to :
+
+```
+接口自动化测试平台需求：
+1、可对接 swagger 文档，自动/手动导入接口信息
+2、具备接口信息管理、测试用例管理、测试步骤管理、测试报告管理的功能
+3、具备接口调试的功能
+4、以测试集为单位执行多个测试用例，并生成测试报告
+
+API Automation Testing Platform Requirements:
+
+1. Capable of integrating with Swagger documentation, with the ability to automatically/ manually import interface information.
+2. with functions for managing interface information, test case management, test step management, and test report management.
+3. Possesses the capability for interface debugging.
+4. Executes multiple test cases as a test suite and generates test reports.
+```
+
+Build A [restack](https://www.restack.io/) like toolkits but for Software QA.
+
+
+## Features
+
+
+
 FluentQA Workspace project is JAVA Project includes:
 
 1. Toolkits to handler QA Daily Work

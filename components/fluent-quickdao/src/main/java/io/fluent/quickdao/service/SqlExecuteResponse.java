@@ -7,5 +7,5 @@ import lombok.Data;
 @Builder
 public class SqlExecuteResponse {
 
-    private int count;
+  private int count;
 }

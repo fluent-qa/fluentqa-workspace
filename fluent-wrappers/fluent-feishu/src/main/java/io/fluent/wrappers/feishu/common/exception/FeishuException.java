@@ -1,8 +1,6 @@
 package io.fluent.wrappers.feishu.common.exception;
 
 
-import io.fluent.wrappers.feishu.common.constant.FeishuErrorCodeEnum;
-
 /**
  * 飞书异常
  *
@@ -11,7 +9,5 @@ import io.fluent.wrappers.feishu.common.constant.FeishuErrorCodeEnum;
  */
 public class FeishuException extends RuntimeException {
 
-    private static final long serialVersionUID = -1191541920182893393L;
-
-
+  private static final long serialVersionUID = -1191541920182893393L;
 }
