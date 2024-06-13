@@ -1,10 +1,8 @@
 package io.fluentqa.generator.repo;
 
 import io.fluentqa.generator.model.DataSourceTableColumModel;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
-
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Repository;
 

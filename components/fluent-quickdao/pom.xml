@@ -10,7 +10,9 @@
   </parent>
 
   <artifactId>fluent-quickdao</artifactId>
-
+<!--  <properties>-->
+<!--    <doma.version>2.60.0</doma.version>-->
+<!--  </properties>-->
   <dependencies>
     <dependency>
       <groupId>cn.hutool</groupId>
@@ -30,5 +32,10 @@
       <version>3.42.0.0</version>
       <scope>test</scope>
     </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.seasar.doma</groupId>-->
+<!--      <artifactId>doma-core</artifactId>-->
+<!--      <version>${doma.version}</version>-->
+<!--    </dependency>-->
   </dependencies>
 </project>

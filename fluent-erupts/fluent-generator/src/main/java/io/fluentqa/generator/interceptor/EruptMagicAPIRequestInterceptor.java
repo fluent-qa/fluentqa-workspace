@@ -1,6 +1,6 @@
 package io.fluentqa.generator.interceptor;
 
-import io.fluentqa.generator.FluentEruptApiAutoConfiguration;
+import io.fluentqa.generator.FluentEruptGeneratorAutoConfiguration;
 import java.util.Objects;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
@@ -87,7 +87,7 @@ public class EruptMagicAPIRequestInterceptor
       throw new EruptWebApiRuntimeException(LOGIN_EXPIRE);
     } else if (null
         == eruptUserService.getEruptMenuByValue(
-            FluentEruptApiAutoConfiguration.MAGIC_API_MENU_PREFIX + authorization.name())) {
+            FluentEruptGeneratorAutoConfiguration.MAGIC_API_MENU_PREFIX + authorization.name())) {
       throw new EruptWebApiRuntimeException(NO_PERMISSION);
     }
     return true;
@@ -127,15 +127,15 @@ public class EruptMagicAPIRequestInterceptor
     if (entity instanceof FunctionInfo) {
       if (Authorization.SAVE == authorization || Authorization.DELETE == authorization) {
         return eruptUserService.getEruptMenuByValue(
-                FluentEruptApiAutoConfiguration.MAGIC_API_MENU_PREFIX
-                    + FluentEruptApiAutoConfiguration.FUNCTION)
+                FluentEruptGeneratorAutoConfiguration.MAGIC_API_MENU_PREFIX
+                    + FluentEruptGeneratorAutoConfiguration.FUNCTION)
             != null;
       }
     } else if (entity instanceof DataSourceInfo) {
       if (Authorization.SAVE == authorization || Authorization.DELETE == authorization) {
         return eruptUserService.getEruptMenuByValue(
-                FluentEruptApiAutoConfiguration.MAGIC_API_MENU_PREFIX
-                    + FluentEruptApiAutoConfiguration.DATASOURCE)
+                FluentEruptGeneratorAutoConfiguration.MAGIC_API_MENU_PREFIX
+                    + FluentEruptGeneratorAutoConfiguration.DATASOURCE)
             != null;
       }
     }

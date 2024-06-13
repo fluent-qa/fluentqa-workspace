@@ -20,7 +20,7 @@ import xyz.erupt.tpl.service.EruptTplService;
 @Configuration
 @ComponentScan
 @EruptScan
-public class FluentEruptApiAutoConfiguration implements EruptModule {
+public class FluentEruptGeneratorAutoConfiguration implements EruptModule {
 
   public static final String MAGIC_API_MENU_PREFIX = "ERUPT_MAGIC_";
 
@@ -29,7 +29,7 @@ public class FluentEruptApiAutoConfiguration implements EruptModule {
   public static final String FUNCTION = "FUNCTION";
 
   static {
-    EruptModuleInvoke.addEruptModule(FluentEruptApiAutoConfiguration.class);
+    EruptModuleInvoke.addEruptModule(FluentEruptGeneratorAutoConfiguration.class);
   }
 
   @Override
@@ -53,7 +53,7 @@ public class FluentEruptApiAutoConfiguration implements EruptModule {
     List<MetaMenu> metaMenus = new ArrayList<>();
     metaMenus.add(
         MetaMenu.createSimpleMenu(
-            menuKey, "接口配置", MagicApiTpl.MAGIC_API_PERMISSION, null, 50, EruptTplService.TPL));
+            menuKey, "接口服务配置", MagicApiTpl.MAGIC_API_PERMISSION, null, 50, EruptTplService.TPL));
     metaMenus.add(
         MetaMenu.createSimpleMenu(
             menuKey + "-" + FUNCTION.toLowerCase(),
