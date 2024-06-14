@@ -18,7 +18,6 @@
         <module>fluent-vika</module>
         <module>fluent-allure</module>
         <module>fluent-jira</module>
-        <module>fluent-tw</module>
         <module>fluent-supabase</module>
         <module>fluent-chatapis</module>
     </modules>
