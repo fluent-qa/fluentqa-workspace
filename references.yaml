@@ -1,3 +1,46 @@
+stacks:
+  - https://www.stackradar.co/
+
+agent:
+  - https://www.agentcrew.co/
+
+frontend:
+  - https://easyfrontend.com/
+
+web-editor:
+  - https://deco.cx/
+  - https://github.com/toeverything
+  - https://liveblocks.io/
+  - https://shuffle.dev/
+diagrams:
+  - https://www.eraser.io/
+
+ai-framework:
+  - https://www.edenai.co/
+  - https://dashboard.cohere.com/
+website:
+  - https://explorer.globe.engineer/
+api:
+  - https://github.com/pb33f/libopenapi.git
+backend-api:
+  - https://gitee.com/ssssssss-team/magic-api
+cases:
+  - https://github.com/ugorsahin/TalkingHeads.git
+
+devops:
+  - https://github.com/merico-dev/lake.git
+  - https://github.com/YaoApp/xgen.git
+  - https://gitee.com/jianmu-dev/jianmu.git
+  - https://gitee.com/ketr/jecloud
+
+database-tools:
+  -  https://github.com/azimuttapp/azimutt.git
+qa-tools:
+  - https://gitee.com/cat2bug/cat2bug-platform.git
+qa-ai-tools:
+  - https://gitee.com/panday94/chat-master.git
+admin:
+  - https://github.com/build-admin/build-admin-nuxt.git
 springboot:
   - https://github.com/spring-projects-experimental/spring-modulith.git
 data-orm:
