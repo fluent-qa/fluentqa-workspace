@@ -15,8 +15,6 @@
     <modules>
         <module>fluent-base-ext</module>
         <module>fluent-payment</module>
-        <module>fluent-search</module>
-        <module>fluent-apiway</module>
     </modules>
 
     <properties>
