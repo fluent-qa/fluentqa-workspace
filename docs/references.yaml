@@ -2,3 +2,6 @@ blogs:
   - https://www.softkraft.co/web-application-architecture/
   - https://github.com/ovh/cds.git
   - https://github.com/camunda/camunda-bpm-platform.git
+
+resources:
+  - https://itnext.io/

@@ -19,6 +19,5 @@
         <module>fluent-allure</module>
         <module>fluent-jira</module>
         <module>fluent-supabase</module>
-        <module>fluent-chatapis</module>
     </modules>
 </project>
