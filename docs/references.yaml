@@ -5,3 +5,6 @@ blogs:
 
 resources:
   - https://itnext.io/
+
+build-in:
+  - https://github.com/admin4j/admin4j-framework.git
