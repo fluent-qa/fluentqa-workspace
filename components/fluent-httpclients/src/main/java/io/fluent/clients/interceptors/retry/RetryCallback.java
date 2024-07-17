@@ -32,7 +32,6 @@ class RetryCallback<T> implements CustomCallback<T> {
     }
   }
 
-
   @Override
   public void onFailure(Call<T> call, Throwable t) {
     onFinalFailure(call, t);
@@ -43,17 +42,11 @@ class RetryCallback<T> implements CustomCallback<T> {
     onFinalFail(response.code(), call, response);
   }
 
-  public void onFinalResponse(Call<T> call, Response<T> response) {
+  public void onFinalResponse(Call<T> call, Response<T> response) {}
 
-  }
+  public void onFinalFailure(Call<T> call, Throwable t) {}
 
-  public void onFinalFailure(Call<T> call, Throwable t) {
-
-  }
-
-  public void onFinalFail(int errorCode, Call<T> call, Response<T> response) {
-
-  }
+  public void onFinalFail(int errorCode, Call<T> call, Response<T> response) {}
 
   private void retry() {
     call.clone().enqueue(this);

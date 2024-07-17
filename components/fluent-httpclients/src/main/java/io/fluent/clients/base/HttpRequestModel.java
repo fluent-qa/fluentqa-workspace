@@ -1,14 +1,13 @@
 package io.fluent.clients.base;
 
 import cn.hutool.json.JSONUtil;
+import java.util.HashMap;
+import java.util.Map;
 import lombok.Data;
 import okhttp3.Headers;
 import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.RequestBody;
-
-import java.util.HashMap;
-import java.util.Map;
 
 @Data
 public class HttpRequestModel {
@@ -53,13 +52,14 @@ public class HttpRequestModel {
     return this;
   }
 
-  public  Request toOkHttRequest(){
-    //TODO: How to handler FILE
-    Request.Builder requestBuilder = new Request.Builder().url(this.getRequestPath())
-      .headers(Headers.of(this.headers));
-    if (requestBody!=null){
-       RequestBody body = RequestBody.create(JSONUtil.toJsonStr(requestBody), MediaType.get("application/json"));
-       requestBuilder.method(method.toString(),body);
+  public Request toOkHttRequest() {
+    // TODO: How to handler FILE
+    Request.Builder requestBuilder =
+        new Request.Builder().url(this.getRequestPath()).headers(Headers.of(this.headers));
+    if (requestBody != null) {
+      RequestBody body =
+          RequestBody.create(JSONUtil.toJsonStr(requestBody), MediaType.get("application/json"));
+      requestBuilder.method(method.toString(), body);
     }
     return requestBuilder.build();
   }

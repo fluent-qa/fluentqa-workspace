@@ -3,15 +3,15 @@ package io.fluent.testlibs.datafactory.supplier.converters;
 import java.lang.reflect.Type;
 
 public abstract class DefaultConverter<T> implements IConverter<T> {
-    private final Type type;
+  private final Type type;
 
-    @SafeVarargs
-    protected DefaultConverter(final T... values) {
-        this.type = values.getClass().getComponentType();
-    }
+  @SafeVarargs
+  protected DefaultConverter(final T... values) {
+    this.type = values.getClass().getComponentType();
+  }
 
-    @Override
-    public Type getType() {
-        return type;
-    }
+  @Override
+  public Type getType() {
+    return type;
+  }
 }

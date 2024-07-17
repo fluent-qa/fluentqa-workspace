@@ -5,14 +5,12 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.*;
 
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -25,39 +23,30 @@ import jakarta.xml.bind.annotation.*;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
 @XmlRootElement(name = "icon")
 public class Icon {
 
-    @XmlAttribute(name = "BUILTIN", required = true)
-    protected String builtin;
+  @XmlAttribute(name = "BUILTIN", required = true)
+  protected String builtin;
 
-    /**
-     * 获取builtin属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getBUILTIN() {
-        return builtin;
-    }
+  /**
+   * 获取builtin属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getBUILTIN() {
+    return builtin;
+  }
 
-    /**
-     * 设置builtin属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setBUILTIN(String value) {
-        this.builtin = value;
-    }
-
+  /**
+   * 设置builtin属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setBUILTIN(String value) {
+    this.builtin = value;
+  }
 }

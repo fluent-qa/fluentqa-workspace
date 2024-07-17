@@ -1,32 +1,32 @@
-//package io.fluent.wrappers.feishu.bitable.service;
+// package io.fluent.wrappers.feishu.bitable.service;
 //
-//import cn.hutool.core.io.IoUtil;
-//import cn.hutool.core.map.MapUtil;
-//import cn.hutool.core.thread.ThreadUtil;
-//import cn.hutool.json.JSONUtil;
-//import io.fluent.wrappers.feishu.auth.service.AuthApiService;
-//import io.fluent.wrappers.feishu.bitable.dto.req.BiFieldSaveBodyReqDTO;
-//import io.fluent.wrappers.feishu.bitable.dto.resp.BiFieldItemRespDTO;
-//import io.fluent.wrappers.feishu.bitable.dto.resp.BiTableItemRespDTO;
-//import io.fluent.wrappers.feishu.common.dto.PageReqDTO;
-//import io.fluent.wrappers.feishu.common.dto.Resp;
-//import io.fluent.wrappers.feishu.common.exception.FeishuException;
-//import lombok.extern.slf4j.Slf4j;
+// import cn.hutool.core.io.IoUtil;
+// import cn.hutool.core.map.MapUtil;
+// import cn.hutool.core.thread.ThreadUtil;
+// import cn.hutool.json.JSONUtil;
+// import io.fluent.wrappers.feishu.auth.service.AuthApiService;
+// import io.fluent.wrappers.feishu.bitable.dto.req.BiFieldSaveBodyReqDTO;
+// import io.fluent.wrappers.feishu.bitable.dto.resp.BiFieldItemRespDTO;
+// import io.fluent.wrappers.feishu.bitable.dto.resp.BiTableItemRespDTO;
+// import io.fluent.wrappers.feishu.common.dto.PageReqDTO;
+// import io.fluent.wrappers.feishu.common.dto.Resp;
+// import io.fluent.wrappers.feishu.common.exception.FeishuException;
+// import lombok.extern.slf4j.Slf4j;
 //
-//import java.io.IOException;
-//import java.nio.charset.StandardCharsets;
-//import java.util.ArrayList;
-//import java.util.List;
-//import java.util.Map;
+// import java.io.IOException;
+// import java.nio.charset.StandardCharsets;
+// import java.util.ArrayList;
+// import java.util.List;
+// import java.util.Map;
 //
-///**
+/// **
 // * 飞书多维表格API操作接口
 // *
 // * @author Tao.Liu
 // * @date 2022/6/22 13:44
 // */
-//@Slf4j
-//public class BiTableApiService {
+// @Slf4j
+// public class BiTableApiService {
 //
 //    /**
 //     * 请求地址
@@ -63,14 +63,17 @@
 //     * @param pageReqDTO
 //     * @return
 //     */
-//    public Page<BiTableItemRespDTO> pageTableList(final String appToken, final PageReqDTO pageReqDTO) {
+//    public Page<BiTableItemRespDTO> pageTableList(final String appToken, final PageReqDTO
+// pageReqDTO) {
 //        final String url = String.format(BASE_URL + "/v1/apps/%s/tables", appToken);
 //        final UriComponentsBuilder uriBuilder = UriComponentsBuilder.fromUriString(url);
 //        uriBuilder.queryParam("page_token", pageReqDTO.getPageToken())
 //                .queryParam("page_size", pageReqDTO.getPageSize());
-//        final ParameterizedTypeReference<Resp<Page<BiTableItemRespDTO>>> reference = new ParameterizedTypeReference<Resp<Page<BiTableItemRespDTO>>>() {
+//        final ParameterizedTypeReference<Resp<Page<BiTableItemRespDTO>>> reference = new
+// ParameterizedTypeReference<Resp<Page<BiTableItemRespDTO>>>() {
 //        };
-//        final ResponseEntity<Resp<Page<BiTableItemRespDTO>>> response = restTemplate.exchange(uriBuilder.toUriString(), HttpMethod.GET, HttpEntity.EMPTY, reference);
+//        final ResponseEntity<Resp<Page<BiTableItemRespDTO>>> response =
+// restTemplate.exchange(uriBuilder.toUriString(), HttpMethod.GET, HttpEntity.EMPTY, reference);
 //        return this.getSuccessData(response.getBody());
 //    }
 //
@@ -85,10 +88,12 @@
 //        final String url = String.format(BASE_URL + "/v1/apps/%s/tables", appToken);
 //        final Map<String, Object> requestBody = MapUtil.of("table", MapUtil.of("name", name));
 //
-//        final ParameterizedTypeReference<Resp<BiTableItemRespDTO>> reference = new ParameterizedTypeReference<Resp<BiTableItemRespDTO>>() {
+//        final ParameterizedTypeReference<Resp<BiTableItemRespDTO>> reference = new
+// ParameterizedTypeReference<Resp<BiTableItemRespDTO>>() {
 //        };
 //        final HttpEntity<Map<String, Object>> httpEntity = new HttpEntity<>(requestBody);
-//        final ResponseEntity<Resp<BiTableItemRespDTO>> response = restTemplate.exchange(url, HttpMethod.POST, httpEntity, reference);
+//        final ResponseEntity<Resp<BiTableItemRespDTO>> response = restTemplate.exchange(url,
+// HttpMethod.POST, httpEntity, reference);
 //        return this.getSuccessData(response.getBody());
 //    }
 //
@@ -100,7 +105,8 @@
 //     */
 //    public void deleteTable(final String appToken, String tableId) {
 //        final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s", appToken, tableId);
-//        final ResponseEntity<Resp> response = restTemplate.exchange(url, HttpMethod.DELETE, HttpEntity.EMPTY, Resp.class);
+//        final ResponseEntity<Resp> response = restTemplate.exchange(url, HttpMethod.DELETE,
+// HttpEntity.EMPTY, Resp.class);
 //        this.getSuccessData(response.getBody());
 //    }
 //
@@ -111,15 +117,19 @@
 //     * @param queryReqDTO
 //     * @return
 //     */
-//    public Page<BiFieldItemRespDTO> pageFieldList(final String appToken, final String tableId, final BiFieldQueryReqDTO queryReqDTO) {
-//        final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields", appToken, tableId);
+//    public Page<BiFieldItemRespDTO> pageFieldList(final String appToken, final String tableId,
+// final BiFieldQueryReqDTO queryReqDTO) {
+//        final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields", appToken,
+// tableId);
 //        final UriComponentsBuilder uriBuilder = UriComponentsBuilder.fromUriString(url);
 //        uriBuilder.queryParam("view_id", queryReqDTO.getViewId())
 //                .queryParam("page_token", queryReqDTO.getPageToken())
 //                .queryParam("page_size", queryReqDTO.getPageSize());
-//        final ParameterizedTypeReference<Resp<Page<BiFieldItemRespDTO>>> reference = new ParameterizedTypeReference<Resp<Page<BiFieldItemRespDTO>>>() {
+//        final ParameterizedTypeReference<Resp<Page<BiFieldItemRespDTO>>> reference = new
+// ParameterizedTypeReference<Resp<Page<BiFieldItemRespDTO>>>() {
 //        };
-//        final ResponseEntity<Resp<Page<BiFieldItemRespDTO>>> response = restTemplate.exchange(uriBuilder.toUriString(), HttpMethod.GET, HttpEntity.EMPTY, reference);
+//        final ResponseEntity<Resp<Page<BiFieldItemRespDTO>>> response =
+// restTemplate.exchange(uriBuilder.toUriString(), HttpMethod.GET, HttpEntity.EMPTY, reference);
 //        return this.getSuccessData(response.getBody());
 //    }
 //
@@ -136,13 +146,15 @@
 //        final BiFieldQueryReqDTO queryReqDTO = new BiFieldQueryReqDTO(100);
 //        boolean hasMore;
 //        do {
-//            final Page<BiFieldItemRespDTO> existPage = this.pageFieldList(appToken, tableId, queryReqDTO);
+//            final Page<BiFieldItemRespDTO> existPage = this.pageFieldList(appToken, tableId,
+// queryReqDTO);
 //            if (existPage == null || Lists.isEmpty(existPage.getItems())) {
 //                break;
 //            }
 //            fieldList.addAll(existPage.getItems());
 //            queryReqDTO.setPageToken(existPage.getPageToken());
-//            hasMore = Boolean.TRUE.equals(existPage.getHasMore()) && Strings.isNotBlank(existPage.getPageToken());
+//            hasMore = Boolean.TRUE.equals(existPage.getHasMore()) &&
+// Strings.isNotBlank(existPage.getPageToken());
 //        } while (hasMore);
 //        return fieldList;
 //    }
@@ -154,14 +166,20 @@
 //     * @param saveReqDTO
 //     * @return
 //     */
-//    public BiFieldItemRespDTO createField(final String appToken, final BiFieldSaveReqDTO saveReqDTO) {
+//    public BiFieldItemRespDTO createField(final String appToken, final BiFieldSaveReqDTO
+// saveReqDTO) {
 //        synchronized (saveReqDTO.getTableId().intern()) {
-//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields", appToken, saveReqDTO.getTableId());
-//            final ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>> reference = new ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>>() {
+//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields", appToken,
+// saveReqDTO.getTableId());
+//            final ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>> reference =
+// new ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>>() {
 //            };
-//            final HttpEntity<BiFieldSaveBodyReqDTO> httpEntity = new HttpEntity<>(saveReqDTO.getSaveBody());
-//            final ResponseEntity<Resp<Map<String, BiFieldItemRespDTO>>> response = restTemplate.exchange(url, HttpMethod.POST, httpEntity, reference);
-//            final Map<String, BiFieldItemRespDTO> resultMap = this.getSuccessData(response.getBody());
+//            final HttpEntity<BiFieldSaveBodyReqDTO> httpEntity = new
+// HttpEntity<>(saveReqDTO.getSaveBody());
+//            final ResponseEntity<Resp<Map<String, BiFieldItemRespDTO>>> response =
+// restTemplate.exchange(url, HttpMethod.POST, httpEntity, reference);
+//            final Map<String, BiFieldItemRespDTO> resultMap =
+// this.getSuccessData(response.getBody());
 //            return resultMap.get("field");
 //        }
 //    }
@@ -173,15 +191,21 @@
 //     * @param saveReqDTO
 //     * @return
 //     */
-//    public BiFieldItemRespDTO updateField(final String appToken, final BiFieldSaveReqDTO saveReqDTO) {
+//    public BiFieldItemRespDTO updateField(final String appToken, final BiFieldSaveReqDTO
+// saveReqDTO) {
 //        synchronized (saveReqDTO.getTableId().intern()) {
-//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields/%s", appToken, saveReqDTO.getTableId(), saveReqDTO.getFieldId());
-//            final ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>> reference = new ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>>() {
+//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields/%s",
+// appToken, saveReqDTO.getTableId(), saveReqDTO.getFieldId());
+//            final ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>> reference =
+// new ParameterizedTypeReference<Resp<Map<String, BiFieldItemRespDTO>>>() {
 //            };
-//            final HttpEntity<BiFieldSaveBodyReqDTO> httpEntity = new HttpEntity<>(saveReqDTO.getSaveBody());
-//            final ResponseEntity<Resp<Map<String, BiFieldItemRespDTO>>> response = restTemplate.exchange(url, HttpMethod.PUT, httpEntity, reference);
+//            final HttpEntity<BiFieldSaveBodyReqDTO> httpEntity = new
+// HttpEntity<>(saveReqDTO.getSaveBody());
+//            final ResponseEntity<Resp<Map<String, BiFieldItemRespDTO>>> response =
+// restTemplate.exchange(url, HttpMethod.PUT, httpEntity, reference);
 //            try {
-//                final Map<String, BiFieldItemRespDTO> resultMap = this.getSuccessData(response.getBody());
+//                final Map<String, BiFieldItemRespDTO> resultMap =
+// this.getSuccessData(response.getBody());
 //                return resultMap.get("field");
 //            } catch (FeishuException e) {
 //                log.warn("同步飞书字段出错, message={}", e.getMessage());
@@ -203,12 +227,16 @@
 //     * @param fieldId
 //     * @return
 //     */
-//    public Boolean deleteField(final String appToken, final String tableId, final String fieldId) {
+//    public Boolean deleteField(final String appToken, final String tableId, final String fieldId)
+// {
 //        synchronized (tableId.intern()) {
-//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields/%s", appToken, tableId, fieldId);
-//            final ResponseEntity<Resp> response = restTemplate.exchange(url, HttpMethod.DELETE, HttpEntity.EMPTY, Resp.class);
+//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/fields/%s",
+// appToken, tableId, fieldId);
+//            final ResponseEntity<Resp> response = restTemplate.exchange(url, HttpMethod.DELETE,
+// HttpEntity.EMPTY, Resp.class);
 //            try {
-//                final Map<String, Object> resultMap = (Map<String, Object>) this.getSuccessData(response.getBody());
+//                final Map<String, Object> resultMap = (Map<String, Object>)
+// this.getSuccessData(response.getBody());
 //                return (Boolean) resultMap.get("deleted");
 //            } catch (FeishuException e) {
 //                log.warn("删除飞书字段出错, message={}", e.getMessage());
@@ -224,9 +252,12 @@
 //     * @param queryReqDTO
 //     * @return
 //     */
-//    public Page<BiRecordItemRespDTO> pageRecordList(final String appToken, final String tableId, final BiTableRecordQueryReqDTO queryReqDTO) {
-//        final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/records", appToken, tableId);
-//        final ParameterizedTypeReference<Resp<Page<BiRecordItemRespDTO>>> reference = new ParameterizedTypeReference<Resp<Page<BiRecordItemRespDTO>>>() {
+//    public Page<BiRecordItemRespDTO> pageRecordList(final String appToken, final String tableId,
+// final BiTableRecordQueryReqDTO queryReqDTO) {
+//        final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/records", appToken,
+// tableId);
+//        final ParameterizedTypeReference<Resp<Page<BiRecordItemRespDTO>>> reference = new
+// ParameterizedTypeReference<Resp<Page<BiRecordItemRespDTO>>>() {
 //        };
 //        final UriComponentsBuilder uriBuilder = UriComponentsBuilder.fromUriString(url);
 //        uriBuilder.queryParam("view_id", queryReqDTO.getViewId())
@@ -237,7 +268,8 @@
 //                .queryParam("page_token", queryReqDTO.getPageToken())
 //                .queryParam("page_size", queryReqDTO.getPageSize());
 //        final String requestUrl = uriBuilder.build().toString();
-//        final ResponseEntity<Resp<Page<BiRecordItemRespDTO>>> response = restTemplate.exchange(requestUrl, HttpMethod.GET, HttpEntity.EMPTY, reference);
+//        final ResponseEntity<Resp<Page<BiRecordItemRespDTO>>> response =
+// restTemplate.exchange(requestUrl, HttpMethod.GET, HttpEntity.EMPTY, reference);
 //        return this.getSuccessData(response.getBody());
 //    }
 //
@@ -249,9 +281,11 @@
 //     * @param saveReqDTO
 //     * @return
 //     */
-//    public List<BiRecordItemRespDTO> insertBatchRecords(final String appToken, final String tableId, final TableRecordSaveReqDTO saveReqDTO) {
+//    public List<BiRecordItemRespDTO> insertBatchRecords(final String appToken, final String
+// tableId, final TableRecordSaveReqDTO saveReqDTO) {
 //        synchronized (tableId.intern()) {
-//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/records/batch_create", appToken, tableId);
+//            final String url = String.format(BASE_URL +
+// "/v1/apps/%s/tables/%s/records/batch_create", appToken, tableId);
 //            return this.syncBatchRecords(url, saveReqDTO);
 //        }
 //    }
@@ -264,9 +298,11 @@
 //     * @param saveReqDTO
 //     * @return
 //     */
-//    public List<BiRecordItemRespDTO> updateBatchRecords(final String appToken, final String tableId, final TableRecordSaveReqDTO saveReqDTO) {
+//    public List<BiRecordItemRespDTO> updateBatchRecords(final String appToken, final String
+// tableId, final TableRecordSaveReqDTO saveReqDTO) {
 //        synchronized (tableId.intern()) {
-//            final String url = String.format(BASE_URL + "/v1/apps/%s/tables/%s/records/batch_update", appToken, tableId);
+//            final String url = String.format(BASE_URL +
+// "/v1/apps/%s/tables/%s/records/batch_update", appToken, tableId);
 //            return this.syncBatchRecords(url, saveReqDTO);
 //        }
 //    }
@@ -278,7 +314,8 @@
 //     * @param saveReqDTO
 //     * @return
 //     */
-//    private List<BiRecordItemRespDTO> syncBatchRecords(final String url, final TableRecordSaveReqDTO saveReqDTO) {
+//    private List<BiRecordItemRespDTO> syncBatchRecords(final String url, final
+// TableRecordSaveReqDTO saveReqDTO) {
 //        /**
 //         *飞书更新数据内部逻辑是异步操作，下次更新时会触发同步处理，可能会产生上次数据未处理完的问题，产生try again later
 //         * 加上重试处理
@@ -291,7 +328,8 @@
 //            try {
 //                return this.saveBatchRecords(saveReqDTO, url);
 //            } catch (FeishuException e) {
-//                if (i == maxRetry || Strings.isNotEquals(FeishuErrorCodeEnum.TRY_AGAIN_LATER.getCode(), e.getCode())) {
+//                if (i == maxRetry ||
+// Strings.isNotEquals(FeishuErrorCodeEnum.TRY_AGAIN_LATER.getCode(), e.getCode())) {
 //                    throw e;
 //                }
 //                log.info("飞书更新记录异常，进行重试处理, url={}", url);
@@ -308,12 +346,16 @@
 //     * @param url
 //     * @return
 //     */
-//    private List<BiRecordItemRespDTO> saveBatchRecords(final TableRecordSaveReqDTO saveReqDTO, final String url) {
-//        final ParameterizedTypeReference<Resp<Map<String, List<BiRecordItemRespDTO>>>> reference = new ParameterizedTypeReference<Resp<Map<String, List<BiRecordItemRespDTO>>>>() {
+//    private List<BiRecordItemRespDTO> saveBatchRecords(final TableRecordSaveReqDTO saveReqDTO,
+// final String url) {
+//        final ParameterizedTypeReference<Resp<Map<String, List<BiRecordItemRespDTO>>>> reference =
+// new ParameterizedTypeReference<Resp<Map<String, List<BiRecordItemRespDTO>>>>() {
 //        };
 //        final HttpEntity<TableRecordSaveReqDTO> httpEntity = new HttpEntity<>(saveReqDTO);
-//        final ResponseEntity<Resp<Map<String, List<BiRecordItemRespDTO>>>> response = restTemplate.exchange(url, HttpMethod.POST, httpEntity, reference);
-//        final Map<String, List<BiRecordItemRespDTO>> responseBody = this.getSuccessData(response.getBody());
+//        final ResponseEntity<Resp<Map<String, List<BiRecordItemRespDTO>>>> response =
+// restTemplate.exchange(url, HttpMethod.POST, httpEntity, reference);
+//        final Map<String, List<BiRecordItemRespDTO>> responseBody =
+// this.getSuccessData(response.getBody());
 //        return responseBody.get("records");
 //    }
 //
@@ -328,7 +370,8 @@
 //    private <T> T getSuccessData(final Resp<T> resp) {
 //        if (!Resp.isSuccess(resp)) {
 //            log.warn("飞书接口响应 -->  {}", JSONUtil.toJsonStr(resp));
-//            throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR, "飞书接口响应异常：" + resp.getMsg());
+//            throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR, "飞书接口响应异常：" +
+// resp.getMsg());
 //        }
 //        return resp.getData();
 //    }
@@ -349,28 +392,35 @@
 //                final String body = IoUtil.read(response.getBody(), StandardCharsets.UTF_8);
 //                final String logId = response.getHeaders().getFirst("x-tt-logid");
 //                final int statusCode = response.getRawStatusCode();
-//                log.warn("飞书接口响应异常 --> status:{}, body: {}, x-tt-logid:{}", statusCode, body, logId);
+//                log.warn("飞书接口响应异常 --> status:{}, body: {}, x-tt-logid:{}", statusCode, body,
+// logId);
 //                if (HttpStatus.FORBIDDEN == response.getStatusCode()) {
-//                    throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR, "无权限操作，请设置多维表格应用权限");
+//                    throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR,
+// "无权限操作，请设置多维表格应用权限");
 //                }
 //                // 504响应码转换
 //                if (Strings.isNotBlank(body)) {
 //                    final Resp<Void> resp = JSONUtil.toBean(body, Resp.class);
 //                    if (RETRY_ERROR_CODES.contains(resp.getCode())) {
 //                        // 飞书接口响应please try again later
-//                        throw new FeishuException(FeishuErrorCodeEnum.TRY_AGAIN_LATER, "飞书接口响应出错：" + resp.getMsg());
+//                        throw new FeishuException(FeishuErrorCodeEnum.TRY_AGAIN_LATER, "飞书接口响应出错："
+// + resp.getMsg());
 //                    }
 //                }
 //                if (HttpStatus.OK != response.getStatusCode()) {
-//                    throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR, "飞书接口响应出错：" + body);
+//                    throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR, "飞书接口响应出错：" +
+// body);
 //                }
 //            }
 //        });
 //        // 拦截器
 //        final ClientHttpRequestInterceptor interceptor = (request, body, execution) -> {
-//            final String tenantAccessToken = "Bearer " + this.authApiService.getTenantAccessToken();
-//            final String requestBody = body.length > MAX_IGNORE_RESP_BYTES ? "ignore..." : new String(body, StandardCharsets.UTF_8);
-//            log.info("请求飞书接口，{} url={}, token={}, body={}", request.getMethod().name(), request.getURI().getRawPath(), tenantAccessToken, requestBody);
+//            final String tenantAccessToken = "Bearer " +
+// this.authApiService.getTenantAccessToken();
+//            final String requestBody = body.length > MAX_IGNORE_RESP_BYTES ? "ignore..." : new
+// String(body, StandardCharsets.UTF_8);
+//            log.info("请求飞书接口，{} url={}, token={}, body={}", request.getMethod().name(),
+// request.getURI().getRawPath(), tenantAccessToken, requestBody);
 //            // 添加请求头
 //            request.getHeaders().add(HttpHeaders.AUTHORIZATION, tenantAccessToken);
 //            final ClientHttpResponse response = execution.execute(request, body);
@@ -380,4 +430,4 @@
 //    }
 //
 //
-//}
+// }

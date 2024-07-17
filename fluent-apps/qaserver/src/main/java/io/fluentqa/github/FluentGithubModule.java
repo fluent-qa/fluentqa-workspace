@@ -1,5 +1,6 @@
 package io.fluentqa.github;
 
+import io.fluentqa.github.model.AwesomeResource;
 import io.fluentqa.github.model.GithubStarredRepo;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -39,11 +40,17 @@ public class FluentGithubModule implements EruptModule {
     public List<MetaMenu> initMenus() {
         List<MetaMenu> menus = new ArrayList<>();
         menus.add(MetaMenu.createRootMenu("$github", "github管理", "fa fa-github", 1000));
-        MetaMenu starredMenu =MetaMenu.createEruptClassMenu(GithubStarredRepo.class, menus.get(0), 0, MenuTypeEnum.TABLE);
+        MetaMenu starredMenu = MetaMenu.createEruptClassMenu(GithubStarredRepo.class, menus.get(0), 0, MenuTypeEnum.TABLE);
         starredMenu.setIcon("fa fa-star");
         starredMenu.setName("github收藏");
         starredMenu.setCode("$github-starred");
         menus.add(starredMenu);
+
+        MetaMenu awesomeModule = MetaMenu.createEruptClassMenu(AwesomeResource.class, menus.get(0), 1, MenuTypeEnum.TABLE);
+        awesomeModule.setIcon("fa fa-font-awesome");
+        awesomeModule.setName("awesomes");
+        awesomeModule.setCode("$awesomes");
+        menus.add(awesomeModule);
         return menus;
     }
 

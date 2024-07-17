@@ -2,22 +2,22 @@ package io.fluentqa.jira.config;
 
 public class DescriptionMappingConfig {
 
-	private String panelTitleBackgroundColor = "#dddddd";
-	private String panelBackgroundColor = "#eeeeee";
+  private String panelTitleBackgroundColor = "#dddddd";
+  private String panelBackgroundColor = "#eeeeee";
 
-	public String getPanelBackgroundColor() {
-		return panelBackgroundColor;
-	}
+  public String getPanelBackgroundColor() {
+    return panelBackgroundColor;
+  }
 
-	public String getPanelTitleBackgroundColor() {
-		return panelTitleBackgroundColor;
-	}
+  public String getPanelTitleBackgroundColor() {
+    return panelTitleBackgroundColor;
+  }
 
-	public void setPanelBackgroundColor(String panelBackgroundColor) {
-		this.panelBackgroundColor = panelBackgroundColor;
-	}
+  public void setPanelBackgroundColor(String panelBackgroundColor) {
+    this.panelBackgroundColor = panelBackgroundColor;
+  }
 
-	public void setPanelTitleBackgroundColor(String panelTitleBackgroundColor) {
-		this.panelTitleBackgroundColor = panelTitleBackgroundColor;
-	}
+  public void setPanelTitleBackgroundColor(String panelTitleBackgroundColor) {
+    this.panelTitleBackgroundColor = panelTitleBackgroundColor;
+  }
 }

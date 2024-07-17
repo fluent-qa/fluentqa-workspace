@@ -23,7 +23,7 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://supabase_db_dev-stacks.orb.local:5432/workspace
+    url: jdbc:postgresql://db.supabase.orb.local:5432/postgres?currentSchema=workspace
     username: postgres
     password: postgres
   jpa:
@@ -93,6 +93,8 @@ logging:
     root: TRACE
     io.fluentqa: DEBUG
     org.hibernate: DEBUG
+    io.fluent: DEBUG
+    xyz.erupt: DEBUG
 
 magic-api:
   web: /fluentapi/v1

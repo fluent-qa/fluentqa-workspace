@@ -1,15 +1,15 @@
 package io.fluent.builtin.config;
 
-public class AppConfigException extends RuntimeException{
+public class AppConfigException extends RuntimeException {
   public AppConfigException() {
     super();
   }
 
-  public AppConfigException(String message) {
+  public AppConfigException(final String message) {
     super(message);
   }
 
-  public AppConfigException(String message, Throwable cause) {
+  public AppConfigException(final String message, Throwable cause) {
     super(message, cause);
   }
 
@@ -17,7 +17,11 @@ public class AppConfigException extends RuntimeException{
     super(cause);
   }
 
-  protected AppConfigException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+  protected AppConfigException(
+      final String message,
+      Throwable cause,
+      boolean enableSuppression,
+      boolean writableStackTrace) {
     super(message, cause, enableSuppression, writableStackTrace);
   }
 }

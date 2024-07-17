@@ -1,20 +1,20 @@
-//package io.fluentqa.clients.factory;
+// package io.fluentqa.clients.factory;
 //
-//import io.fluentqa.builtin.jsons.JSONUtils;
-//import io.fluentqa.clients.base.HttpClientOption;
-//import io.fluentqa.clients.base.HttpRequestModel;
-//import okhttp3.OkHttpClient;
-//import okhttp3.Request;
-//import okhttp3.RequestBody;
-//import okhttp3.Response;
-//import org.junit.jupiter.api.Test;
+// import io.fluentqa.builtin.jsons.JSONUtils;
+// import io.fluentqa.clients.base.HttpClientOption;
+// import io.fluentqa.clients.base.HttpRequestModel;
+// import okhttp3.OkHttpClient;
+// import okhttp3.Request;
+// import okhttp3.RequestBody;
+// import okhttp3.Response;
+// import org.junit.jupiter.api.Test;
 //
-//import java.io.IOException;
-//import java.nio.charset.StandardCharsets;
+// import java.io.IOException;
+// import java.nio.charset.StandardCharsets;
 //
-//import static org.junit.jupiter.api.Assertions.*;
+// import static org.junit.jupiter.api.Assertions.*;
 //
-//public class HttpClientFactoryTest {
+// public class HttpClientFactoryTest {
 //  HttpClientFactory factory = new HttpClientFactory();
 //  HttpClientOption config = new HttpClientOption();
 //  OkHttpClient client = factory.okHttpClient(config);
@@ -34,7 +34,8 @@
 //
 //  String tokenRespones = "{\"user_info\":{\"id\":1,\"name\":\"prest\",\"username\":\"prest\"," +
 //    "\"metadata\":null},\"token\":" +
-//    "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MSwibWV0YWRhdGEiOm51bGwsIm5hbWUiOiJwcmVzdCIsInVzZXJuYW1lIjoicHJlc3QifSwiZXhwIjoxNjgzNTY2MTMzLCJuYmYiOjE2ODM1NDQ1MzN9.4xSD5TiEnauLrLwLRbEHxwK6lduXIjvwijiPLXvYdYo\"}\n";
+//
+// "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MSwibWV0YWRhdGEiOm51bGwsIm5hbWUiOiJwcmVzdCIsInVzZXJuYW1lIjoicHJlc3QifSwiZXhwIjoxNjgzNTY2MTMzLCJuYmYiOjE2ODM1NDQ1MzN9.4xSD5TiEnauLrLwLRbEHxwK6lduXIjvwijiPLXvYdYo\"}\n";
 //
 //  @Test
 //  void testPrestdGetSchema() {
@@ -106,8 +107,10 @@
 //  @Test
 //  void querySupabaseService(){
 //    String baseUrl = "http://localhost:54321/rest/v1/users";
-//    String serviceKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU";
-//    String apiKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0";
+//    String serviceKey
+// ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU";
+//    String apiKey
+// ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0";
 //    Request request = new Request.Builder().url(baseUrl)
 //      .addHeader("Authorization", "Bearer %s".formatted(serviceKey))
 //      .addHeader("apikey", apiKey)
@@ -117,9 +120,12 @@
 //
 //  @Test
 //  void functionCall(){
-//    String baseUrl = "http://localhost:54321/rest/v1/rpc/get_key_by_email?in_email=test_1@163.com";
-//    String serviceKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU";
-//    String apiKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0";
+//    String baseUrl =
+// "http://localhost:54321/rest/v1/rpc/get_key_by_email?in_email=test_1@163.com";
+//    String serviceKey
+// ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU";
+//    String apiKey
+// ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0";
 //    Request request = new Request.Builder().url(baseUrl)
 //      .addHeader("Authorization", "Bearer %s".formatted(serviceKey))
 //      .addHeader("apikey", apiKey)
@@ -135,4 +141,4 @@
 //    processor.invoke(request);
 //
 //  }
-//}
+// }

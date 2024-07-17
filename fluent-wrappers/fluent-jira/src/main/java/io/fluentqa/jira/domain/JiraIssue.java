@@ -4,77 +4,75 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class JiraIssue extends JiraIdResource {
 
-	private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-	private String key;
+  private String key;
 
-	private JiraIssueFields fields;
+  private JiraIssueFields fields;
 
-	private JiraChangeLog changelog;
+  private JiraChangeLog changelog;
 
-	public JiraIssue() {
-	}
+  public JiraIssue() {}
 
-	public JiraIssue(JiraProject project) {
-		this.fields = new JiraIssueFields(project);
-	}
+  public JiraIssue(JiraProject project) {
+    this.fields = new JiraIssueFields(project);
+  }
 
-	public JiraIssue(String id, String key) {
-		super(id);
-		this.key = key;
-	}
+  public JiraIssue(String id, String key) {
+    super(id);
+    this.key = key;
+  }
 
-	public JiraIssue(String id, String key, String summary, JiraIssueStatus status) {
-		this(id, key);
-		fields = new JiraIssueFields();
-		fields.setSummary(summary);
-		fields.setStatus(status);
-	}
+  public JiraIssue(String id, String key, String summary, JiraIssueStatus status) {
+    this(id, key);
+    fields = new JiraIssueFields();
+    fields.setSummary(summary);
+    fields.setStatus(status);
+  }
 
-	public String getKey() {
-		return key;
-	}
+  public String getKey() {
+    return key;
+  }
 
-	public void setKey(String key) {
-		this.key = key;
-	}
+  public void setKey(String key) {
+    this.key = key;
+  }
 
-	public JiraIssueFields getFields() {
-		return fields;
-	}
+  public JiraIssueFields getFields() {
+    return fields;
+  }
 
-	public void setFields(JiraIssueFields fields) {
-		this.fields = fields;
-	}
+  public void setFields(JiraIssueFields fields) {
+    this.fields = fields;
+  }
 
-	@JsonIgnore
-	public JiraIssue withFields(JiraIssueFields fields) {
-		setFields(fields);
-		return this;
-	}
+  @JsonIgnore
+  public JiraIssue withFields(JiraIssueFields fields) {
+    setFields(fields);
+    return this;
+  }
 
-	public JiraChangeLog getChangelog() {
-		return changelog;
-	}
+  public JiraChangeLog getChangelog() {
+    return changelog;
+  }
 
-	public void setChangelog(JiraChangeLog changelog) {
-		this.changelog = changelog;
-	}
+  public void setChangelog(JiraChangeLog changelog) {
+    this.changelog = changelog;
+  }
 
-	@JsonIgnore
-	public JiraIssueFields getOrCreateFields() {
-		if (fields == null) {
-			fields = new JiraIssueFields();
-		}
-		return fields;
-	}
+  @JsonIgnore
+  public JiraIssueFields getOrCreateFields() {
+    if (fields == null) {
+      fields = new JiraIssueFields();
+    }
+    return fields;
+  }
 
-	@JsonIgnore
-	public JiraChangeLog getOrCreateChangeLog() {
-		if (changelog == null) {
-			changelog = new JiraChangeLog();
-		}
-		return changelog;
-	}
-
+  @JsonIgnore
+  public JiraChangeLog getOrCreateChangeLog() {
+    if (changelog == null) {
+      changelog = new JiraChangeLog();
+    }
+    return changelog;
+  }
 }

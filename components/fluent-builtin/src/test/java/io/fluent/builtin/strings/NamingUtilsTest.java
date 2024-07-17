@@ -5,10 +5,8 @@ import org.junit.jupiter.api.Test;
 class NamingUtilsTest {
 
   @Test
-  void underscoreToCamel() {
-  }
+  void underscoreToCamel() {}
 
   @Test
-  void camelToUnderscore() {
-  }
+  void camelToUnderscore() {}
 }

@@ -5,6 +5,7 @@ import io.fluent.builtin.StringUtils;
 import io.fluentqa.github.service.GithubService;
 import io.fluentqa.jobs.github.GithubJobFetchParameters;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import xyz.erupt.core.annotation.EruptHandlerNaming;
 import xyz.erupt.job.handler.EruptJobHandler;
@@ -23,18 +24,17 @@ public class GithubStarredCollectorJob implements EruptJobHandler {
      * @param code 任务编码
      * @param param 任务参数
      */
+
     @Override
     public String exec(String code, String param) {
         log.info("start job %s with parameter %s".formatted(code,param));
         GithubJobFetchParameters parameters  ;
-        List<String> userNames = new ArrayList<>();
         if(StringUtils.isAllEmpty(param)){
             parameters = new GithubJobFetchParameters();
         }else {
             parameters = JSONUtil.toBean(param, GithubJobFetchParameters.class);
         }
-        //TODO: make it async
-        userNames=StringUtils.split(parameters.getUserNames(),",");
+        List<String> userNames=StringUtils.split(parameters.getUserNames(),",");
         for (String userName : userNames) {
             githubService.saveUserStarredRepo(userName,parameters.getFromPage());
         }

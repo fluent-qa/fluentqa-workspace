@@ -3,6 +3,7 @@ package io.fluentqa.github.model;
 import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
+import xyz.erupt.annotation.sub_erupt.Layout;
 import xyz.erupt.annotation.sub_erupt.Power;
 import xyz.erupt.annotation.sub_field.Edit;
 import xyz.erupt.annotation.sub_field.EditType;
@@ -15,7 +16,10 @@ import javax.persistence.Entity;
 
 @Data
 @Entity
-@Erupt(name = "starred Github Repos", power = @Power(importable = true, export = true))
+@Erupt(name = "starred Github Repos",
+        power = @Power(importable = true, export = true), layout = @Layout(
+        tableLeftFixed = 3,
+        pageSize = 30))
 public class GithubStarredRepo extends MetaModelVo {
     @EruptField(views = @View(title = "名称"), edit = @Edit(title = "名称", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
     private String name;

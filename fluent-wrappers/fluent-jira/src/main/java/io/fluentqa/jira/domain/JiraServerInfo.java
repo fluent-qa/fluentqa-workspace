@@ -1,43 +1,40 @@
 package io.fluentqa.jira.domain;
 
-
 public class JiraServerInfo extends JiraResource {
 
-	private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-	private String baseUrl;
-	private String serverTitle;
-	private String version;
+  private String baseUrl;
+  private String serverTitle;
+  private String version;
 
-	public JiraServerInfo() {
-	}
+  public JiraServerInfo() {}
 
-	public JiraServerInfo(String baseUrl) {
-		this.baseUrl = baseUrl;
-	}
+  public JiraServerInfo(String baseUrl) {
+    this.baseUrl = baseUrl;
+  }
 
-	public String getBaseUrl() {
-		return baseUrl;
-	}
+  public String getBaseUrl() {
+    return baseUrl;
+  }
 
-	public void setBaseUrl(String baseUrl) {
-		this.baseUrl = baseUrl;
-	}
+  public void setBaseUrl(String baseUrl) {
+    this.baseUrl = baseUrl;
+  }
 
-	public String getServerTitle() {
-		return serverTitle;
-	}
+  public String getServerTitle() {
+    return serverTitle;
+  }
 
-	public void setServerTitle(String serverTitle) {
-		this.serverTitle = serverTitle;
-	}
+  public void setServerTitle(String serverTitle) {
+    this.serverTitle = serverTitle;
+  }
 
-	public String getVersion() {
-		return version;
-	}
+  public String getVersion() {
+    return version;
+  }
 
-	public void setVersion(String version) {
-		this.version = version;
-	}
-
+  public void setVersion(String version) {
+    this.version = version;
+  }
 }

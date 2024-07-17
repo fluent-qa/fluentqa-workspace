@@ -1,17 +1,17 @@
 package io.fluent.testlibs.datafactory.supplier.converters;
 
-import java.lang.reflect.Type;
-
 import static java.lang.Integer.parseInt;
 
-public class IntegerConverter extends DefaultConverter<Integer> {
-    @Override
-    public Integer convert(final String value) {
-        return parseInt(value);
-    }
+import java.lang.reflect.Type;
 
-    @Override
-    public Type getType() {
-        return Integer.TYPE;
-    }
+public class IntegerConverter extends DefaultConverter<Integer> {
+  @Override
+  public Integer convert(final String value) {
+    return parseInt(value);
+  }
+
+  @Override
+  public Type getType() {
+    return Integer.TYPE;
+  }
 }

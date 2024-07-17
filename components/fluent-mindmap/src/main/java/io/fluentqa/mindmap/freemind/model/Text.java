@@ -5,7 +5,6 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
@@ -13,10 +12,8 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
 
-
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -28,13 +25,8 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "")
 @XmlRootElement(name = "text")
-public class Text {
-
-
-}
+public class Text {}

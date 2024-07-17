@@ -14,23 +14,15 @@ import lombok.Data;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Person {
 
-    /**
-     * 人员Id
-     */
-    private String id;
+  /** 人员Id */
+  private String id;
 
-    /**
-     * 中文姓名
-     */
-    private String name;
+  /** 中文姓名 */
+  private String name;
 
-    /**
-     * 英文姓名
-     */
-    private String enName;
+  /** 英文姓名 */
+  private String enName;
 
-    /**
-     * 邮箱
-     */
-    private String email;
+  /** 邮箱 */
+  private String email;
 }

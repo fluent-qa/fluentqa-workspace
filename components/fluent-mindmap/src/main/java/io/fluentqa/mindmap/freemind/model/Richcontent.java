@@ -5,14 +5,12 @@
 // 生成时间: 2022.09.23 时间 08:46:06 PM CST
 //
 
-
 package io.fluentqa.mindmap.freemind.model;
 
 import jakarta.xml.bind.annotation.*;
 
-
 /**
- * <p>anonymous complex type的 Java 类。
+ * anonymous complex type的 Java 类。
  *
  * <p>以下模式片段指定包含在此类中的预期内容。
  *
@@ -35,67 +33,53 @@ import jakarta.xml.bind.annotation.*;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "html"
-})
+@XmlType(
+    name = "",
+    propOrder = {"html"})
 @XmlRootElement(name = "richcontent")
 public class Richcontent {
 
-    @XmlElement(required = true)
-    protected Html html;
-    @XmlAttribute(name = "TYPE", required = true)
-    protected String type;
+  @XmlElement(required = true)
+  protected Html html;
 
-    /**
-     * 获取html属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link Html }
-     *
-     */
-    public Html getHtml() {
-        return html;
-    }
+  @XmlAttribute(name = "TYPE", required = true)
+  protected String type;
 
-    /**
-     * 设置html属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link Html }
-     *
-     */
-    public void setHtml(Html value) {
-        this.html = value;
-    }
+  /**
+   * 获取html属性的值。
+   *
+   * @return possible object is {@link Html }
+   */
+  public Html getHtml() {
+    return html;
+  }
 
-    /**
-     * 获取type属性的值。
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-    public String getTYPE() {
-        return type;
-    }
+  /**
+   * 设置html属性的值。
+   *
+   * @param value allowed object is {@link Html }
+   */
+  public void setHtml(Html value) {
+    this.html = value;
+  }
 
-    /**
-     * 设置type属性的值。
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setTYPE(String value) {
-        this.type = value;
-    }
+  /**
+   * 获取type属性的值。
+   *
+   * @return possible object is {@link String }
+   */
+  public String getTYPE() {
+    return type;
+  }
 
+  /**
+   * 设置type属性的值。
+   *
+   * @param value allowed object is {@link String }
+   */
+  public void setTYPE(String value) {
+    this.type = value;
+  }
 }

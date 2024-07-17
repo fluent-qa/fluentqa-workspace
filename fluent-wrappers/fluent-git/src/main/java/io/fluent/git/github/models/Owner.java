@@ -6,242 +6,258 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "login",
-    "id",
-    "node_id",
-    "avatar_url",
-    "gravatar_id",
-    "url",
-    "html_url",
-    "followers_url",
-    "following_url",
-    "gists_url",
-    "starred_url",
-    "subscriptions_url",
-    "organizations_url",
-    "repos_url",
-    "events_url",
-    "received_events_url",
-    "type",
-    "site_admin"
+  "login",
+  "id",
+  "node_id",
+  "avatar_url",
+  "gravatar_id",
+  "url",
+  "html_url",
+  "followers_url",
+  "following_url",
+  "gists_url",
+  "starred_url",
+  "subscriptions_url",
+  "organizations_url",
+  "repos_url",
+  "events_url",
+  "received_events_url",
+  "type",
+  "site_admin"
 })
 public class Owner {
 
-    @JsonProperty("login")
-    private String login;
-    @JsonProperty("id")
-    private Integer id;
-    @JsonProperty("node_id")
-    private String nodeId;
-    @JsonProperty("avatar_url")
-    private String avatarUrl;
-    @JsonProperty("gravatar_id")
-    private String gravatarId;
-    @JsonProperty("url")
-    private String url;
-    @JsonProperty("html_url")
-    private String htmlUrl;
-    @JsonProperty("followers_url")
-    private String followersUrl;
-    @JsonProperty("following_url")
-    private String followingUrl;
-    @JsonProperty("gists_url")
-    private String gistsUrl;
-    @JsonProperty("starred_url")
-    private String starredUrl;
-    @JsonProperty("subscriptions_url")
-    private String subscriptionsUrl;
-    @JsonProperty("organizations_url")
-    private String organizationsUrl;
-    @JsonProperty("repos_url")
-    private String reposUrl;
-    @JsonProperty("events_url")
-    private String eventsUrl;
-    @JsonProperty("received_events_url")
-    private String receivedEventsUrl;
-    @JsonProperty("type")
-    private String type;
-    @JsonProperty("site_admin")
-    private Boolean siteAdmin;
+  @JsonProperty("login")
+  private String login;
 
-    @JsonProperty("login")
-    public String getLogin() {
-        return login;
-    }
+  @JsonProperty("id")
+  private Integer id;
 
-    @JsonProperty("login")
-    public void setLogin(String login) {
-        this.login = login;
-    }
+  @JsonProperty("node_id")
+  private String nodeId;
 
-    @JsonProperty("id")
-    public Integer getId() {
-        return id;
-    }
+  @JsonProperty("avatar_url")
+  private String avatarUrl;
 
-    @JsonProperty("id")
-    public void setId(Integer id) {
-        this.id = id;
-    }
+  @JsonProperty("gravatar_id")
+  private String gravatarId;
 
-    @JsonProperty("node_id")
-    public String getNodeId() {
-        return nodeId;
-    }
+  @JsonProperty("url")
+  private String url;
 
-    @JsonProperty("node_id")
-    public void setNodeId(String nodeId) {
-        this.nodeId = nodeId;
-    }
+  @JsonProperty("html_url")
+  private String htmlUrl;
 
-    @JsonProperty("avatar_url")
-    public String getAvatarUrl() {
-        return avatarUrl;
-    }
+  @JsonProperty("followers_url")
+  private String followersUrl;
 
-    @JsonProperty("avatar_url")
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatarUrl = avatarUrl;
-    }
+  @JsonProperty("following_url")
+  private String followingUrl;
 
-    @JsonProperty("gravatar_id")
-    public String getGravatarId() {
-        return gravatarId;
-    }
+  @JsonProperty("gists_url")
+  private String gistsUrl;
 
-    @JsonProperty("gravatar_id")
-    public void setGravatarId(String gravatarId) {
-        this.gravatarId = gravatarId;
-    }
+  @JsonProperty("starred_url")
+  private String starredUrl;
 
-    @JsonProperty("url")
-    public String getUrl() {
-        return url;
-    }
+  @JsonProperty("subscriptions_url")
+  private String subscriptionsUrl;
 
-    @JsonProperty("url")
-    public void setUrl(String url) {
-        this.url = url;
-    }
+  @JsonProperty("organizations_url")
+  private String organizationsUrl;
 
-    @JsonProperty("html_url")
-    public String getHtmlUrl() {
-        return htmlUrl;
-    }
+  @JsonProperty("repos_url")
+  private String reposUrl;
 
-    @JsonProperty("html_url")
-    public void setHtmlUrl(String htmlUrl) {
-        this.htmlUrl = htmlUrl;
-    }
+  @JsonProperty("events_url")
+  private String eventsUrl;
 
-    @JsonProperty("followers_url")
-    public String getFollowersUrl() {
-        return followersUrl;
-    }
+  @JsonProperty("received_events_url")
+  private String receivedEventsUrl;
 
-    @JsonProperty("followers_url")
-    public void setFollowersUrl(String followersUrl) {
-        this.followersUrl = followersUrl;
-    }
+  @JsonProperty("type")
+  private String type;
 
-    @JsonProperty("following_url")
-    public String getFollowingUrl() {
-        return followingUrl;
-    }
+  @JsonProperty("site_admin")
+  private Boolean siteAdmin;
 
-    @JsonProperty("following_url")
-    public void setFollowingUrl(String followingUrl) {
-        this.followingUrl = followingUrl;
-    }
+  @JsonProperty("login")
+  public String getLogin() {
+    return login;
+  }
 
-    @JsonProperty("gists_url")
-    public String getGistsUrl() {
-        return gistsUrl;
-    }
+  @JsonProperty("login")
+  public void setLogin(String login) {
+    this.login = login;
+  }
 
-    @JsonProperty("gists_url")
-    public void setGistsUrl(String gistsUrl) {
-        this.gistsUrl = gistsUrl;
-    }
+  @JsonProperty("id")
+  public Integer getId() {
+    return id;
+  }
 
-    @JsonProperty("starred_url")
-    public String getStarredUrl() {
-        return starredUrl;
-    }
+  @JsonProperty("id")
+  public void setId(Integer id) {
+    this.id = id;
+  }
 
-    @JsonProperty("starred_url")
-    public void setStarredUrl(String starredUrl) {
-        this.starredUrl = starredUrl;
-    }
+  @JsonProperty("node_id")
+  public String getNodeId() {
+    return nodeId;
+  }
 
-    @JsonProperty("subscriptions_url")
-    public String getSubscriptionsUrl() {
-        return subscriptionsUrl;
-    }
+  @JsonProperty("node_id")
+  public void setNodeId(String nodeId) {
+    this.nodeId = nodeId;
+  }
 
-    @JsonProperty("subscriptions_url")
-    public void setSubscriptionsUrl(String subscriptionsUrl) {
-        this.subscriptionsUrl = subscriptionsUrl;
-    }
+  @JsonProperty("avatar_url")
+  public String getAvatarUrl() {
+    return avatarUrl;
+  }
 
-    @JsonProperty("organizations_url")
-    public String getOrganizationsUrl() {
-        return organizationsUrl;
-    }
+  @JsonProperty("avatar_url")
+  public void setAvatarUrl(String avatarUrl) {
+    this.avatarUrl = avatarUrl;
+  }
 
-    @JsonProperty("organizations_url")
-    public void setOrganizationsUrl(String organizationsUrl) {
-        this.organizationsUrl = organizationsUrl;
-    }
+  @JsonProperty("gravatar_id")
+  public String getGravatarId() {
+    return gravatarId;
+  }
 
-    @JsonProperty("repos_url")
-    public String getReposUrl() {
-        return reposUrl;
-    }
+  @JsonProperty("gravatar_id")
+  public void setGravatarId(String gravatarId) {
+    this.gravatarId = gravatarId;
+  }
 
-    @JsonProperty("repos_url")
-    public void setReposUrl(String reposUrl) {
-        this.reposUrl = reposUrl;
-    }
+  @JsonProperty("url")
+  public String getUrl() {
+    return url;
+  }
 
-    @JsonProperty("events_url")
-    public String getEventsUrl() {
-        return eventsUrl;
-    }
+  @JsonProperty("url")
+  public void setUrl(String url) {
+    this.url = url;
+  }
 
-    @JsonProperty("events_url")
-    public void setEventsUrl(String eventsUrl) {
-        this.eventsUrl = eventsUrl;
-    }
+  @JsonProperty("html_url")
+  public String getHtmlUrl() {
+    return htmlUrl;
+  }
 
-    @JsonProperty("received_events_url")
-    public String getReceivedEventsUrl() {
-        return receivedEventsUrl;
-    }
+  @JsonProperty("html_url")
+  public void setHtmlUrl(String htmlUrl) {
+    this.htmlUrl = htmlUrl;
+  }
 
-    @JsonProperty("received_events_url")
-    public void setReceivedEventsUrl(String receivedEventsUrl) {
-        this.receivedEventsUrl = receivedEventsUrl;
-    }
+  @JsonProperty("followers_url")
+  public String getFollowersUrl() {
+    return followersUrl;
+  }
 
-    @JsonProperty("type")
-    public String getType() {
-        return type;
-    }
+  @JsonProperty("followers_url")
+  public void setFollowersUrl(String followersUrl) {
+    this.followersUrl = followersUrl;
+  }
 
-    @JsonProperty("type")
-    public void setType(String type) {
-        this.type = type;
-    }
+  @JsonProperty("following_url")
+  public String getFollowingUrl() {
+    return followingUrl;
+  }
 
-    @JsonProperty("site_admin")
-    public Boolean getSiteAdmin() {
-        return siteAdmin;
-    }
+  @JsonProperty("following_url")
+  public void setFollowingUrl(String followingUrl) {
+    this.followingUrl = followingUrl;
+  }
 
-    @JsonProperty("site_admin")
-    public void setSiteAdmin(Boolean siteAdmin) {
-        this.siteAdmin = siteAdmin;
-    }
+  @JsonProperty("gists_url")
+  public String getGistsUrl() {
+    return gistsUrl;
+  }
 
+  @JsonProperty("gists_url")
+  public void setGistsUrl(String gistsUrl) {
+    this.gistsUrl = gistsUrl;
+  }
+
+  @JsonProperty("starred_url")
+  public String getStarredUrl() {
+    return starredUrl;
+  }
+
+  @JsonProperty("starred_url")
+  public void setStarredUrl(String starredUrl) {
+    this.starredUrl = starredUrl;
+  }
+
+  @JsonProperty("subscriptions_url")
+  public String getSubscriptionsUrl() {
+    return subscriptionsUrl;
+  }
+
+  @JsonProperty("subscriptions_url")
+  public void setSubscriptionsUrl(String subscriptionsUrl) {
+    this.subscriptionsUrl = subscriptionsUrl;
+  }
+
+  @JsonProperty("organizations_url")
+  public String getOrganizationsUrl() {
+    return organizationsUrl;
+  }
+
+  @JsonProperty("organizations_url")
+  public void setOrganizationsUrl(String organizationsUrl) {
+    this.organizationsUrl = organizationsUrl;
+  }
+
+  @JsonProperty("repos_url")
+  public String getReposUrl() {
+    return reposUrl;
+  }
+
+  @JsonProperty("repos_url")
+  public void setReposUrl(String reposUrl) {
+    this.reposUrl = reposUrl;
+  }
+
+  @JsonProperty("events_url")
+  public String getEventsUrl() {
+    return eventsUrl;
+  }
+
+  @JsonProperty("events_url")
+  public void setEventsUrl(String eventsUrl) {
+    this.eventsUrl = eventsUrl;
+  }
+
+  @JsonProperty("received_events_url")
+  public String getReceivedEventsUrl() {
+    return receivedEventsUrl;
+  }
+
+  @JsonProperty("received_events_url")
+  public void setReceivedEventsUrl(String receivedEventsUrl) {
+    this.receivedEventsUrl = receivedEventsUrl;
+  }
+
+  @JsonProperty("type")
+  public String getType() {
+    return type;
+  }
+
+  @JsonProperty("type")
+  public void setType(String type) {
+    this.type = type;
+  }
+
+  @JsonProperty("site_admin")
+  public Boolean getSiteAdmin() {
+    return siteAdmin;
+  }
+
+  @JsonProperty("site_admin")
+  public void setSiteAdmin(Boolean siteAdmin) {
+    this.siteAdmin = siteAdmin;
+  }
 }

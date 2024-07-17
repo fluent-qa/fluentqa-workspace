@@ -25,7 +25,8 @@
         <module>fluent-httpclients</module>
         <module>fluent-datafactory</module>
         <module>fluent-testlibs</module>
-        <!--        <module>fluent-mocker</module>-->
+        <module>fleunt-clients</module>
+        <module>fluent-spring</module>
     </modules>
 
 

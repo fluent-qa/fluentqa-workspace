@@ -1,4 +1,2 @@
-/**
- * @author Patrick
- **/
+/** @author Patrick */
 package io.fluent.builtin;

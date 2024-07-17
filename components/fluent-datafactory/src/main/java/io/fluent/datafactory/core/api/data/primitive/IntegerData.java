@@ -6,17 +6,15 @@ import io.fluent.datafactory.api.core.IDataFactoryContext;
 import io.fluent.datafactory.core.api.data.annotation.AbstractNumberData;
 
 /**
- * @author binbin.hou
- * date 2019/2/26
+ * @author binbin.hou date 2019/2/26
  * @since 0.0.1
  */
 @AutoService(IData.class)
 public class IntegerData extends AbstractNumberData implements IData<Integer> {
 
-    @Override
-    public Integer build(IDataFactoryContext context, Class<Integer> booleanClass) {
-        final String string = super.contactInt(context);
-        return Integer.valueOf(string);
-    }
-
+  @Override
+  public Integer build(IDataFactoryContext context, Class<Integer> booleanClass) {
+    final String string = super.contactInt(context);
+    return Integer.valueOf(string);
+  }
 }

@@ -14,19 +14,12 @@ import lombok.Data;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class BiTableItemRespDTO {
 
-    /**
-     * 数据表ID
-     */
-    private String tableId;
+  /** 数据表ID */
+  private String tableId;
 
-    /**
-     * 数据表的版本号
-     */
-    private Integer revision;
+  /** 数据表的版本号 */
+  private Integer revision;
 
-    /**
-     * 数据表名字
-     */
-    private String name;
-
+  /** 数据表名字 */
+  private String name;
 }

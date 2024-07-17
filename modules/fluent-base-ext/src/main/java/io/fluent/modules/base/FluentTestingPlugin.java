@@ -1,11 +1,11 @@
 package io.fluent.modules.base;
 
 public interface FluentTestingPlugin {
-    void beforeAllTests();
+  void beforeAllTests();
 
-    void afterAllTests();
+  void afterAllTests();
 
-    void beforeScenario();
+  void beforeScenario();
 
-    void afterScenario();
+  void afterScenario();
 }

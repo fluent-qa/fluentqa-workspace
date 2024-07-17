@@ -1,130 +1,122 @@
 package io.fluent.builtin.constant;
 
-/**
- * 标点符号常量
- */
+/** 标点符号常量 */
 public final class PunctuationConst {
 
-    private PunctuationConst(){}
+  private PunctuationConst() {}
 
+  /** 逗号 */
+  public static final String COMMA = ",";
 
+  /** 冒号 */
+  public static final String COLON = ":";
 
-    /**
-     * 逗号
-     */
-    public static final String COMMA = ",";
+  /** 圆点 */
+  public static final String DOT = ".";
 
-    /**
-     * 冒号
-     */
-    public static final String COLON = ":";
+  /** 空格 */
+  public static final String BLANK = " ";
 
-    /**
-     * 圆点
-     */
-    public static final String DOT = ".";
+  /** 单引号 */
+  public static final String SINGLE_QUOTES = "'";
 
-    /**
-     * 空格
-     */
-    public static final String BLANK = " ";
+  /** 下划线 */
+  public static final String UNDERLINE = "_";
 
-    /**
-     * 单引号
-     */
-    public static final String SINGLE_QUOTES = "'";
+  /** at 符号 */
+  public static final String AT = "@";
 
-    /**
-     * 下划线
-     */
-    public static final String UNDERLINE = "_";
+  /** 斜杠 */
+  public static final String SLASH = "/";
 
-    /**
-     * at 符号
-     */
-    public static final String AT = "@";
+  /**
+   * 星
+   *
+   * @since 0.0.8
+   */
+  public static final String STAR = "*";
 
-    /**
-     * 斜杠
-     */
-    public static final String SLASH = "/";
+  /**
+   * 双引号
+   *
+   * @since 0.0.8
+   */
+  public static final String DOUBLE_QUOTES = "\"";
 
-    /**
-     * 星
-     * @since 0.0.8
-     */
-    public static final String STAR = "*";
+  /**
+   * 空
+   *
+   * @since 0.0.8
+   */
+  public static final String EMPTY = "";
 
-    /**
-     * 双引号
-     * @since 0.0.8
-     */
-    public static final String DOUBLE_QUOTES = "\"";
+  /**
+   * 非
+   *
+   * @since 0.0.8
+   */
+  public static final String NOT = "!";
 
-    /**
-     * 空
-     * @since 0.0.8
-     */
-    public static final String EMPTY = "";
+  /**
+   * 与
+   *
+   * @since 0.0.8
+   */
+  public static final String AND = "&";
 
-    /**
-     * 非
-     * @since 0.0.8
-     */
-    public static final String NOT = "!";
+  /**
+   * 或
+   *
+   * @since 0.0.8
+   */
+  public static final String OR = "|";
 
-    /**
-     * 与
-     * @since 0.0.8
-     */
-    public static final String AND = "&";
+  /**
+   * #
+   *
+   * @since 0.0.8
+   */
+  public static final String SHAPE = "#";
 
-    /**
-     * 或
-     * @since 0.0.8
-     */
-    public static final String OR = "|";
+  /**
+   * 美元
+   *
+   * @since 0.0.8
+   */
+  public static final String DOLLAR = "$";
 
-    /**
-     * #
-     * @since 0.0.8
-     */
-    public static final String SHAPE = "#";
+  /**
+   * 百分比
+   *
+   * @since 0.0.8
+   */
+  public static final String PERCENT = "%";
 
-    /**
-     * 美元
-     * @since 0.0.8
-     */
-    public static final String DOLLAR = "$";
+  /**
+   * 幂
+   *
+   * @since 0.0.8
+   */
+  public static final String CARET = "^";
 
-    /**
-     * 百分比
-     * @since 0.0.8
-     */
-    public static final String PERCENT = "%";
+  /**
+   * 中划线
+   *
+   * @since 0.0.8
+   */
+  public static final String MIDDLE_LINE = "-";
 
-    /**
-     * 幂
-     * @since 0.0.8
-     */
-    public static final String CARET = "^";
+  /**
+   * 等于号
+   *
+   * @since 0.1.17
+   */
+  public static final String EQUAL = "=";
 
-    /**
-     * 中划线
-     * @since 0.0.8
-     */
-    public static final String MIDDLE_LINE = "-";
-
-    /**
-     * 等于号
-     * @since 0.1.17
-     */
-    public static final String EQUAL = "=";
-
-    /**
-     * 问号
-     * @since 0.1.9
-     */
-    public static final String QUESTION_MARK = "?";
-
+  /**
+   * 问号
+   *
+   * @since 0.1.9
+   */
+  public static final String QUESTION_MARK = "?";
 }

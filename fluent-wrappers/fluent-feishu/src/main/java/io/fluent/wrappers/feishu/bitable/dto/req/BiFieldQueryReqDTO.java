@@ -17,12 +17,10 @@ import lombok.NoArgsConstructor;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class BiFieldQueryReqDTO extends PageReqDTO {
 
-    /**
-     * 视图ID
-     */
-    private String viewId;
+  /** 视图ID */
+  private String viewId;
 
-    public BiFieldQueryReqDTO(final Integer pageSize) {
-        super(pageSize);
-    }
+  public BiFieldQueryReqDTO(final Integer pageSize) {
+    super(pageSize);
+  }
 }

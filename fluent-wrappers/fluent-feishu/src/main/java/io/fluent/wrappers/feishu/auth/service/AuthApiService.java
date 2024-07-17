@@ -1,22 +1,22 @@
-//package io.fluent.wrappers.feishu.auth.service;
+// package io.fluent.wrappers.feishu.auth.service;
 //
-//import cn.hutool.core.util.StrUtil;
-//import cn.hutool.http.HttpUtil;
-//import io.fluent.wrappers.feishu.auth.dto.req.TenantAccessTokenGetReqDTO;
-//import io.fluent.wrappers.feishu.auth.dto.resp.TenantAccessTokenGetRespDTO;
-//import lombok.Data;
+// import cn.hutool.core.util.StrUtil;
+// import cn.hutool.http.HttpUtil;
+// import io.fluent.wrappers.feishu.auth.dto.req.TenantAccessTokenGetReqDTO;
+// import io.fluent.wrappers.feishu.auth.dto.resp.TenantAccessTokenGetRespDTO;
+// import lombok.Data;
 //
-//import java.util.concurrent.TimeUnit;
-//import java.util.concurrent.atomic.AtomicLong;
+// import java.util.concurrent.TimeUnit;
+// import java.util.concurrent.atomic.AtomicLong;
 //
-///**
+/// **
 // * 飞书认证api接口
 // *
 // * @author Tao.Liu
 // * @date 2022/6/29 13:55
 // */
-//@Data
-//public class AuthApiService {
+// @Data
+// public class AuthApiService {
 //
 //    public final static String BASE_URL = "https://open.feishu.cn/open-apis/auth";
 //
@@ -55,13 +55,16 @@
 //     * @return
 //     */
 //    public String getTenantAccessToken() {
-//        if (StrUtil.isNotBlank(tenantAccessToken) && System.currentTimeMillis() < EXPIRE_TIMES.get()) {
+//        if (StrUtil.isNotBlank(tenantAccessToken) && System.currentTimeMillis() <
+// EXPIRE_TIMES.get()) {
 //            return this.tenantAccessToken;
 //        }
 //
 //        synchronized (this) {
-//            final TenantAccessTokenGetReqDTO tokenGetReqDTO = new TenantAccessTokenGetReqDTO(appId, appSecret);
-//            final TenantAccessTokenGetRespDTO tokenRespDTO = HttpUtil.post(BASE_URL + "/v3/tenant_access_token/internal",
+//            final TenantAccessTokenGetReqDTO tokenGetReqDTO = new
+// TenantAccessTokenGetReqDTO(appId, appSecret);
+//            final TenantAccessTokenGetRespDTO tokenRespDTO = HttpUtil.post(BASE_URL +
+// "/v3/tenant_access_token/internal",
 //                    tokenGetReqDTO, TenantAccessTokenGetRespDTO.class);
 //            if (tokenGetReqDTO == null && Strings.isBlank(tokenRespDTO.getTenantAccessToken())) {
 //                throw new FeishuException(FeishuErrorCodeEnum.TABLE_ERROR, "获取飞书token出错");
@@ -75,4 +78,4 @@
 //        }
 //    }
 //
-//}
+// }

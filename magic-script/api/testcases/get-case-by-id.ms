@@ -5,7 +5,7 @@
   "groupId" : "45635640034643dbb217b6dea3ad5689",
   "name" : "get-case-by-id",
   "createTime" : null,
-  "updateTime" : 1706178017988,
+  "updateTime" : 1717382433713,
   "lock" : null,
   "createBy" : null,
   "updateBy" : null,

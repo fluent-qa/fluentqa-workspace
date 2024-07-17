@@ -18,19 +18,19 @@
         <module>fluent-erupts</module>
         <module>components</module>
         <module>modules</module>
+
         <module>fluent-wrappers</module>
         <module>fluent-apps</module>
-        <module>fluent-wrappers/fluent-ai</module>
     </modules>
 
     <properties>
-        <erupt.version>1.12.12</erupt.version>
+        <erupt.version>1.12.14</erupt.version>
         <fluent.version>1.0-SNAPSHOT</fluent.version>
         <postgresql.version>42.5.1</postgresql.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hutool.version>5.8.24</hutool.version>
 <!--        <spotbugs.excludeFilterFile>spotbugsexclude.xml</spotbugs.excludeFilterFile>-->
-        <checkstyle.violationSeverity>error</checkstyle.violationSeverity>
+        <checkstyle.violationSeverity>warning</checkstyle.violationSeverity>
         <checkstyle.config.location>./ci/checkstyle.xml</checkstyle.config.location>
         <objenesis.version>3.3</objenesis.version>
         <jackson.version>2.15.2</jackson.version>

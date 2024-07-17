@@ -1,23 +1,14 @@
 package io.fluent.builtin.constant.enums;
 
-/**
- * <p> 代理类型枚举 </p>
- */
+/** 代理类型枚举 */
 public enum ProxyTypeEnum {
 
-    /**
-     * 不执行任何代理
-     */
-    NONE,
+  /** 不执行任何代理 */
+  NONE,
 
-    /**
-     * jdk 动态代理
-     */
-    DYNAMIC,
+  /** jdk 动态代理 */
+  DYNAMIC,
 
-    /**
-     * cglib 动态代理
-     */
-    CGLIB;
-
+  /** cglib 动态代理 */
+  CGLIB;
 }
