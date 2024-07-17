@@ -57,6 +57,7 @@ low-code:
   - https://github.com/structr/structr
   - https://gitee.com/jmix/jmix
   - https://github.com/jet-admin/jet-bridge
+  - https://netease.github.io/tango-site/
 bi:
   - https://github.com/pinterest/querybook.git
 openapi:
@@ -208,7 +209,8 @@ products:
 
 self-hosts:
   - https://github.com/dronahq/self-hosted.git
-
+  - https://github.com/LetTTGACO/elog.git
+  - https://zeon.studio/
 agile/NPM:
 
 

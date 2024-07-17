@@ -27,7 +27,6 @@
         <module>fluent-testlibs</module>
         <module>fleunt-clients</module>
         <module>fluent-spring</module>
-        <!--        <module>fluent-mocker</module>-->
     </modules>
 
 
