@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 
 
 public class SpringConfig {
-    @Bean("fluentSpringUtils")
+    @Bean("springUtils")
     public SpringUtils springUtils() {
         return new SpringUtils();
     }

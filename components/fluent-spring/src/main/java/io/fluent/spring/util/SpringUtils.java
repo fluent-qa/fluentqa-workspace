@@ -19,7 +19,6 @@ import java.util.Objects;
 /**
  * spring工具类 方便在非spring管理环境中获取bean
  *
- * @author andanyang
  */
 public final class SpringUtils implements BeanFactoryPostProcessor, ApplicationContextAware {
 

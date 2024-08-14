@@ -26,6 +26,7 @@
         <module>fluent-datafactory</module>
         <module>fluent-testlibs</module>
         <module>fluent-spring</module>
+        <module>fluent-loader</module>
     </modules>
 
 

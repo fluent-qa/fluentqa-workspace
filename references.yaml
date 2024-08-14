@@ -1,6 +1,5 @@
 stacks:
   - https://www.stackradar.co/
-
 agent:
   - https://www.agentcrew.co/
 
@@ -34,7 +33,7 @@ devops:
   - https://gitee.com/ketr/jecloud
 
 database-tools:
-  -  https://github.com/azimuttapp/azimutt.git
+  - https://github.com/azimuttapp/azimutt.git
 qa-tools:
   - https://gitee.com/cat2bug/cat2bug-platform.git
 qa-ai-tools:
@@ -50,6 +49,7 @@ api-mgt:
   - https://github.com/Kong/insomnia.git
   - https://github.com/xyyxhcj/vpi.git
 low-code:
+  - https://gitee.com/yabushan/low-code-data-center.git
   - https://gitee.com/zj1983/zz.git
   - https://gitee.com/y_project/RuoYi-Vue.git
   - https://gitee.com/newcorenet/elcube-backend.git
