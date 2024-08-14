@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.admin4j.spring.config.SpringConfig
+  io.fluent.spring.config.SpringConfig
