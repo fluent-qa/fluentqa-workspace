@@ -1,15 +1,13 @@
-package io.fluent.builtin.annotation;
+package io.fluent.builtin.meta.reflection.immutable;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * Bug Notification
- */
-@Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface WithBug {
-  String desc() default "";
+@Target({ElementType.METHOD})
+public @interface ReadOnly {
+
+  boolean proxyReturnValue() default true;
 }
