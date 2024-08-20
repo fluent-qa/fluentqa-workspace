@@ -2,6 +2,9 @@ package io.fluent.builtin.config;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
+/**
+ * For .env configuration
+ */
 public class DotEnvConfig {
 
   static Dotenv dotenv = Dotenv.load();
