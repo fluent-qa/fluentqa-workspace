@@ -19,5 +19,10 @@
         <module>fluent-allure</module>
         <module>fluent-jira</module>
         <module>fluent-supabase</module>
+        <module>fluent-quickdao</module>
+        <module>fluent-mindmap</module>
+        <module>fluentqa-md</module>
+        <module>fluent-excel</module>
+        <module>fluent-httpclients</module>
     </modules>
 </project>
