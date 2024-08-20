@@ -19,13 +19,11 @@
         <module>fluent-builtin</module>
         <module>fluent-mindmap</module>
         <module>fluentqa-md</module>
-        <module>fluent-openapi</module>
+
         <module>fluent-excel</module>
         <module>fluent-quickdao</module>
         <module>fluent-httpclients</module>
-        <module>fluent-datafactory</module>
         <module>fluent-testlibs</module>
-        <module>fluent-spring</module>
         <module>fluent-loader</module>
     </modules>
 
