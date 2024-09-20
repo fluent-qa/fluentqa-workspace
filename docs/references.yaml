@@ -1,0 +1,5 @@
+database-docs:
+  - https://github.com/MirrenTools/screw-driver.git
+
+libs:
+  - https://gitee.com/dromara/easy-es.git
