@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.fluentqa</groupId>
+        <artifactId>fluent-apps</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>pcinfo</artifactId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <flatlaf.version>3.5.1</flatlaf.version>
+        <flatlaf-extras.version>3.5.1</flatlaf-extras.version>
+        <flatlaf-intellij-themes.version>3.5.1</flatlaf-intellij-themes.version>
+        <forms_rt.version>7.0.3</forms_rt.version>
+        <oshi-core.version>6.6.4</oshi-core.version>
+        <jfreechart.version>1.5.4</jfreechart.version>
+        <imaging.version>1.0-alpha3</imaging.version>
+        <xmlwise.version>1.2.11</xmlwise.version>
+        <okhttp.version>5.0.0-alpha.14</okhttp.version>
+
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>${flatlaf.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf-extras</artifactId>
+            <version>${flatlaf-extras.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf-intellij-themes</artifactId>
+            <version>${flatlaf-intellij-themes.version}</version>
+        </dependency>
+
+        <!--GUI Designer -> binary class files-->
+        <dependency>
+            <groupId>com.intellij</groupId>
+            <artifactId>forms_rt</artifactId>
+            <version>${forms_rt.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+            <version>${oshi-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>${jfreechart.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-imaging</artifactId>
+            <version>${imaging.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xmlwise</groupId>
+            <artifactId>xmlwise</artifactId>
+            <version>${xmlwise.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
+            <!--            <exclusions>-->
+            <!--                <exclusion>-->
+            <!--                    <artifactId>kotlin-stdlib</artifactId>-->
+            <!--                    <groupId>org.jetbrains.kotlin</groupId>-->
+            <!--                </exclusion>-->
+            <!--            </exclusions>-->
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.github.fvarrui</groupId>
+                <artifactId>javapackager</artifactId>
+                <version>1.7.2</version>
+                <configuration>
+                    <bundleJre>true</bundleJre>
+                    <mainClass>io.fluent.pcinfo.App</mainClass>
+                    <generateInstaller>true</generateInstaller>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>bundling-for-windows</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>package</goal>
+                        </goals>
+                        <configuration>
+                            <platform>windows</platform>
+                            <createZipball>true</createZipball>
+                            <additionalModules>jdk.crypto.ec</additionalModules>
+                            <!--                            <administratorRequired>true</administratorRequired>-->
+                            <winConfig>
+
+                                <!-- general properties -->
+                                <generateSetup>true</generateSetup>
+                                <generateMsi>true</generateMsi>
+                                <generateMsm>true</generateMsm>
+
+                                <!-- setup generation properties -->
+                                <setupMode>installForAllUsers</setupMode>
+                                <createDesktopIconTask>true</createDesktopIconTask>
+                                <disableDirPage>false</disableDirPage>
+                                <disableFinishedPage>false</disableFinishedPage>
+                                <removeOldLibs>true</removeOldLibs>
+                                <setupLanguages>
+                                    <english>compiler:Default.isl</english>
+                                    <!--                                    <spanish>compiler:Languages\Chinese.isl</spanish>-->
+                                </setupLanguages>
+                            </winConfig>
+                        </configuration>
+                    </execution>
+                    <!--                                                            <execution>-->
+                    <!--                                                                <id>bundling-for-linux</id>-->
+                    <!--                                                                <phase>package</phase>-->
+                    <!--                                                                <goals>-->
+                    <!--                                                                    <goal>package</goal>-->
+                    <!--                                                                </goals>-->
+                    <!--                                                                <configuration>-->
+                    <!--                                                                    <platform>linux</platform>-->
+                    <!--                                                                    <createTarball>true</createTarball>-->
+                    <!--                    <additionalModules>jdk.crypto.ec</additionalModules>-->
+                    <!--                    &lt;!&ndash;                                                <jdkPath>X:\\path\to\linux\jdk</jdkPath>&ndash;&gt;-->
+                    <!--                                                                </configuration>-->
+                    <!--                                                            </execution>-->
+                    <!--                                                            <execution>-->
+                    <!--                                                                <id>bundling-for-mac</id>-->
+                    <!--                                                                <phase>package</phase>-->
+                    <!--                                                                <goals>-->
+                    <!--                                                                    <goal>package</goal>-->
+                    <!--                                                                </goals>-->
+                    <!--                                                                <configuration>-->
+                    <!--                                                                    <platform>mac</platform>-->
+                    <!--                                                                    <createTarball>true</createTarball>-->
+                    <!--                    <additionalModules>jdk.crypto.ec</additionalModules>-->
+                    <!--                    &lt;!&ndash;                                                <jdkPath>X:\\path\to\mac\jdk</jdkPath>&ndash;&gt;-->
+                    <!--                                                                </configuration>-->
+                    <!--                                                            </execution>-->
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

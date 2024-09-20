@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>feeds</module>
+        <module>pcinfo</module>
     </modules>
 
     <properties>
