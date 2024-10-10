@@ -47,6 +47,16 @@ public class HttpRequestModel {
     return this;
   }
 
+  public HttpRequestModel baseUrl(String baseUrl) {
+    this.baseUrl = baseUrl;
+    return this;
+  }
+
+  public HttpRequestModel urlPath(String urlPath) {
+    this.urlPath = urlPath;
+    return this;
+  }
+
   public HttpRequestModel addHeader(String key, String value) {
     this.headers.put(key, value);
     return this;
