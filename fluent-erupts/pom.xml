@@ -16,6 +16,7 @@
         <module>fluent-erupts-base</module>
         <module>fluent-generator</module>
         <module>fleunt-github</module>
+        <module>fluent-bpm</module>
         <!--        <module>fluent-tc</module>-->
 <!--        <module>fluent-pm</module>-->
     </modules>

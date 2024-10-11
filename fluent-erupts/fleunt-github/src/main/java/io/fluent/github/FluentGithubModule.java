@@ -2,6 +2,7 @@ package io.fluent.github;
 
 import io.fluent.github.model.AwesomeResource;
 import io.fluent.github.model.GithubStarredRepo;
+import io.fluent.github.model.GithubTrendingRepo;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
@@ -51,6 +52,12 @@ public class FluentGithubModule implements EruptModule {
         awesomeModule.setName("awesomes");
         awesomeModule.setCode("$awesomes");
         menus.add(awesomeModule);
+
+        MetaMenu trendingReposModule = MetaMenu.createEruptClassMenu(GithubTrendingRepo.class, menus.get(0), 2, MenuTypeEnum.TABLE);
+        trendingReposModule.setIcon("fa fa-star");
+        trendingReposModule.setName("github trending");
+        trendingReposModule.setCode("$github-trending");
+        menus.add(trendingReposModule);
         return menus;
     }
 

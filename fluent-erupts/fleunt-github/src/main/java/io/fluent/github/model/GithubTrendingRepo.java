@@ -1,6 +1,5 @@
 package io.fluent.github.model;
 
-import io.fluent.quickdao.annotations.QuickDaoColumn;
 import lombok.Data;
 import xyz.erupt.annotation.Erupt;
 import xyz.erupt.annotation.EruptField;
