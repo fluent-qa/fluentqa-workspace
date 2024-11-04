@@ -10,7 +10,4 @@
 
 ## JAVA MAVEN Project Setup With Erupts
 
-
-
-
 ## Run it
