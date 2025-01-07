@@ -8,3 +8,8 @@ Feeds Backend to Run jobs
 ## BI Solutions
 
 - [X] [metabase](docker/metabase/run-metabasexww.sh)
+
+
+## Business Solutions
+
+- [][会员营销](https://github.com/fushengqian/fuint.git)
