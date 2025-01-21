@@ -62,7 +62,7 @@ knife4j:
   enable: true
   openapi:
     title: QA Workspace API
-    description: "`QA Workspace API
+    description: "QA Workspace API"
     # workspace"
     email: fluentqa@163.com
     concat: fluent-qa

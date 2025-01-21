@@ -29,3 +29,7 @@ Feeds Backend to Run jobs
 
 - [][admin4j](https://github.com/admin4j/admin4j-framework.git)
 - [][concept](https://github.com/Linyuzai/concept.git)
+
+## Erupt Integration
+
+- [][magic-api](https://gitee.com/ssssssss-team/magic-api.git)
