@@ -23,7 +23,7 @@ erupt:
 
 spring:
   datasource:
-    url: jdbc:postgresql://db.supabase.orb.local:5432/feeds
+    url: jdbc:postgresql://db.supabase.orb.local:5432/workspace
     username: postgres
     password: postgres
   jpa:
@@ -73,7 +73,7 @@ knife4j:
 #    terms-of-service-url: https://stackoverflow.com/
     group:
       test1:
-        group-name: qa workspace api
+        group-name: feeds api
         api-rule: package
 #        api-rule-resources:
 #          - com.knife4j.demo.new3

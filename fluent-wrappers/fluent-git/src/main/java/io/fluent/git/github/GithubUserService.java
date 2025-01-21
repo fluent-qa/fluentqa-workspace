@@ -1,6 +1,6 @@
 package io.fluent.git.github;
 
-import static io.fluent.git.github.config.ConfigHolder.getGithubApiClient;
+import static io.fluent.git.github.config.ClientConfig.getGithubApiClient;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;

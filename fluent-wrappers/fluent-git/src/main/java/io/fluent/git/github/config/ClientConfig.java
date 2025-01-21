@@ -6,7 +6,7 @@ import io.fluent.quickdao.QuickDao;
 import io.fluent.quickdao.datasource.model.DataSourceSetting;
 import io.github.cdimascio.dotenv.Dotenv;
 
-public class ConfigHolder {
+public class ClientConfig {
 
   public static Dotenv dotenv = Dotenv.load();
 

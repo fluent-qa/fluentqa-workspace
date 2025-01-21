@@ -2,7 +2,7 @@ package io.fluent.git.github.repo;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
-import io.fluent.git.github.config.ConfigHolder;
+import io.fluent.git.github.config.ClientConfig;
 import io.fluent.git.github.entity.GithubStarredRepo;
 import io.fluent.git.github.entity.GithubTrendingRepo;
 import io.fluent.git.github.models.GithubRepoModel;
@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class GithubDao {
-    private QuickDao dao = ConfigHolder.getDao();
+    private QuickDao dao = ClientConfig.getDao();
 
     public void saveGithubStarredRepo(GithubRepoModel model) {
         GithubStarredRepo entity = BeanUtil.copyProperties(model, GithubStarredRepo.class, "topics");
