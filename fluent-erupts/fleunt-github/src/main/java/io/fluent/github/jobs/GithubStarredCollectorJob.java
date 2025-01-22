@@ -5,6 +5,7 @@ import io.fluent.builtin.StringUtils;
 import io.fluent.github.service.GithubService;
 import io.fluent.github.jobs.github.GithubJobFetchParameters;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import xyz.erupt.core.annotation.EruptHandlerNaming;
 import xyz.erupt.job.handler.EruptJobHandler;
@@ -32,11 +33,15 @@ public class GithubStarredCollectorJob implements EruptJobHandler {
         }else {
             parameters = JSONUtil.toBean(param, GithubJobFetchParameters.class);
         }
+        saveGithubRepos(parameters);
+        return "success";
+    }
+
+    private void saveGithubRepos(GithubJobFetchParameters parameters) {
         List<String> userNames=StringUtils.split(parameters.getUserNames(),",");
         for (String userName : userNames) {
-            githubService.saveUserStarredRepo(userName,parameters.getFromPage());
+            githubService.saveUserStarredRepo(userName, parameters.getFromPage());
         }
-        return "success";
     }
 
 

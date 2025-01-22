@@ -23,8 +23,11 @@ import javax.persistence.Entity;
 public class GithubStarredRepo extends MetaModelVo {
     @EruptField(views = @View(title = "名称"), edit = @Edit(title = "名称", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
     private String name;
+    @EruptField(views = @View(title = "htmlUrl"), edit = @Edit(title = "htmlUrl", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
+    private String htmlUrl;
     @EruptField(views = @View(title = "URL"), edit = @Edit(title = "URL", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
     private String url;
+
     @EruptField(views = @View(title = "全名"), edit = @Edit(title = "全名", type = EditType.INPUT, search = @Search, notNull = true, inputType = @InputType))
     private String fullName;
 

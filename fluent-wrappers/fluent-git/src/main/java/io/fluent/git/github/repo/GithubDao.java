@@ -25,7 +25,7 @@ public class GithubDao {
     }
 
     public void saveGithubTrendingRepo(GithubTrendingRepo model) {
-        dao.saveOrUpdate(model, "github_trending_repo","name");
+        dao.saveOrUpdate(model, "github_trending_repo", "name");
     }
 
     public void saveAllGithubTrendingRepo(List<GithubTrendingRepo> models) {

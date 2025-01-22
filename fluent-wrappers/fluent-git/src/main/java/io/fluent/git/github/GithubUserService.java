@@ -63,6 +63,7 @@ public class GithubUserService {
             .as(JsonResponse.class);
 
     List<GithubRepoModel> repos = JSONUtil.toList(result.body(), GithubRepoModel.class);
+
     githubDao.saveAll(repos);
     return repos.size();
   }
