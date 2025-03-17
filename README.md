@@ -40,7 +40,7 @@ JAVA Libs or Applications.
 ## 1. Software QA: JAVA Revisited Overview
 
 **Automation Language Perspective**:
-![img](qa-automation.png)
+![img](docs/1-qa-solution/qa-automation.png)
 
 **Different Libs Perspective**:
 
