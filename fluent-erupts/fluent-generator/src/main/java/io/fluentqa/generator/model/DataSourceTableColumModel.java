@@ -1,7 +1,7 @@
 package io.fluentqa.generator.model;
 
-import io.fluentqa.base.handlers.SqlTagFetchHandler;
-import io.fluentqa.base.model.ModelWithValidFlag;
+import io.fluent.base.handlers.SqlTagFetchHandler;
+import io.fluent.base.model.ModelWithValidFlag;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 import org.hibernate.annotations.Where;

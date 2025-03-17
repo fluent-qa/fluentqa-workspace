@@ -12,9 +12,8 @@
     <artifactId>fluent-apps</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>feeds</module>
         <module>pcinfo</module>
-        <module>qaserver</module>
+        <module>qam</module>
     </modules>
 
     <properties>

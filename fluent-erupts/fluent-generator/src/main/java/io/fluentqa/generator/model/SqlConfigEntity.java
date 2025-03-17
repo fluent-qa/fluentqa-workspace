@@ -1,6 +1,6 @@
 package io.fluentqa.generator.model;
 
-import io.fluentqa.base.model.NamedModelVO;
+import io.fluent.base.model.NamedModelVO;
 import lombok.Data;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
