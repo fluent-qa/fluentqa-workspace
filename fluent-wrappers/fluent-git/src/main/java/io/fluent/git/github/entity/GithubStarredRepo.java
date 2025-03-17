@@ -8,6 +8,8 @@ public class GithubStarredRepo {
   private Long id;
   private String name;
   private String url;
+  @QuickDaoColumn(name = "html_url")
+  private String htmlUrl;
 
   @QuickDaoColumn(name = "full_name")
   private String fullName;

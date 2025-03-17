@@ -1,11 +1,19 @@
 package io.fluent.clients.factory;
 
 import io.fluent.clients.base.HttpClientOption;
+import io.fluent.clients.base.HttpException;
 import io.fluent.clients.base.HttpRequestModel;
 import java.io.IOException;
+
+import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Response;
 
+/**
+ * 1. setup processor
+ * 2. send request model
+ * 3. get response then handle response
+ */
 public class HttpClientProcessor {
 
   private HttpClientOption httpClientConfig;
@@ -28,5 +36,10 @@ public class HttpClientProcessor {
       throw new RuntimeException(e);
     }
     return response;
+  }
+  //TODO: implement async invoke
+  public Response asyncInvoke(HttpRequestModel httpRequestModel) {
+
+    throw new RuntimeException("Not implemented");
   }
 }

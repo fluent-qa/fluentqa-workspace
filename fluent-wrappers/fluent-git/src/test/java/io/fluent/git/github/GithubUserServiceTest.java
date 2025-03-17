@@ -4,6 +4,7 @@ import cn.hutool.json.JSONUtil;
 import com.jcabi.github.Github;
 import com.jcabi.github.RtGithub;
 import com.jcabi.http.response.JsonResponse;
+import io.fluent.git.github.enums.GithubDateRange;
 import io.fluent.git.github.models.GithubRepoModel;
 import io.github.cdimascio.dotenv.Dotenv;
 import java.io.IOException;
@@ -16,6 +17,7 @@ public class GithubUserServiceTest {
   String githubAccessToken = dotenv.get("GITHUB_ACCESS_TOKEN");
 
   Github github = new RtGithub(githubAccessToken);
+  GithubUserService service = new GithubUserService();
 
   @Test
   public void createGithubClient() throws IOException {
@@ -47,5 +49,11 @@ public class GithubUserServiceTest {
   public void testSaveGithubRepos() {
     GithubUserService service = new GithubUserService();
     service.saveUserStarredRepo("kennethreitz", 0);
+  }
+
+  @Test
+  public void testGetGithubTrendingRepos()  {
+    var result = service.getGithubTrendingRepos(GithubDateRange.Daily.toString());
+    System.out.println(result);
   }
 }

@@ -1,10 +1,5 @@
-blogs:
-  - https://www.softkraft.co/web-application-architecture/
-  - https://github.com/ovh/cds.git
-  - https://github.com/camunda/camunda-bpm-platform.git
+database-docs:
+  - https://github.com/MirrenTools/screw-driver.git
 
-resources:
-  - https://itnext.io/
-
-build-in:
-  - https://github.com/admin4j/admin4j-framework.git
+libs:
+  - https://gitee.com/dromara/easy-es.git

@@ -22,6 +22,7 @@ public class QuickDao {
   Db db;
   DataSource ds;
 
+
   public static <T extends DataSourceSetting> QuickDao createDao(T dsConfig) {
     QuickDao dao = new QuickDao();
     dao.dsConfig = dsConfig;

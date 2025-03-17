@@ -11,6 +11,10 @@
 
     <artifactId>fluent-apps</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>feeds</module>
+        <module>pcinfo</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
