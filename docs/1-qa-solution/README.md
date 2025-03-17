@@ -44,7 +44,7 @@ JAVA Libs or Applications.
 
 **Different Libs Perspective**:
 
-![img](overall.png)
+![img](docs/1-qa-solution/overall.png)
 
 ## 1.1 QA Java frequent used libs
 
