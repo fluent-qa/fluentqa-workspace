@@ -1,0 +1,129 @@
+erupt-app:
+  # 是否开启水印，1.12.0 及以上版本支持
+  waterMark: false
+  # 登录失败几次出现验证码，值为0时表示一直需要登录验证码
+  verifyCodeCount: 2
+  # 登录密码是否加密传输，特殊场景如：LDAP登录可关闭该功能获取密码明文
+  pwdTransferEncrypt: true
+  # 多语言配置，默认支持：简体中文、繁体中文、英文、日文；具体配置详见erupt-i18n模块
+  locales: [ "zh-CN","zh-TW","en-US","ja-JP" ]
+erupt:
+  # 是否开启csrf防御
+  csrfInspect: true
+  # 是否开启redis方式存储session，默认false，开启后需在配置文件中添加redis配置（同 spring boot）
+  redisSession: false
+  # 附件上传存储路径, 默认路径为：/opt/erupt-attachment
+  uploadPath: /Users/patrick/data/temp
+  # 是否保留上传文件原始名称
+  keepUploadFileName: false
+  # 登录session时长（redisSession为true时有效）
+  upms.expireTimeByLogin: 120
+  # 是否记录操作日志，默认true，该功能开启后可在【系统管理 → 操作日志】中查看操作日志
+  security.recordOperateLog: false
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://db.supabase.orb.local:5432/postgres?currentSchema=workspace
+#    username: postgres
+#    password: postgres
+#  jpa:
+#    show-sql: true
+#    generate-ddl: true
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    database: postgresql
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db.supabase.orb.local:5432/workspace
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
+#  mail:
+#    username: xxxx@qq.com
+#    password: xxxxxxx
+#    host: smtp.qq.com
+#    properties:
+#      mail.smtp.ssl.auth: true
+#      mail.smtp.ssl.enable: true
+#      mail.smtp.ssl.required: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+# springdoc-openapi项目配置
+#springdoc:
+#  swagger-ui:
+#    path: /swagger-ui.html
+#    tags-sorter: alpha
+#    operations-sorter: alpha
+#  api-docs:
+#    path: /v3/api-docs
+#  group-configs:
+#    - group: 'default'
+#      paths-to-match: '/**'
+#      packages-to-scan: io.fluentqa
+# knife4j的增强配置，不需要增强可以不配
+knife4j:
+  enable: true
+  openapi:
+    title: QA Workspace API
+    description: "`QA Workspace API workspace"
+    email: fluentqa@163.com
+    concat: fluent-qa
+#    url: https://docs.xiaominfo.com
+#    version: v4.0
+#    license: Apache 2.0
+#    license-url: https://stackoverflow.com/
+#    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: qa workspace api
+        api-rule: package
+#        api-rule-resources:
+#          - com.knife4j.demo.new3
+
+server:
+  # 启用 gzip 压缩
+  compression:
+    mime-types: application/javascript,text/css,application/json,application/xml,text/html,text/xml,text/plain
+    enabled: true
+  error:
+    includeException: true
+    includeStacktrace: ALWAYS
+    includeMessage: ALWAYS
+  port: 9090
+
+# Enhanced logging configuration
+logging:
+  level:
+    root: INFO
+    io.fluentqa: DEBUG
+    org.hibernate: INFO
+    io.fluent: DEBUG
+    xyz.erupt: DEBUG
+    org.springframework: DEBUG
+    org.springframework.boot: DEBUG
+    org.springframework.boot.autoconfigure: DEBUG
+    org.springframework.context: DEBUG
+    org.springframework.beans: DEBUG
+    org.springframework.jdbc: DEBUG
+    org.springframework.orm: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: ../temp/qam-application.log
+
+# Enable Spring Boot debug mode
+debug: true
+
+magic-api:
+  web: /fluentapi/v1
+  resource.location: ./magic-script
