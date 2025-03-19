@@ -1,6 +1,6 @@
-package io.fluent.base;
+package io.fluent.qtm;
 
-import io.fluent.base.upload.model.UploadFileModel;
+import io.fluent.qtm.upload.model.UploadFileModel;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
