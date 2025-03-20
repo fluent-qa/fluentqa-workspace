@@ -10,4 +10,6 @@
 
 ## JAVA MAVEN Project Setup With Erupts
 
-## Run it
+- [] Create Main Entry Point Class
+- [] Create App Configuration file
+- [] Some Page 

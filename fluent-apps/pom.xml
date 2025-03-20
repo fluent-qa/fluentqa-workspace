@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>pcinfo</module>
-        <module>qam</module>
+        <module>workspace</module>
     </modules>
 
     <properties>

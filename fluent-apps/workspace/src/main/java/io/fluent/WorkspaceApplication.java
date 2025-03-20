@@ -10,12 +10,12 @@ import xyz.erupt.core.annotation.EruptScan;
 @EnableAsync
 @EruptScan
 @EntityScan
-public class QAMApp {
+public class WorkspaceApplication {
     /**
      * QA Management Application Entrypoint
      * @param args
      */
     public static void main(String[] args) {
-        SpringApplication.run(QAMApp.class);
+        SpringApplication.run(WorkspaceApplication.class);
     }
 }
