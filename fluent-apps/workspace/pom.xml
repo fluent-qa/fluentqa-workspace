@@ -89,11 +89,11 @@
             <artifactId>fleunt-github</artifactId>
             <version>${fluent.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>io.fluent</groupId>-->
-<!--            <artifactId>fluent-generator</artifactId>-->
-<!--            <version>${fluent.version}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>io.fluent</groupId>
+            <artifactId>fluent-generator</artifactId>
+            <version>${fluent.version}</version>
+        </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>

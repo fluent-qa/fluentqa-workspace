@@ -13,7 +13,7 @@ import xyz.erupt.core.annotation.EruptScan;
 public class WorkspaceApplication {
     /**
      * QA Management Application Entrypoint
-     * @param args
+     * @param args： startup args
      */
     public static void main(String[] args) {
         SpringApplication.run(WorkspaceApplication.class);

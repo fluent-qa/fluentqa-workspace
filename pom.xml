@@ -24,7 +24,7 @@
     </modules>
 
     <properties>
-        <erupt.version>1.12.19</erupt.version>
+        <erupt.version>1.12.21</erupt.version>
         <fluent.version>1.0-SNAPSHOT</fluent.version>
         <postgresql.version>42.7.2</postgresql.version>
         <springboot.version>2.7.18</springboot.version>

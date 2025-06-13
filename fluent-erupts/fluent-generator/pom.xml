@@ -42,6 +42,11 @@
                 <artifactId>erupt-tpl</artifactId>
                 <version>${erupt.version}</version>
             </dependency>
+        <dependency>
+            <groupId>xyz.erupt</groupId>
+            <artifactId>erupt-ai</artifactId>
+            <version>${erupt.version}</version>
+        </dependency>
             <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
